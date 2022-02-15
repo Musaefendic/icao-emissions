@@ -6,4 +6,5 @@
     "python.linting.mypyEnabled": true,
     "python.testing.pytestEnabled": true,
     "editor.formatOnSave": true,
+    "debug.terminal.clearBeforeReusing": true,
 }
