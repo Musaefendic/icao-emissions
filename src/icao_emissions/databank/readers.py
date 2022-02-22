@@ -1,23 +1,21 @@
 """Helper function to get data resourcers."""
 
-import os
-from typing import List
+import importlib.resources
+from pathlib import Path
+from typing import List, NoReturn
 
 import pandas as pd
-import pkg_resources
-import yaml
 
 
 def _find_raw_icao_databank_file(
-    directory,
-    folder,
-    icao_file_extension,
+    repository: str,
+    icao_file_extension: str,
 ) -> List[str]:
-    files = pkg_resources.resource_listdir(directory, folder)
+    files = list(importlib.resources.contents(repository))
     return [filename for filename in files if icao_file_extension in filename]
 
 
-def _raise_exception_no_raw_databank_found() -> None:
+def _raise_exception_no_raw_databank_found() -> NoReturn:
     raise ValueError(
         """
         No raw ICAO databank found!
@@ -44,29 +42,24 @@ def _raise_exception_only_one_raw_databank_stored(
     )
 
 
-def get_raw_databank_filename() -> str:
+def get_raw_databank_filename() -> Path:
     """Returns the filename for the *raw* ICAO emissions databank."""
-    directory = "data"
-    folder = "icao_databank/raw"
+    repository = "data.icao_databank.raw"
     icao_file_extension = ".xlsx"
 
     icao_files = _find_raw_icao_databank_file(
-        directory,
-        folder,
+        repository,
         icao_file_extension,
     )
 
+    # avoid some edge cases
     if not icao_files:
         _raise_exception_no_raw_databank_found()
     elif len(icao_files) > 1:
         _raise_exception_only_one_raw_databank_stored(icao_files)
 
-    raw_icao_datanbank = os.path.join(folder, icao_files[0])
-
-    return pkg_resources.resource_filename(
-        directory,
-        raw_icao_datanbank,
-    )
+    with importlib.resources.path(repository, icao_files[0]) as filename:
+        return filename
 
 
 def get_raw_gaseous_databank() -> pd.DataFrame:

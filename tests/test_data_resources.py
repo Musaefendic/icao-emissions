@@ -1,11 +1,9 @@
 """Tests to verify that the module correctly provides the icao databases."""
 
+from pathlib import Path
+
 import pytest
 from icao_emissions.databank import readers
-
-# Vérifier que la databank raw est cohérent de l'empreinte ssh
-
-# Quoi faire si clé hash n'est pas correcte --> renvoyer une erreur
 
 
 def test_verify_only_one_raw_icao_datanbank_stored():
@@ -27,7 +25,7 @@ def test_verify_only_one_raw_icao_datanbank_stored():
     raw_icao_databank = readers.get_raw_databank_filename()
 
     # Assert
-    assert isinstance(raw_icao_databank, str)
+    assert isinstance(raw_icao_databank, Path)
 
 
 def test_multiple_raw_icao_databank_stored_throw_error(mocker):
