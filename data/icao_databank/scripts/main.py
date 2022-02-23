@@ -7,12 +7,12 @@ and cleaned, some operations are made to facilitate its use, such as:
 engine definitions. Example: TRENT1000 Pack-B1, TRENT1000 Pack-C1, ...
 """
 import pandas as pd
-from icao_emissions.databank import edb_raw
+from icao_emissions.databank import readers
 
 
 def main() -> pd.DataFrame:
-    print(edb_raw.head())
-    return edb_raw
+    raw_gaseous_databank = readers.get_raw_gaseous_databank()
+    raw_nvpm_datanbak = readers.get_raw_nvpm_databank()
 
 
 if __name__ == "__main__":
