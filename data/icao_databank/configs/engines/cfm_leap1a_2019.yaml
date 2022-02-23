@@ -1,0 +1,13 @@
+# CFM - LEAP-1A 2019
+01P20CM127:
+  model: LEAP-1A24 2019 # name deliberately truncated from LEAP-1A24/24E1/23
+  engine: LEAP-1A 2019
+01P20CM128:
+  model: LEAP-1A26 2019 # name deliberately truncated from LEAP-1A26/26E1
+  engine: LEAP-1A 2019
+01P20CM130:
+  model: LEAP-1A29 2019
+  engine: LEAP-1A 2019
+01P20CM132:
+  model: LEAP-1A35 2019 # name deliberately truncated from LEAP-1A35A/33/33B2/32/30
+  engine: LEAP-1A 2019

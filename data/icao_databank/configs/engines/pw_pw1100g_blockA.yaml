@@ -1,0 +1,10 @@
+# P&W - PW1100G Block-A
+15PW105:
+  model: PW1127G Block-A
+  engine: PW1100G Block-A
+15PW106:
+  model: PW1130G Block-A
+  engine: PW1100G Block-A
+15PW108:
+  model: PW1133G Block-A
+  engine: PW1100G Block-A
