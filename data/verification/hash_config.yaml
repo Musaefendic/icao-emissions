@@ -1,0 +1,5 @@
+data.icao_databank.configs:
+  - .yaml
+
+data.icao_databank.raw:
+  - .xlsx
