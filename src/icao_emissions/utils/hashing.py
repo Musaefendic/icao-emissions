@@ -5,73 +5,25 @@ import importlib.resources
 from typing import Dict, List, NoReturn
 
 import yaml
-
-
-def _raise_exception_if_resource_not_found(resource: str) -> NoReturn:
-    """Raise an exception if a file related to the hash util is missing."""
-    message = """
-        The following file is missing:
-        - {resource}
-    """.format(
-        resource=resource,
-    )
-
-    raise ValueError(message)
-
-
-def _raise_warning_pattern_not_found_during_file_search(
-    repository: str,
-    files: List[str],
-    pattern: str,
-) -> NoReturn:
-    """Raise a warning if no files matches the searched pattern."""
-    message = """
-        When building the hash config file
-            - Function called: hashing.get_hash_config()
-
-        Within the file 'data/verification/hash_config.yaml'
-            - This pattern has been defined: {pattern}
-
-        No files found that match the search pattern
-            - Pattern: {pattern}
-
-            - Repository: {repository}
-            - Files: {files}
-
-        To resolve this warning, please:
-            - Edit the file: 'data/verification/hash_config.yaml'
-    """.format(
-        repository=repository,
-        files=files,
-        pattern=pattern,
-    )
-    raise Warning(message)
-
-
-def _raise_exception_if_hash_keys_not_found() -> None:
-    message = """
-        The file 'hash_keys.yaml' is missing.
-
-        The file can be obtained as follows:
-            - Go to the directory: data/verification
-            - From the terminal, enter the following command:
-            >> python -m generate_hash_keys
-    """
-    raise ValueError(message)
+from icao_emissions.exceptions.data_resources import DataResourceMissingError
+from icao_emissions.exceptions.hashing import (
+    HashKeysFileMissingError,
+    PatternNotFoundError,
+)
 
 
 def get_hash_config() -> Dict[str, List[str]]:
     """Returns a dictionary with resources to be hashed."""
     # Init
     repository = "data.verification"
-    resource = "hash_config.yaml"
+    filename = "hash_config.yaml"
 
     # Evaluate if the resource exists
-    if not importlib.resources.is_resource(repository, resource):
-        _raise_exception_if_resource_not_found(resource)
+    if not importlib.resources.is_resource(repository, filename):
+        raise DataResourceMissingError(repository, filename)
 
     # Import the file
-    with importlib.resources.open_binary(repository, resource) as infile:
+    with importlib.resources.open_binary(repository, filename) as infile:
         preliminary_config = yaml.safe_load(infile)
 
     # Update the config file
@@ -96,13 +48,10 @@ def _populate_config_with_files_to_hash(
             files_to_hash = [
                 filename for filename in files if pattern in filename
             ]
-            # don't save result if empty
+            # Raise error if no files match the pattern
             if not files_to_hash:
-                _raise_warning_pattern_not_found_during_file_search(
-                    repository,
-                    files,
-                    pattern,
-                )
+                raise PatternNotFoundError(repository, files, pattern)
+            # Save results
             hash_config[repository].extend(files_to_hash)
 
     return hash_config
@@ -116,7 +65,7 @@ def get_hash_keys() -> Dict[str, Dict[str, str]]:
 
     # Evaluate if the resource exists
     if not importlib.resources.is_resource(repository, resource):
-        _raise_exception_if_hash_keys_not_found()
+        raise HashKeysFileMissingError
 
     # Import the file
     with importlib.resources.open_binary(repository, resource) as infile:

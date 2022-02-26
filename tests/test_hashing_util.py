@@ -4,6 +4,8 @@ import importlib.resources
 from typing import List
 
 import pytest
+from icao_emissions.exceptions.data_resources import DataResourceMissingError
+from icao_emissions.exceptions.hashing import HashKeysFileMissingError
 from icao_emissions.utils import hashing
 
 
@@ -14,7 +16,7 @@ def test_files_to_hash_exists(mocker):
     assert isinstance(files_to_hash, dict)
 
     # Assert n°2 - a error is raised if the file doesn't exist
-    with pytest.raises(ValueError):
+    with pytest.raises(DataResourceMissingError):
         mocker.patch("importlib.resources.is_resource", return_value=False)
         hashing.get_hash_config()
 
@@ -26,7 +28,7 @@ def test_file_with_hash_keys_exits(mocker):
     assert isinstance(hash_keys, dict)
 
     # Assert n°2 - a error is raised if the file doesn't exist
-    with pytest.raises(ValueError):
+    with pytest.raises(HashKeysFileMissingError):
         mocker.patch("importlib.resources.is_resource", return_value=False)
         hashing.get_hash_keys()
 

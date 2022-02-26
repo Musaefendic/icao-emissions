@@ -1,9 +1,16 @@
 """Tests to verify that the module correctly provides the icao databases."""
 
+import imp
 from pathlib import Path
 
 import pytest
 from icao_emissions.databank import readers
+from icao_emissions.exceptions.data_resources import DataResourceMissingError
+from icao_emissions.exceptions.icao_databank import (
+    MultipleRawDatankFoundError,
+    NoRawDatabankFoundError,
+)
+from icao_emissions.utils import resources
 
 
 def test_verify_only_one_raw_icao_datanbank_stored():
@@ -22,7 +29,7 @@ def test_verify_only_one_raw_icao_datanbank_stored():
         - The function to read the database does not look for a specific file name, but imports the only excel file stored in the /raw folder
     """
     # Act
-    raw_icao_databank = readers.get_raw_databank_filename()
+    raw_icao_databank = readers._get_raw_databank_filename()
 
     # Assert
     assert isinstance(raw_icao_databank, Path)
@@ -54,11 +61,11 @@ def test_multiple_raw_icao_databank_stored_throw_error(mocker):
     )
 
     # Assert
-    with pytest.raises(ValueError):
-        readers.get_raw_databank_filename()
+    with pytest.raises(MultipleRawDatankFoundError):
+        readers._get_raw_databank_filename()
 
 
-def test_missing_raw_icao_databank_throw_error(mocker):
+def test_missing_raw_icao_databank_throw_error(mocker) -> None:
     """An error has to be thrown if any ICAO emissions databank was found.
 
     Justification:
@@ -76,5 +83,39 @@ def test_missing_raw_icao_databank_throw_error(mocker):
     )
 
     # Assert
+    with pytest.raises(NoRawDatabankFoundError):
+        readers._get_raw_databank_filename()
+
+
+@pytest.mark.parametrize("emission_type", ["gaseous", "nvpm"])
+def test_get_cleaning_config(emission_type) -> None:
+    """Verify the cleaning config file is returned properly."""
+    # Arange
+    config = resources.get_cleaning_config(emission_type)
+
+    # Assert
+    assert isinstance(config, dict)
+
+
+def test_cleaning_config_missing_raise_error(mocker):
+    """Verify an error is thrown if the config file is missing"""
+    # Arange - Simulate a missing config file
+    mocker.patch(
+        "importlib.resources.is_resource",
+        return_value=False,
+    )
+
+    # Act & Assert
+    with pytest.raises(DataResourceMissingError):
+        emissions_type = "gaseous"
+        config = resources.get_cleaning_config(emissions_type)
+
+
+def test_get_cleaning_config_with_wrong_keyword_raise_error():
+    """Verify an error is thrown if the wrong"""
+    # Arange
+    emissions_type = "wrong_argument"
+
+    # Assert
     with pytest.raises(ValueError):
-        readers.get_raw_databank_filename()
+        config = resources.get_cleaning_config(emissions_type)
