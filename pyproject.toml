@@ -12,6 +12,7 @@ packages = [
 python = "^3.9"
 pandas = "^1.4.0"
 openpyxl = "^3.0.9"
+matplotlib = "^3.5.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
