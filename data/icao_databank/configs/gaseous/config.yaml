@@ -1,0 +1,116 @@
+remove_columns:
+  #- Current Engine Status
+  #- 'Current Engine Status Date'
+  - NOx Compliance Demonstration §
+
+
+add_columns:
+  # in_production: null
+  # out_of_production_date: null
+  # in_service: null
+  # out_of_service_date: null
+  engine: null
+  thrust_take_off: 0
+  thrust_climb: 0
+  thrust_approach: 0
+  thrust_idle: 0
+  
+
+rename_header:
+  UID No: uid
+  GSDB No: gsdb
+  Manufacturer: manufacturer
+  Engine Identification: model
+  Combustor Description: combustor
+  Eng Type: engine_type
+  B/P Ratio: bpr
+  Pressure Ratio: opr
+  Rated Thrust (kN): rated_thrust
+  Data Status: data_status
+  Data Superseded: data_superseded
+  Superseded by UID No: superseded_uid
+  Test Engine Status: test_engine
+  Data corr as Annex 16: icao_compliant_data
+  Current Engine Status: engine_status
+  Current Engine Status Date: engine_status_date
+  HC EI T/O (g/kg): eihc_take_off
+  HC EI C/O (g/kg): eihc_climb
+  HC EI App (g/kg): eihc_approach
+  HC EI Idle (g/kg): eihc_idle
+  HC Number Test: hc_number_tests
+  HC Number Eng: hc_number_engines
+  HC Dp/Foo Avg (g/kN): hc_dp_foo_average
+  HC Dp/Foo Sigma (g/kN): hc_dp_foo_sigma
+  HC Dp/Foo Min (g/kN): hc_dp_foo_min
+  HC Dp/Foo Max (g/kN): hc_dp_foo_max
+  HC Dp/Foo Characteristic (g/kN): hc_characteristic
+  'HC Dp/Foo Characteristic (% of Reg limit) ': hc_margin  # trailing whitespace is important
+  HC LTO Total mass (g): hc_total_mass
+  CO EI T/O (g/kg): eico_take_off
+  CO EI C/O (g/kg): eico_climb
+  CO EI App (g/kg): eico_approach
+  CO EI Idle (g/kg): eico_idle
+  CO Number Test: eico_number_tests
+  CO Number Eng: eico_number_engines
+  CO Dp/Foo Avg (g/kN): co_dp_foo_average
+  CO Dp/Foo Sigma (g/kN): co_dp_foo_sigma
+  CO Dp/Foo Min (g/kN): co_dp_foo_min
+  CO Dp/Foo Max (g/KN): co_dp_foo_max
+  CO Dp/Foo Characteristic (g/kN): co_characteristic
+  'CO Dp/Foo Characteristic (% of Reg limit) ': co_margin  # trailing whitespace is important
+  CO LTO Total Mass (g): co_total_mass
+  NOx EI T/O (g/kg): einox_take_off
+  NOx EI C/O (g/kg): einox_climb
+  NOx EI App (g/kg): einox_approach
+  NOx EI Idle (g/kg): einox_idle
+  NOx Number Test: nox_number_tests
+  NOx Number Eng: nox_number_engines
+  NOx Dp/Foo Avg (g/kN): nox_dp_foo_average
+  NOx Dp/Foo Sigma (g/kN): nox_dp_foo_sigma
+  NOx Dp/Foo Min (g/kN): nox_dp_foo_min
+  NOx Dp/Foo Max (g/kN): nox_dp_foo_max
+  NOx Dp/Foo Characteristic (g/kN): nox_characteristic
+  NOx LTO Total mass (g): nox_total_mass
+  'NOx Dp/Foo Characteristic (% of original standard) ': nox_original_margin  # trailing whitespace is important
+  NOx Dp/Foo Characteristic (% of CAEP/2 standard): nox_caep2_margin
+  NOx Dp/Foo Characteristic (% of CAEP/4 standard): nox_caep4_margin
+  NOx Dp/Foo Characteristic (% of CAEP/6 standard): nox_caep6_margin
+  NOx Dp/Foo Characteristic (% of CAEP/8 standard): nox_caep8_margin
+  SN T/O: sn_take_off
+  SN C/O: sn_climb
+  SN App: sn_approach
+  SN Idle: sn_idle
+  SN Number Test: sn_number_tests
+  SN Number Eng: sn_number_engines
+  SN Max: sn_max
+  SN Sigma: sn_sigma
+  SN Range Min: sn_range_min
+  SN Range Max: sn_range_max
+  SN Characteristic: sn_characteristic
+  SN Characteristic (% of Reg limit): sn_margin
+  Fuel Spec: fuel_specification
+  Fuel H/C Ratio Min: fuel_hc_ratio_min
+  Fuel H/C Ratio Max: fuel_hc_ratio_max
+  Fuel Arom Min (%): fuel_aromatic_min
+  Fuel Arom Max (%): fuel_aromatic_max
+  Fuel Flow T/O (kg/sec): fuel_flow_take_off
+  Fuel Flow C/O (kg/sec): fuel_flow_climb
+  Fuel Flow App (kg/sec): fuel_flow_approach
+  Fuel Flow Idle (kg/sec): Fuel Flow Idle (kg/sec)
+  'Fuel LTO Cycle (kg)  ': fuel_lto_cycle  # trailing whitespace is important
+  Loads Power Extraction (kW): loads_extraction
+  Loads Power Extraction @Power: loads_extraction_power_setting
+  Loads Stage Bleed CF (%): bleed_percentage
+  Loads Stage Bleed @Power: bleed_percentage_power_setting
+  Ambient Baro Min (kPA): ambiant_pressure_min
+  Ambient Baro Max (kPA): ambiant_pressure_max
+  Ambient Temp Min (K): ambiant_temperature_min
+  Ambient Temp Max (K): ambiant_temperature_max
+  Humidity Min (kg/kg): ambiant_humidity_min
+  Humidity Max (kg/kg): ambiant_humidity_max
+  Test Organisation: test_organization
+  Test Location: test_location
+  Initial Test Date: initial_test_date
+  Final Test Date: Final Test Date
+  Compliance with fuel venting requirements: fuel_venting_compliant
+  

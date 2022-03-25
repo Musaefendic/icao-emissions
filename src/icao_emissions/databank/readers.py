@@ -39,10 +39,21 @@ def _get_raw_databank_filename() -> Path:
         return filename
 
 
+def get_gaseous_databank() -> pd.DataFrame:
+    """Returns a cleand gaseous emissions databank."""
+    repository = "data.icao_databank"
+    databank = "gaseous_databank.csv"
+    with importlib.resources.path(repository, databank) as filename:
+        return pd.read_csv(filename)
+
+
 def get_raw_gaseous_databank() -> pd.DataFrame:
     """Returns the *raw* gasesous emissions databank."""
     filename = _get_raw_databank_filename()
-    return pd.read_excel(filename, sheet_name="Gaseous Emissions and Smoke")
+    return pd.read_excel(
+        filename,
+        sheet_name="Gaseous Emissions and Smoke",
+    )
 
 
 def get_raw_nvpm_databank() -> pd.DataFrame:
