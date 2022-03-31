@@ -1,4 +1,4 @@
-import importlib.resources  # noqa: WPS301
+import importlib.resources
 from typing import Any, List, TypedDict
 
 import yaml
@@ -16,7 +16,7 @@ class CleaningConfig(TypedDict):  # noqa: H601 - class has low cohesion
     remove_columns: List[str]
     add_columns: dict[str, Any]
     rename_header: dict[str, str]
-    emission_databank: List[str]
+    emissions_databank: dict[str, str]
     certification_databank: List[str]
 
 
