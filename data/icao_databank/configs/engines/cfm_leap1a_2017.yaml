@@ -1,8 +1,0 @@
-# CFM - LEAP-1A 2017
-17CM082:
-  model: LEAP-1A26 2017
-  engine: LEAP-1A 2017
-17CM038:
-  # name voluntary truncated, from LEAP-1A35A/33/33B2/32/30 to LEAP-1A35
-  model: LEAP-1A35 2017 
-  engine: LEAP-1A 2017

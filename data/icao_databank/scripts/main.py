@@ -60,6 +60,32 @@ def cleaning_chain(
     return databank
 
 
+def _rename_header(databank: pd.DataFrame, config):
+    ...
+
+
+def _foo():
+    databank = rename_header(databank, config)
+
+    databank = remove_columns(databank, config)
+
+    databank = remove_duplicate_engines(databank, config)
+
+    databank = databank.set_index("uid")
+
+    databank = update_databank_informations(databank, config)
+
+    # additionnal values
+    databank = compute_intermediate_thrust(databank)
+
+    # split databank
+    emissions_databank, certification_databank = split_databank(
+        databank, config
+    )
+
+    return emissions_databank, certification_databank
+
+
 def clean_gasesous_databank() -> pd.DataFrame:
     """Return a cleaned gaseous emissions databank."""
     # get config files needed for cleaning the databank

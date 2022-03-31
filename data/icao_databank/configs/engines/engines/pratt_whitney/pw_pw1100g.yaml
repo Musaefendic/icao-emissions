@@ -1,0 +1,91 @@
+remove:
+# P&W1100G Block-A
+  - 15PW104 # PW1127G1-JM, data identical to PW1127G-JM, UID: 15PW105
+  - 15PW107 # PW1133G1-JM, data identical to PW1133G-JM, UID: 15PW108
+  - 18PW117 # PW1122G-JM, data identical to PW1122G-JM, UID: 01P18PW148, due to nvPM information
+  - 18PW119 # PW1124G-JM, data identical to PW1124G-JM, UID: 01P18PW150
+  - 18PW118 # PW1124G1-JM, data identical to PW1124G1-JM, UID: 01P18PW149
+  - 18PW122 # PW1127G-JM, data identical to PW1127G-JM, UID: 01P18PW153
+  - 18PW120 # PW1127G1-JM, data identical to PW1127G1-JM, UID: 01P18PW151
+  - 18PW121 # PW1127GA-JM, data identical to PW1127GA-JM, UID: 01P18PW152
+  - 18PW123 # PW1129G-JM, data identical to PW1129G-JM, UID: 01P18PW154
+  - 18PW124 # PW1130G-JM, data identical to PW1130G-JM, UID: 01P18PW155
+  - 18PW126 # PW1133G-JM, data identical to PW1133G-JM, UID: 01P18PW157
+  - 18PW125 # PW1133GA-JM, data identical to PW1133GA-JM, UID: 01P18PW156
+
+
+update:
+  # P&W - PW1100G Block-A
+  15PW105:
+    model: PW1127G Block-A
+    engine: PW1100G Block-A
+  15PW106:
+    model: PW1130G Block-A
+    engine: PW1100G Block-A
+  15PW108:
+    model: PW1133G Block-A
+    engine: PW1100G Block-A
+  
+  # P&W - PW1100G Block-C
+  01P18PW148:
+    model: PW1122G Block-C
+    engine: PW1100G Block-C
+  01P18PW150:
+    model: PW1124G Block-C
+    engine: PW1100G Block-C
+  01P18PW149:
+    model: PW1124G1 Block-C
+    engine: PW1100G Block-C
+  01P18PW153:
+    model: PW1127G Block-C
+    engine: PW1100G Block-C
+  01P18PW151:
+    model: PW1127G1 Block-C
+    engine: PW1100G Block-C
+  01P18PW152:
+    model: PW1127GA Block-C
+    engine: PW1100G Block-C
+  01P18PW154:
+    model: PW1129G Block-C
+    engine: PW1100G Block-C
+  01P18PW155:
+    model: PW1130G Block-C
+    engine: PW1100G Block-C
+  01P18PW157:
+    model: PW1133G Block-C
+    engine: PW1100G Block-C
+  01P18PW156:
+    model: PW1133GA Block-C
+    engine: PW1100G Block-C
+
+  # P&W - PW1100G Block-D
+  01P22PW158:
+    model: PW1122G Block-D
+    engine: PW1100G Block-D
+  01P22PW160:
+    model: PW1124G Block-D
+    engine: PW1100G Block-D
+  01P22PW159:
+    model: PW1124G1 Block-D
+    engine: PW1100G Block-D
+  01P22PW163:
+    model: PW1127G Block-D
+    engine: PW1100G Block-D
+  01P22PW161:
+    model: PW1127G1 Block-D
+    engine: PW1100G Block-D
+  01P22PW162: 
+    model: PW1127GA-JM Block-D
+    engine: PW1100G Block-D
+  01P22PW164:
+    model: PW1129G-JM Block-D
+    engine: PW1100G Block-D
+  01P22PW165:
+    model: PW1130G Block-D
+    engine: PW1100G Block-D
+  01P22PW167:
+    model: PW1133G Block-D
+    engine: PW1100G Block-D
+  01P22PW166:
+    model: PW1133GA-JM
+    engine: PW1100G Block-D

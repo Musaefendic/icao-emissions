@@ -1,0 +1,35 @@
+PW1100G:
+  # OPR = f(rated_thrust)
+  - x_axis: rated_thrust
+    y_axis: opr
+    xlim: [0, 200]
+    ylim: [14, 40]
+    polynomial_order: 1
+    
+    # BPR = f(rated_thrust)
+  - x_axis: rated_thrust
+    y_axis: bpr
+    xlim: [0, 200]
+    ylim: [14, 40]
+    polynomial_order: 2
+    
+    # einox = f(thrust)
+  - x_axis: thrust
+    y_axis: einox
+    xlim: [0, 200]
+    ylim: [0, 30]
+    # polynomial_order: 2
+    
+    # eico = f(thrust)
+  - x_axis: thrust
+    y_axis: eico
+    xlim: [0, 200]
+    ylim: [0, 50]
+    # polynomial_order: 2
+    
+    # eihc = f(thrust)
+  - x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 200]
+    ylim: [0, 20]
+    # polynomial_order: 2

@@ -8,7 +8,7 @@ def main():
     # initialize
     engines_config = {"remove": [], "update": {}}
 
-    file_extension = "**/*.yaml"
+    file_extension = "**/**/*.yaml"
 
     # create the query
     directory = os.path.dirname(__file__)

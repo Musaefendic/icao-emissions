@@ -4,16 +4,11 @@ remove_columns:
   - NOx Compliance Demonstration §
 
 
-add_columns:
-  # in_production: null
-  # out_of_production_date: null
-  # in_service: null
-  # out_of_service_date: null
-  engine: null
-  thrust_take_off: 0
-  thrust_climb: 0
-  thrust_approach: 0
-  thrust_idle: 0
+# add_columns:
+#   # in_production: null
+#   # out_of_production_date: null
+#   # in_service: null
+#   # out_of_service_date: null
   
 
 rename_header:
@@ -30,7 +25,7 @@ rename_header:
   Data Superseded: data_superseded
   Superseded by UID No: superseded_uid
   Test Engine Status: test_engine
-  Data corr as Annex 16: icao_compliant_data
+  Data corr as Annex 16: icao_compliant_data  # better name: is_icao_compliant ??
   Current Engine Status: engine_status
   Current Engine Status Date: engine_status_date
   HC EI T/O (g/kg): eihc_take_off
@@ -96,21 +91,129 @@ rename_header:
   Fuel Flow T/O (kg/sec): fuel_flow_take_off
   Fuel Flow C/O (kg/sec): fuel_flow_climb
   Fuel Flow App (kg/sec): fuel_flow_approach
-  Fuel Flow Idle (kg/sec): Fuel Flow Idle (kg/sec)
+  Fuel Flow Idle (kg/sec): fuel_flow_idle
   'Fuel LTO Cycle (kg)  ': fuel_lto_cycle  # trailing whitespace is important
   Loads Power Extraction (kW): loads_extraction
   Loads Power Extraction @Power: loads_extraction_power_setting
   Loads Stage Bleed CF (%): bleed_percentage
   Loads Stage Bleed @Power: bleed_percentage_power_setting
-  Ambient Baro Min (kPA): ambiant_pressure_min
-  Ambient Baro Max (kPA): ambiant_pressure_max
-  Ambient Temp Min (K): ambiant_temperature_min
-  Ambient Temp Max (K): ambiant_temperature_max
-  Humidity Min (kg/kg): ambiant_humidity_min
-  Humidity Max (kg/kg): ambiant_humidity_max
+  Ambient Baro Min (kPa): ambient_pressure_min
+  Ambient Baro Max (kPa): ambient_pressure_max
+  Ambient Temp Min (K): ambient_temperature_min
+  Ambient Temp Max (K): ambient_temperature_max
+  Humidity Min (kg/kg): ambient_humidity_min
+  Humidity Max (kg/kg): ambient_humidity_max
   Test Organisation: test_organization
   Test Location: test_location
   Initial Test Date: initial_test_date
-  Final Test Date: Final Test Date
+  Final Test Date: final_test_date
   Compliance with fuel venting requirements: fuel_venting_compliant
   
+
+# each row of the raw icao databank is transformed into a columnd dataframe
+emissions_databank:
+  uid: [uid, uid, uid, uid]
+  gsdb: [gsdb, gsdb, gsdb, gsdb]
+  manufacturer: [manufacturer, manufacturer, manufacturer, manufacturer]
+  engine: [engine, engine, engine, engine]  # not present in the initial icao databank, additional update
+  model: [model, model, model, model]  # Attention, corresponds to 'Engine Identification' in the initial icao databank
+  combustor: [combustor, combustor, combustor, combustor]
+  engine_type: [engine_type, engine_type, engine_type, engine_type]
+  thrust: [thrust_take_off, thrust_climb, thrust_approach, thrust_idle]  # not present in the initial icao databank, additional calculation
+  einox: [einox_take_off, einox_climb, einox_approach, einox_idle]
+  eico: [eico_take_off, eico_climb, eico_approach, eico_idle]
+  eihc: [eihc_take_off, eihc_climb, eihc_approach, eihc_idle]
+  smoke_number: [sn_take_off, sn_climb, sn_approach, sn_idle]
+  fuel_flow: [fuel_flow_take_off, fuel_flow_climb, fuel_flow_approach, fuel_flow_idle]
+  # Should be interested to add the following ones, but need to interpolate/extrapolate
+  # Caution, could introduce errors between reality (unknown) and interp/extrapolation...
+  # bpr: [bpr_take_off, bpr_climb, bpr_approach, bpr_idle]
+  # opr: [opr_take_off, opr_climb, opr_approach, opr_idle]
+
+
+certification_databank:
+  - uid
+  - gsdb
+  - manufacturer
+  - engine
+  - model 
+  - combustor
+  - engine_type
+  - bpr
+  - opr
+  - rated_thrust
+  - data_status
+  - data_superseded
+  - superseded_uid
+  - test_engine
+  - icao_compliant_data
+  - engine_status
+  - engine_status_date
+  # HC - Hydrocarbon emission
+  - hc_number_tests
+  - hc_number_engines
+  - hc_dp_foo_average
+  - hc_dp_foo_sigma
+  - hc_dp_foo_min
+  - hc_dp_foo_max
+  - hc_characteristic
+  - hc_margin
+  - hc_total_mass
+  # CO - Carbon Monoxide
+  - eico_number_tests
+  - eico_number_engines
+  - co_dp_foo_average
+  - co_dp_foo_sigma
+  - co_dp_foo_min
+  - co_dp_foo_max
+  - co_characteristic
+  - co_margin
+  - co_total_mass
+  # NOx - Oxides of Nitrogen
+  - nox_number_tests
+  - nox_number_engines
+  - nox_dp_foo_average
+  - nox_dp_foo_sigma
+  - nox_dp_foo_min
+  - nox_dp_foo_max
+  - nox_characteristic
+  - nox_total_mass
+  - nox_original_margin
+  - nox_caep2_margin
+  - nox_caep4_margin
+  - nox_caep6_margin
+  - nox_caep8_margin
+  # SN - Smoke Number
+  - sn_number_tests
+  - sn_number_engines
+  - sn_max
+  - sn_sigma
+  - sn_range_min
+  - sn_range_max
+  - sn_characteristic
+  - sn_margin
+  # Fuel Specifications
+  - fuel_specification
+  - fuel_hc_ratio_min
+  - fuel_hc_ratio_max
+  - fuel_aromatic_min
+  - fuel_aromatic_max
+  - fuel_lto_cycle
+  # Power Extraction
+  - loads_extraction
+  - loads_extraction_power_setting
+  - bleed_percentage
+  - bleed_percentage_power_setting
+  # Ambient conditions
+  - ambient_pressure_min
+  - ambient_pressure_max
+  - ambient_temperature_min
+  - ambient_temperature_max
+  - ambient_humidity_min
+  - ambient_humidity_max
+  # Additional informations
+  - test_organization
+  - test_location
+  - initial_test_date
+  - final_test_date
+  - fuel_venting_compliant

@@ -1,0 +1,13 @@
+# WORK IN PROGRESS, not used yet
+
+gsdb:
+  1: 
+
+combustor_technology:
+  SAC:
+    - CFM56-5B
+  DAC:
+    - CFM56-5B/2
+    - CFM56-5B/2P
+  LEAN:
+    - LEAP-1A
