@@ -32,3 +32,20 @@ class MultipleRawDatankFoundError(Exception):
         )
 
         super().__init__(error_message)
+
+
+class EmissionNotSupportedError(Exception):
+    """Exception raised when importing a databank."""
+
+    def __init__(self, emission: str):
+        error_message = """
+        The argument {0} is not supported
+
+        Please provided one of the two following arguments
+            - gaseous
+            - nvpm
+        """.format(
+            emission,
+        )
+
+        super().__init__(error_message)
