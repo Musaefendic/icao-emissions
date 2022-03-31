@@ -1,0 +1,1 @@
+- Say why we use readers instead of loading all the data at the initialization of the library

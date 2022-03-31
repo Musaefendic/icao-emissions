@@ -5,7 +5,8 @@ from pathlib import Path
 from typing import List
 
 import pandas as pd
-from icao_emissions.exceptions.icao_databank import (
+from icao_emissions.exceptions.readers_databank import (
+    EmissionNotSupportedError,
     MultipleRawDatankFoundError,
     NoRawDatabankFoundError,
 )
@@ -47,16 +48,22 @@ def get_gaseous_databank() -> pd.DataFrame:
         return pd.read_csv(filename)
 
 
-def get_raw_gaseous_databank() -> pd.DataFrame:
-    """Returns the *raw* gasesous emissions databank."""
+def get_raw_databank(emission: str):
+    """Returns a *raw* emissions databank -> gaseous or nvpm databank."""
+    # Raise a ValueError if the argument provided is not supported
+    if emission not in {"gaseous", "nvpm"}:
+        raise EmissionNotSupportedError(emission)
+
+    # load the databank
     filename = _get_raw_databank_filename()
+
+    # get the databank
+    if emission == "gaseous":
+        sheet_name = "Gaseous Emissions and Smoke"
+    elif emission == "nvpm":
+        sheet_name = "nvPM Emissions"
+
     return pd.read_excel(
         filename,
-        sheet_name="Gaseous Emissions and Smoke",
+        sheet_name=sheet_name,
     )
-
-
-def get_raw_nvpm_databank() -> pd.DataFrame:
-    """Returns the *raw* nvPM emissions databank."""
-    filename = _get_raw_databank_filename()
-    return pd.read_excel(filename, sheet_name="nvPM Emissions")
