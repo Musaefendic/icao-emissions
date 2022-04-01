@@ -1,0 +1,18 @@
+remove: []
+
+update:
+  # PW1200G Block-A
+  21PW139:
+    model: PW1215G Block-A
+    engine: PW1200G Block-A
+  21PW140:
+    model: PW1217G Block-A
+    engine: PW1200G Block-A
+
+  # PW1200G Block-C
+  01P22PW168:
+    model: PW1215G Block-C
+    engine: PW1200G Block-C
+  01P22PW169:
+    model: PW1217G Block-C
+    engine: PW1200G Block-C

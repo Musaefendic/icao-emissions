@@ -1,18 +1,4 @@
 remove:
-- 01P20PW185
-- 20PW129
-- 20PW130
-- 20PW131
-- 20PW132
-- 20PW133
-- 01P22PW170
-- 01P22PW171
-- 01P22PW173
-- 01P22PW174
-- 01P22PW176
-- 01P22PW177
-- 01P22PW179
-- 01P22PW180
 - 15PW104
 - 15PW107
 - 18PW117
@@ -25,12 +11,6 @@ remove:
 - 18PW124
 - 18PW126
 - 18PW125
-- 20PW134
-- 20PW135
-- 20PW136
-- 20PW137
-- 20PW138
-- 01P20PW190
 update:
   01P18PW148:
     engine: PW1100G Block-C
@@ -62,30 +42,6 @@ update:
   01P18PW157:
     engine: PW1100G Block-C
     model: PW1133G Block-C
-  01P20PW182:
-    engine: PW1500G Block-C
-    model: PW1525G Block-C
-  01P20PW183:
-    engine: PW1500G Block-C
-    model: PW1524G Block-C
-  01P20PW184:
-    engine: PW1500G Block-C
-    model: PW1521G Block-C
-  01P20PW186:
-    engine: PW1500G Block-C
-    model: PW1519G Block-C
-  01P20PW187:
-    engine: PW1900G Block-C
-    model: PW1919G Block-C
-  01P20PW188:
-    engine: PW1900G Block-C
-    model: PW1921G Block-C
-  01P20PW189:
-    engine: PW1900G Block-C
-    model: PW1922G Block-C
-  01P20PW191:
-    engine: PW1900G Block-C
-    model: PW1923G Block-C
   01P22PW158:
     engine: PW1100G Block-D
     model: PW1122G Block-D
@@ -122,18 +78,6 @@ update:
   01P22PW169:
     engine: PW1200G Block-C
     model: PW1217G Block-C
-  01P22PW172:
-    engine: PW1400G Block-C
-    model: PW1428G Block-C
-  01P22PW175:
-    engine: PW1400G Block-C
-    model: PW1431G Block-C
-  01P22PW178:
-    engine: PW1400G Block-D
-    model: PW1428G Block-D
-  01P22PW181:
-    engine: PW1400G Block-D
-    model: PW1431G Block-D
   15PW105:
     engine: PW1100G Block-A
     model: PW1127G Block-A
@@ -143,18 +87,6 @@ update:
   15PW108:
     engine: PW1100G Block-A
     model: PW1133G Block-A
-  16PW110:
-    engine: PW1500G Block-A
-    model: PW1525G Block-A
-  16PW111:
-    engine: PW1500G Block-A
-    model: PW1524G Block-A
-  16PW112:
-    engine: PW1500G Block-A
-    model: PW1521G Block-A
-  16PW113:
-    engine: PW1500G Block-A
-    model: PW1519G Block-A
   21PW139:
     engine: PW1200G Block-A
     model: PW1215G Block-A
