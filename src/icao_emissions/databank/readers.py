@@ -40,10 +40,28 @@ def _get_raw_databank_filename() -> Path:
         return filename
 
 
-def get_gaseous_databank() -> pd.DataFrame:
+def get_emissions_databank(emission_type: str) -> pd.DataFrame:
     """Returns a cleand gaseous emissions databank."""
+    # init
     repository = "data.icao_databank"
-    databank = "gaseous_databank.csv"
+
+    # build the filename
+    databank = "{0}_emissions.csv".format(emission_type)
+
+    # import
+    with importlib.resources.path(repository, databank) as filename:
+        return pd.read_csv(filename)
+
+
+def get_certification_databank(emission_type: str) -> pd.DataFrame:
+    """Returns a cleand gaseous emissions databank."""
+    # init
+    repository = "data.icao_databank"
+
+    # build the filename
+    databank = "{0}_certification.csv".format(emission_type)
+
+    # import
     with importlib.resources.path(repository, databank) as filename:
         return pd.read_csv(filename)
 
