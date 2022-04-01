@@ -1,0 +1,113 @@
+identification:
+  CF34-10E: CF34-10E
+
+remove:
+  # CF34-10E Block-1
+  - 8GE114  # superseded by uid: 01P08GE203, due to nvPM data
+  
+  # CF34-10 Block-2 Alternate fuel injector manufacturer
+  - 11GE147  # superseded by uid: 01P11GE202, due to nvPM data
+
+
+update:
+  # CF34-10A
+  01P11GE202:
+    engine: CF34-10A
+  
+  # CF34-10E Block-1
+  01P08GE203:
+    engine: CF34-10E Block-1
+  8GE115:
+    engine: CF34-10E Block-1
+  8GE117:
+    engine: CF34-10E Block-1
+  8GE116:
+    engine: CF34-10E Block-1
+  8GE118:
+    engine: CF34-10E Block-1
+  8GE119:
+    engine: CF34-10E Block-1
+
+  # CF34-10E Block-2 -> including noise improvement packages aimed to decrease noise certification levels. 
+  #   - Among the noise control measures, Block 2 engines include Improved Acoustic Chevron Nozzles.
+  10GE129:
+    engine: CF34-10E Block-2
+  10GE130:
+    engine: CF34-10E Block-2
+  10GE131:
+    engine: CF34-10E Block-2
+  10GE132:
+    engine: CF34-10E Block-2
+  10GE133:
+    engine: CF34-10E Block-2
+
+  # CF34-10E - Alternante fuel injector manufacturer
+  11GE142:
+    engine: CF34-10E Block-2 Alternate Injector
+  11GE144:
+    engine: CF34-10E Block-2 Alternate Injector
+  11GE143:
+    engine: CF34-10E Block-2 Alternate Injector
+  11GE145:
+    engine: CF34-10E Block-2 Alternate Injector
+  11GE146:
+    engine: CF34-10E Block-2 Alternate Injector
+
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    # xlim: [0, 400]
+    # ylim: [30, 50]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    # xlim: [0, 400]
+    # ylim: [6, 12]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 100]
+    ylim: [0, 30]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 100]
+    ylim: [0, 60]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 100]
+    ylim: [0, 10]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 100]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 100]
+    ylim: [0, 1.0]
+    regression_polynomial_order: null

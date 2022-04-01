@@ -1,0 +1,171 @@
+identification:
+  CF6-80C: CF6-80C
+
+remove:
+  # CF6-80C2A - Initial definition
+  - 1GE015  # CF6-80C2A2, superseded by uid: 1GE016
+  - 1GE019  # CF6-80C2A5, superseded by uid: 1GE020
+
+  # CF6-80C2B - Initial definition
+  - 1GE023  # CF6-80C2B1F, superseded by uid: 1GE024
+
+  # CF6-80C2B - LEC (Low Emission Combustor), combustor described as: 1862M39
+  - 2GE045  # CF6-80C2B1F, superseded by uid: 01P02GE186
+  - 2GE048  # CF6-80C2B6F, superseded by uid: 01P02GE188
+  - 3GE057  # CF6-80C2B5F, superseded by uid: 01P03GE187
+
+
+update:
+  # CF6-80C2A - Standard combustor
+  1GE014:
+    engine: CF6-80C2A
+  1GE016:
+    engine: CF6-80C2A
+  1GE017:
+    engine: CF6-80C2A
+  1GE018:
+    engine: CF6-80C2A
+  1GE020:
+    engine: CF6-80C2A
+  1GE021:
+    engine: CF6-80C2A
+  
+
+  # CF6-80C2A - LEC (Low Emission Combustor), combustor described as: 1862M39
+  2GE036:
+    engine: CF6-80C2A LEC
+  2GE037:
+    engine: CF6-80C2A LEC
+  2GE038:
+    engine: CF6-80C2A LEC
+  2GE039:
+    engine: CF6-80C2A LEC
+  3GE056:
+    engine: CF6-80C2A LEC
+  2GE040:
+    engine: CF6-80C2A LEC
+
+
+  # CF6-80C2B - Standard combustor
+  1GE022:
+    engine: CF6-80C2B
+  1GE024:
+    engine: CF6-80C2B
+  1GE025:
+    engine: CF6-80C2B
+  1GE026:
+    engine: CF6-80C2B
+  1GE027:
+    engine: CF6-80C2B
+  1GE028:
+    engine: CF6-80C2B
+  1GE029:
+    engine: CF6-80C2B
+  1GE030:
+    engine: CF6-80C2B
+  2GE054:
+    engine: CF6-80C2B
+
+
+  # CF6-80C2B - LEC (Low Emission Combustor), combustor described as: 1862M39
+  2GE041:
+    engine: CF6-80C2B LEC
+  01P02GE186:
+    engine: CF6-80C2B LEC
+  2GE042:
+    engine: CF6-80C2B LEC
+  2GE046:
+    engine: CF6-80C2B LEC
+  2GE043:
+    engine: CF6-80C2B LEC
+  01P02GE188:
+    engine: CF6-80C2B LEC
+  2GE047:
+    engine: CF6-80C2B LEC
+  2GE044:
+    engine: CF6-80C2B LEC
+  2GE055:
+    engine: CF6-80C2B LEC
+  01P03GE187:
+    engine: CF6-80C2B LEC
+  3GE058:
+    engine: CF6-80C2B LEC
+  8GE101:
+    engine: CF6-80C2B LEC
+
+  # CF6-80C2E - Standard combustor
+  1GE032:
+    engine: CF6-80C2E
+  1GE033:
+    engine: CF6-80C2E
+  5GE085:
+    engine: CF6-80C2E
+  4GE080:
+    engine: CF6-80C2E
+
+  # CF6-80C2E - LEC (Low Emission Combustor), combustor described as: 1862M39
+  2GE050:
+    engine: CF6-80C2E LEC
+  2GE051:
+    engine: CF6-80C2E LEC
+  4GE081:
+    engine: CF6-80C2E LEC
+
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    # xlim: [0, 350]
+    # ylim: [30, 50]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    # xlim: [0, 350]
+    # ylim: [6, 12]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 350]
+    ylim: [0, 60]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 350]
+    ylim: [0, 60]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 350]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 350]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 350]
+    # ylim: [0, 1.0]
+    regression_polynomial_order: null

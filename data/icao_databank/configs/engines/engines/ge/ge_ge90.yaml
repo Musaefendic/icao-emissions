@@ -1,0 +1,120 @@
+identification:
+  GE90: GE90 DAC
+
+remove:
+  # GE90 - combustor DAC II
+  - 5GE086  # GE90-76B, superseded by uid: 6GE087
+  - 6GE091  # GE90-90B, superseded by uid: 8GE100
+
+
+update:
+  # GE90 - combustor DAC I
+  2GE052:
+    engine: GE90 DAC I
+  2GE053:
+    engine: GE90 DAC I
+  3GE059:
+    engine: GE90 DAC I
+  3GE060:
+    engine: GE90 DAC I
+  3GE061:
+    engine: GE90 DAC I
+  
+  # GE90 - combustor DAC II
+  3GE062:
+    engine: GE90 DAC II
+  3GE063:
+    engine: GE90 DAC II
+  3GE064:
+    engine: GE90 DAC II
+  3GE065:
+    engine: GE90 DAC II
+  3GE066:
+    engine: GE90 DAC II
+  6GE087:
+    engine: GE90 DAC II
+  6GE088:
+    engine: GE90 DAC II
+  6GE089:
+    engine: GE90 DAC II
+  6GE090:
+    engine: GE90 DAC II
+
+  # GE90 - combustor PEC
+  9GE120:
+    engine: GE90 DAC PEC
+  9GE124:
+    engine: GE90 DAC PEC
+  9GE121:
+    engine: GE90 DAC PEC
+  9GE125:
+    engine: GE90 DAC PEC
+  9GE122:
+    engine: GE90 DAC PEC
+  9GE126:
+    engine: GE90 DAC PEC
+  9GE123:
+    engine: GE90 DAC PEC
+  9GE127:
+    engine: GE90 DAC PEC
+  9GE128:
+    engine: GE90 DAC PEC
+
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    # xlim: [0, 400]
+    ylim: [30, 50]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    # xlim: [0, 400]
+    ylim: [6, 12]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    # xlim: [0, 400]
+    # ylim: [0, 70]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    # xlim: [0, 400]
+    ylim: [0, 50]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    # xlim: [0, 400]
+    ylim: [0, 5]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    # xlim: [0, 400]
+    ylim: [0, 15]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    # xlim: [0, 400]
+    # ylim: [0, 1.5]
+    regression_polynomial_order: null

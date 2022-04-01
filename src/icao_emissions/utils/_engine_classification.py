@@ -194,6 +194,8 @@ def plot_figure(
             c=colors[index],
             markersize=3,
             label=model_name,
+            markeredgewidth=0.5,
+            markeredgecolor=(0, 0, 0, 0.5),  # black
         )
 
         axes[1].legend(fontsize=7)
@@ -233,7 +235,7 @@ def main(
 
 
 if __name__ == "__main__":
-    engine_name = "LEAP-1B"
+    engine_name = "CF6-6"
 
     engines_config = resources.get_engines_config()
 

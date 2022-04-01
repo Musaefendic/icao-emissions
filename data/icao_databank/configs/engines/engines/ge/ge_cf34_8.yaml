@@ -1,0 +1,116 @@
+identification:
+  CF34-8: CF34-8
+
+remove:
+  # CF34-8C5
+  - 6GE092  # CF34-8C5, almost identical to uid: 8GE110, except for the SN @climb-out
+  - 8GE110  # superseded by uid: 01P08GE190, due to nvpm data
+  - 8GE107  # superseded by uid: 01P08GE191, due to nvpm data
+  - 8GE104  # superseded by uid: 01P08GE193, due to nvpm data
+  - 8GE103  # superseded by uid: 01P08GE194, due to nvpm data
+  - 8GE112  # superseded bu uid: 01P08GE192, due to nvpm data
+
+  # CF34-8E
+  - 6GE093  # CF34-8E2, almost identical to uid: 8GE113, except for the SN @climb-out
+  - 6GE094  # CF34-8E5, almost identical to uid: 8GE108, except for the SN @climb-out
+  - 6GE095  # CF34-8E5A1, almost identical to uid: 8GE105, except for the SN @climb-out
+  - 8GE113  # superseded by uid: 01P08GE195, due to nvpm data
+  - 8GE111  # superseded by uid: 01P08GE196, due to nvpm data
+  - 8GE108  # superseded by uid: 01P08GE197, due to nvpm data
+  - 8GE105  # superseded by uid: 01P08GE198, due to nvpm data
+  - 8GE102  # superseded by uid: 01P08GE199, due to nvpm data
+  - 8GE109  # superseded by uid: 01P08GE200, due to nvpm data
+  - 8GE106  # superseded by uid: 01P08GE201, due to nvpm data
+
+update:
+  # CF34-8C1
+  5GE083:
+    engine: CF34-8C1
+  6GE096:
+    engine: CF34-8C1
+  
+  # CF34-8C5
+  01P08GE190:
+    engine: CF34-8C5
+  01P08GE191:
+    engine: CF34-8C5
+  01P08GE193:
+    engine: CF34-8C5
+  01P08GE194:
+    engine: CF34-8C5
+  01P08GE192:
+    engine: CF34-8C5
+  
+  # CF34-8E
+  01P08GE195:
+    engine: CF34-8E2
+  01P08GE196:
+    engine: CF34-8E2
+  01P08GE197:
+    engine: CF34-8E5
+  01P08GE198:
+    engine: CF34-8E5
+  01P08GE199:
+    engine: CF34-8E5
+  01P08GE200:
+    engine: CF34-8E6
+  01P08GE201:
+    engine: CF34-8E6
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    # xlim: [0, 400]
+    # ylim: [30, 50]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    # xlim: [0, 400]
+    # ylim: [6, 12]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 100]
+    ylim: [0, 30]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 100]
+    ylim: [0, 30]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 100]
+    ylim: [0, 2]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 100]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 100]
+    ylim: [0, 1.0]
+    regression_polynomial_order: null

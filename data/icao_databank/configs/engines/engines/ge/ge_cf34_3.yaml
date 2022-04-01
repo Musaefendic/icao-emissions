@@ -1,0 +1,73 @@
+identification:
+  CF34-3: CF34-3
+
+remove:
+  - 1GE035  # CF34-3A1 == CF34-3A, uid: 1GE034
+  - 5GE084  # superseded by uid: 01P05GE189
+
+update:
+  1GE034:
+    engine: CF34-3A
+
+  01P05GE189:
+    model: CF34-3B
+    engine: CF34-3B
+
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    # xlim: [0, 400]
+    # ylim: [30, 50]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    # xlim: [0, 400]
+    # ylim: [6, 12]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 100]
+    ylim: [0, 30]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 100]
+    ylim: [0, 60]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 100]
+    ylim: [0, 10]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 100]
+    ylim: [0, 30]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 100]
+    ylim: [0, 1.0]
+    regression_polynomial_order: null

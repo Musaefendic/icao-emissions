@@ -1,0 +1,143 @@
+identification:
+  GEnx-1B: GEnx-1B
+
+remove: 
+  # GEnx-1B - PIP n°2 
+  - 13GE167
+  - 13GE166
+  - 13GE165
+  - 13GE164
+  - 13GE163
+  - 13GE162
+  - 13GE161
+  - 13GE160
+  - 13GE159
+  - 16GE168
+  - 16GE169
+  - 17GE170
+  - 17GE171
+  - 17GE172
+  - 17GE173
+  - 17GE174
+  - 17GE175
+  - 17GE176
+  - 17GE177
+  - 17GE178
+  - 17GE179
+  - 17GE180
+
+
+update:
+  # GEnx-1B - Initial engine definition
+  11GE134:
+    engine: GEnx-1B
+  11GE135:
+    engine: GEnx-1B
+  11GE136:
+    engine: GEnx-1B
+  11GE137:
+    engine: GEnx-1B
+  11GE138:
+    engine: GEnx-1B
+
+  # GEnx-1B - PIP n°1 (Performance Improvement Package)
+  12GE148:
+    engine: GEnx-1B PIP-1
+  12GE149:
+    engine: GEnx-1B PIP-1
+  12GE150:
+    engine: GEnx-1B PIP-1
+  12GE151:
+    engine: GEnx-1B PIP-1
+  12GE152:
+    engine: GEnx-1B PIP-1
+  12GE153:
+    engine: GEnx-1B PIP-1
+  12GE154:
+    engine: GEnx-1B PIP-1
+  12GE155:
+    engine: GEnx-1B PIP-1
+  12GE156:
+    engine: GEnx-1B PIP-1
+
+  # GEnx-1B - PIP n°2
+  01P17GE204:
+    engine: GEnx-1B PIP-2
+  01P17GE205:
+    engine: GEnx-1B PIP-2
+  01P17GE206:
+    engine: GEnx-1B PIP-2
+  01P17GE207:
+    engine: GEnx-1B PIP-2
+  01P17GE208:
+    engine: GEnx-1B PIP-2
+  01P17GE209:
+    engine: GEnx-1B PIP-2
+  01P17GE210:
+    engine: GEnx-1B PIP-2
+  01P17GE211:
+    engine: GEnx-1B PIP-2
+  01P17GE212:
+    engine: GEnx-1B PIP-2
+  01P17GE213:
+    engine: GEnx-1B PIP-2
+  01P17GE214:
+    engine: GEnx-1B PIP-2
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    xlim: [0, 400]
+    # ylim: [20, 45]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    xlim: [0, 400]
+    # ylim: [0, 7]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 400]
+    # ylim: [0, 70]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 400]
+    ylim: [0, 50]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 400]
+    ylim: [0, 10]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 400]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 400]
+    # ylim: [0, 1.5]
+    regression_polynomial_order: null
