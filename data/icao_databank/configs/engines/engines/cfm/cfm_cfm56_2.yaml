@@ -1,24 +1,16 @@
 identification:
-  PW1200G: PW12
+  CFM56-2: CFM56-2
 
 remove: []
 
 update:
-  # PW1200G Block-A
-  21PW139:
-    model: PW1215G Block-A
-    engine: PW1200G Block-A
-  21PW140:
-    model: PW1217G Block-A
-    engine: PW1200G Block-A
+  1CM001:
+    engine: CFM56-2
+  1CM002:
+    engine: CFM56-2
+  1CM003:
+    engine: CFM56-2
 
-  # PW1200G Block-C
-  01P22PW168:
-    model: PW1215G Block-C
-    engine: PW1200G Block-C
-  01P22PW169:
-    model: PW1217G Block-C
-    engine: PW1200G Block-C
 
 
 validation:
@@ -27,7 +19,7 @@ validation:
     x_axis: rated_thrust
     y_axis: opr
     xlim: [0, 200]
-    ylim: [10, 40]
+    ylim: [20, 35]
     regression_polynomial_order: 1
     
   bpr:
@@ -35,7 +27,7 @@ validation:
     x_axis: rated_thrust
     y_axis: bpr
     xlim: [0, 200]
-    ylim: [0, 10]
+    ylim: [0, 7]
     regression_polynomial_order: 2
     
   einox:
@@ -43,7 +35,7 @@ validation:
     x_axis: thrust
     y_axis: einox
     xlim: [0, 200]
-    ylim: [0, 30]
+    ylim: [0, 60]
     regression_polynomial_order: null
     
   eico:
@@ -51,7 +43,7 @@ validation:
     x_axis: thrust
     y_axis: eico
     xlim: [0, 200]
-    ylim: [0, 30]
+    ylim: [0, 50]
     regression_polynomial_order: null
     
   eihc:
@@ -59,7 +51,7 @@ validation:
     x_axis: thrust
     y_axis: eihc
     xlim: [0, 200]
-    ylim: [0, 2]
+    ylim: [0, 15]
     regression_polynomial_order: null
   
   smoke_number:

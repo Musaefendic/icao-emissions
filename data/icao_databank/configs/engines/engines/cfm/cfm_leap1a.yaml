@@ -1,0 +1,96 @@
+identification:
+  LEAP-1A: LEAP-1A
+
+remove:
+  # CFM LEAP-1A
+  - 20CM088 # LEAP-1A24, data identical to 01P20CM127, due to nvPM information
+  - 20CM089 # LEAP-1A26/26E1, data identical to 01P20CM128, due to nvPM information
+  - 20CM090 # LEAP-1A35, data identical to 01P20CM132, due to nvPM information
+  - 20CM091 # LEAP-1A26CJ, data identical to LEAP-1A26, UID: 01P20CM128
+  - 20CM092 # LEAP-1A29, data identical 01P20CM130, due to nvPM information
+  - 20CM093 # LEAP-1A29CJ, data identical to LEAP-1A29, UID: 01P20CM130
+  - 01P20CM129 # LEAP-1A26CJ, data identical to LEAP-1A26, UID: 01P20CM128
+  - 01P20CM131 # LEAP-1A29CJ, data identical to LEAP-1A29, UID: 01P20CM130
+
+
+update:
+  # CFM - LEAP-1A 2017
+  17CM082:
+    model: LEAP-1A26 2017
+    engine: LEAP-1A 2017
+  17CM083:
+    # name voluntary truncated, from LEAP-1A35A/33/33B2/32/30 to LEAP-1A35
+    model: LEAP-1A35 2017 
+    engine: LEAP-1A 2017
+
+  # CFM - LEAP-1A 2019
+  01P20CM127:
+    model: LEAP-1A24 2019 # name deliberately truncated from LEAP-1A24/24E1/23
+    engine: LEAP-1A 2019
+  01P20CM128:
+    model: LEAP-1A26 2019 # name deliberately truncated from LEAP-1A26/26E1
+    engine: LEAP-1A 2019
+  01P20CM130:
+    model: LEAP-1A29 2019
+    engine: LEAP-1A 2019
+  01P20CM132:
+    model: LEAP-1A35 2019 # name deliberately truncated from LEAP-1A35A/33/33B2/32/30
+    engine: LEAP-1A 2019
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    xlim: [0, 200]
+    ylim: [20, 40]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    xlim: [0, 200]
+    # ylim: [0, 7]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 200]
+    ylim: [0, 70]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 200]
+    ylim: [0, 30]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 200]
+    ylim: [0, 1]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 200]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 200]
+    ylim: [0, 1.5]
+    regression_polynomial_order: null

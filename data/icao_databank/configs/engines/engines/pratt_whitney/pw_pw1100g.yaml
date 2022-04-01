@@ -1,3 +1,6 @@
+identification: 
+  PW1100G: PW11
+
 remove:
 # P&W1100G Block-A
   - 15PW104 # PW1127G1-JM, data identical to PW1127G-JM, UID: 15PW105
@@ -89,3 +92,61 @@ update:
   01P22PW166:
     model: PW1133GA-JM
     engine: PW1100G Block-D
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    xlim: [0, 200]
+    ylim: [10, 40]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    xlim: [0, 200]
+    ylim: [0, 7]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 200]
+    ylim: [0, 30]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 200]
+    ylim: [0, 30]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 200]
+    ylim: [0, 2]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 200]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 200]
+    ylim: [0, 1.5]
+    regression_polynomial_order: null

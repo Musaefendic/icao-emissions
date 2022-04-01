@@ -1,4 +1,32 @@
+identification:
+  CFM56-2: CFM56-2
+  CFM56-3: CFM56-3
+  CFM56-5A: CFM56-5A
+  CFM56-5B: CFM56-5B
+  CFM56-5C: CFM56-5C
+  CFM56-7B: CFM56-7B
+  LEAP-1A: LEAP-1A
+  LEAP-1B: LEAP-1B
+  PW1100G: PW11
+  PW1200G: PW12
+  PW1400G: PW14
+  PW1500G: PW15
+  PW1900G: PW19
 remove:
+- 01P20PW185
+- 20PW129
+- 20PW130
+- 20PW131
+- 20PW132
+- 20PW133
+- 01P22PW170
+- 01P22PW171
+- 01P22PW173
+- 01P22PW174
+- 01P22PW176
+- 01P22PW177
+- 01P22PW179
+- 01P22PW180
 - 15PW104
 - 15PW107
 - 18PW117
@@ -11,7 +39,96 @@ remove:
 - 18PW124
 - 18PW126
 - 18PW125
+- 20PW134
+- 20PW135
+- 20PW136
+- 20PW137
+- 20PW138
+- 01P20PW190
+- 20CM088
+- 20CM089
+- 20CM090
+- 20CM091
+- 20CM092
+- 20CM093
+- 01P20CM129
+- 01P20CM131
+- 18CM085
+- 20CM094
+- 20CM095
+- 20CM096
+- 20CM097
+- 20CM098
+- 20CM099
+- 20CM100
+- 20CM101
+- 01P20CM138
+- 01P20CM139
+- 11CM067
+- 11CM068
+- 11CM069
+- 11CM070
+- 11CM071
+- 11CM072
+- 11CM073
+- 11CM074
+- 11CM076
+- 11CM075
+- 11CM080
+- 11CM077
+- 11CM078
+- 11CM082
+- 11CM079
+- 11CM081
+- 01P11CM113
+- 01P11CM115
+- 01P11CM117
+- 01P11CM118
+- 01P11CM119
+- 01P11CM120
+- 01P11CM122
+- 01P11CM123
+- 01P11CM124
+- 01P11CM125
+- 01P11CM126
+- 8CM052
+- 8CM053
+- 8CM054
+- 8CM055
+- 8CM056
+- 8CM057
+- 8CM058
+- 8CM059
+- 8CM060
 update:
+  01P08CM102:
+    engine: CFM56-5B/3
+  01P08CM103:
+    engine: CFM56-5B/3
+  01P08CM104:
+    engine: CFM56-5B/3
+  01P08CM105:
+    engine: CFM56-5B/3
+  01P08CM106:
+    engine: CFM56-5B/3
+  01P08CM107:
+    engine: CFM56-5B/3
+  01P08CM108:
+    engine: CFM56-5B/3
+  01P08CM109:
+    engine: CFM56-5B/3
+  01P08CM110:
+    engine: CFM56-5B/3
+  01P11CM111:
+    engine: CFM56-7B Enhanced
+  01P11CM112:
+    engine: CFM56-7B Enhanced
+  01P11CM114:
+    engine: CFM56-7B Enhanced
+  01P11CM116:
+    engine: CFM56-7B Enhanced
+  01P11CM121:
+    engine: CFM56-7B Enhanced
   01P18PW148:
     engine: PW1100G Block-C
     model: PW1122G Block-C
@@ -42,6 +159,62 @@ update:
   01P18PW157:
     engine: PW1100G Block-C
     model: PW1133G Block-C
+  01P20CM127:
+    engine: LEAP-1A 2019
+    model: LEAP-1A24 2019
+  01P20CM128:
+    engine: LEAP-1A 2019
+    model: LEAP-1A26 2019
+  01P20CM130:
+    engine: LEAP-1A 2019
+    model: LEAP-1A29 2019
+  01P20CM132:
+    engine: LEAP-1A 2019
+    model: LEAP-1A35 2019
+  01P20CM133:
+    engine: LEAP-1B 2019
+    model: LEAP-1B21 2019
+  01P20CM134:
+    engine: LEAP-1B 2019
+    model: LEAP-1B23 2019
+  01P20CM135:
+    engine: LEAP-1B 2019
+    model: LEAP-1B25 2019
+  01P20CM136:
+    engine: LEAP-1B 2019
+    model: LEAP-1B27 2019
+  01P20CM137:
+    engine: LEAP-1B 2019
+    model: LEAP-1B28B2C 2019
+  01P20CM140:
+    engine: LEAP-1B 2019
+    model: LEAP-1B28 2019
+  01P20PW182:
+    engine: PW1500G Block-C
+    model: PW1525G Block-C
+  01P20PW183:
+    engine: PW1500G Block-C
+    model: PW1524G Block-C
+  01P20PW184:
+    engine: PW1500G Block-C
+    model: PW1521G Block-C
+  01P20PW186:
+    engine: PW1500G Block-C
+    model: PW1519G Block-C
+  01P20PW187:
+    engine: PW1900G Block-C
+    model: PW1919G Block-C
+  01P20PW188:
+    engine: PW1900G Block-C
+    model: PW1921G Block-C
+  01P20PW189:
+    engine: PW1900G Block-C
+    model: PW1922G Block-C
+  01P20PW191:
+    engine: PW1900G Block-C
+    model: PW1923G Block-C
+  01P22FC001:
+    engine: CFM56-7B Enhanced - Research Measurement
   01P22PW158:
     engine: PW1100G Block-D
     model: PW1122G Block-D
@@ -78,6 +251,18 @@ update:
   01P22PW169:
     engine: PW1200G Block-C
     model: PW1217G Block-C
+  01P22PW172:
+    engine: PW1400G Block-C
+    model: PW1428G Block-C
+  01P22PW175:
+    engine: PW1400G Block-C
+    model: PW1431G Block-C
+  01P22PW178:
+    engine: PW1400G Block-D
+    model: PW1428G Block-D
+  01P22PW181:
+    engine: PW1400G Block-D
+    model: PW1431G Block-D
   15PW105:
     engine: PW1100G Block-A
     model: PW1127G Block-A
@@ -87,9 +272,1139 @@ update:
   15PW108:
     engine: PW1100G Block-A
     model: PW1133G Block-A
+  16PW110:
+    engine: PW1500G Block-A
+    model: PW1525G Block-A
+  16PW111:
+    engine: PW1500G Block-A
+    model: PW1524G Block-A
+  16PW112:
+    engine: PW1500G Block-A
+    model: PW1521G Block-A
+  16PW113:
+    engine: PW1500G Block-A
+    model: PW1519G Block-A
+  17CM082:
+    engine: LEAP-1A 2017
+    model: LEAP-1A26 2017
+  17CM083:
+    engine: LEAP-1A 2017
+    model: LEAP-1A35 2017
+  18CM084:
+    engine: LEAP-1B 2017
+    model: LEAP-1B28 2017
+  18CM086:
+    engine: LEAP-1B 2017
+    model: LEAP-1B27 2017
+  18CM087:
+    engine: LEAP-1B 2017
+    model: LEAP-1B25 2017
+  1CM001:
+    engine: CFM56-2
+  1CM002:
+    engine: CFM56-2
+  1CM003:
+    engine: CFM56-2
+  1CM004:
+    engine: CFM56-3
+  1CM005:
+    engine: CFM56-3
+  1CM006:
+    engine: CFM56-3
+  1CM007:
+    engine: CFM56-3
+  1CM009:
+    engine: CFM56-5A
+  1CM010:
+    engine: CFM56-5C
+  1CM011:
+    engine: CFM56-5C
   21PW139:
     engine: PW1200G Block-A
     model: PW1215G Block-A
   21PW140:
     engine: PW1200G Block-A
     model: PW1217G Block-A
+  2CM012:
+    engine: CFM56-5B
+  2CM013:
+    engine: CFM56-5B
+  2CM014:
+    engine: CFM56-5B
+  2CM015:
+    engine: CFM56-5C
+  2CM016:
+    engine: CFM56-5B/2
+  2CM017:
+    engine: CFM56-5B/2
+  2CM018:
+    engine: CFM56-5B/2
+  2CM019:
+    engine: CFM56-5B/2
+  3CM020:
+    engine: CFM56-5B/2P
+  3CM021:
+    engine: CFM56-5B/2P
+  3CM022:
+    engine: CFM56-5B/2P
+  3CM023:
+    engine: CFM56-5B/P
+  3CM024:
+    engine: CFM56-5B/P
+  3CM025:
+    engine: CFM56-5B/P
+  3CM026:
+    engine: CFM56-5B/P
+  3CM027:
+    engine: CFM56-5B/P
+  3CM028:
+    engine: CFM56-5B/P
+  3CM029:
+    engine: CFM56-7B SAC
+  3CM030:
+    engine: CFM56-7B SAC
+  3CM031:
+    engine: CFM56-7B SAC
+  3CM032:
+    engine: CFM56-7B SAC
+  3CM033:
+    engine: CFM56-7B SAC
+  3CM034:
+    engine: CFM56-7B SAC
+  4CM035:
+    engine: CFM56-5A
+  4CM036:
+    engine: CFM56-5A
+  4CM037:
+    engine: CFM56-5B/2P
+  4CM038:
+    engine: CFM56-5B/2P
+  4CM039:
+    engine: CFM56-7B DAC
+  4CM040:
+    engine: CFM56-7B DAC
+  4CM041:
+    engine: CFM56-7B DAC
+  4CM042:
+    engine: CFM56-7B DAC
+  4CM043:
+    engine: CFM56-7B DAC
+  6CM044:
+    engine: CFM56-5B/P
+  7CM045:
+    engine: CFM56-5C/P
+  7CM046:
+    engine: CFM56-5C/P
+  7CM047:
+    engine: CFM56-5C/P
+  7CM048:
+    engine: CFM56-5B/P
+  7CM049:
+    engine: CFM56-5B/P
+  7CM050:
+    engine: CFM56-5B/2P
+  8CM051:
+    engine: CFM56-7B SAC
+  8CM061:
+    engine: CFM56-7B Tech Insertion
+  8CM062:
+    engine: CFM56-7B Tech Insertion
+  8CM063:
+    engine: CFM56-7B Tech Insertion
+  8CM064:
+    engine: CFM56-7B Tech Insertion
+  8CM065:
+    engine: CFM56-7B Tech Insertion
+  8CM066:
+    engine: CFM56-7B Tech Insertion
+validation:
+  CFM56-2:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: bpr
+      ylim:
+      - 0
+      - 7
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 50
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 15
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 60
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 20
+      - 35
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  CFM56-3:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: bpr
+      ylim:
+      - 0
+      - 7
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 50
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 15
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 60
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 20
+      - 35
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  CFM56-5A:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: bpr
+      ylim:
+      - 0
+      - 7
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 50
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 15
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 60
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 20
+      - 35
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  CFM56-5B:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: bpr
+      ylim:
+      - 0
+      - 7
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 50
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 15
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 60
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 20
+      - 35
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  CFM56-5C:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: bpr
+      ylim:
+      - 0
+      - 7
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 50
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 15
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 60
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 20
+      - 35
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  CFM56-7B:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: bpr
+      ylim:
+      - 0
+      - 7
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 60
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 10
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 35
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 20
+      - 35
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  LEAP-1A:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: bpr
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 30
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 1
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 70
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 20
+      - 40
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  LEAP-1B:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: bpr
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 30
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 1
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 70
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 20
+      - 45
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  PW1100G:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: bpr
+      ylim:
+      - 0
+      - 7
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 30
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 2
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 30
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 10
+      - 40
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  PW1200G:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: bpr
+      ylim:
+      - 0
+      - 10
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 30
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 2
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 30
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 10
+      - 40
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  PW1400G:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      y_axis: bpr
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 30
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 2
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 30
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 10
+      - 40
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  PW1500G:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      y_axis: bpr
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 30
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 2
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 30
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 10
+      - 40
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  PW1900G:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      y_axis: bpr
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 30
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 2
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 30
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 10
+      - 40
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20

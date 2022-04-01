@@ -1,0 +1,111 @@
+identification:
+  LEAP-1B: LEAP-1B
+
+remove:
+  # CFM LEAP-1B 2017
+  - 18CM085 # LEAP-1B28B2, data identical to LEAP-1B28, UID: 18CM084
+
+  # CFM LEAP-1B 2019
+  - 20CM094  # LEAP-1B21, data identical to LEAP-1B21, UID: 01P20CM133, due to nvPM information
+  - 20CM095  # LEAP-1B23, data identical to LEAP-1B23, UID: 01P20CM134, due to nvPM information
+  - 20CM096  # LEAP-1B25, data identical to LEAP-1B25, UID: 01P20CM135, due to nvPM information
+  - 20CM097  # LEAP-1B28BBJ2, data identical to LEAP-1B28BBJ2, UID: 01P20CM139, due to nvPM information
+  - 20CM098  # LEAP-1B27, data identical to LEAP-1B27, UID: 01P20CM136, due to nvPM information
+  - 20CM099  # LEAP-1B28B2C, data identical to LEAP-1B28, UID: 01P20CM140, due to nvPM information
+  - 20CM100  # LEAP-1B28BBJ1, data identical to LEAP-1B28, UID: 01P20CM140, due to nvPM information
+  - 20CM101  # LEAP-1B28, data identical to LEAP-1B28, UID: 01P20CM140, due to nvPM information
+
+  # CFM LEAP-1B 2019
+  - 01P20CM138  # LEAP-1B28BBJ1, identical to LEAP-1B28, UID: 01P20CM140
+  - 01P20CM139  # LEAP-1B28BBJ2, identical to LEAP-1B28B2C, UID: 01P20CM137
+
+update:
+  # CFM - LEAP-1B 2017
+  18CM087:
+    model: LEAP-1B25 2017
+    engine: LEAP-1B 2017
+  18CM086:
+    model: LEAP-1B27 2017
+    engine: LEAP-1B 2017
+  18CM084:
+    model: LEAP-1B28 2017
+    engine: LEAP-1B 2017
+
+  # CFM - LEAP-1B 2019
+  01P20CM133:
+    model: LEAP-1B21 2019
+    engine: LEAP-1B 2019
+  01P20CM134:
+    model: LEAP-1B23 2019
+    engine: LEAP-1B 2019
+  01P20CM135:
+    model: LEAP-1B25 2019
+    engine: LEAP-1B 2019
+  01P20CM136:
+    model: LEAP-1B27 2019
+    engine: LEAP-1B 2019
+  01P20CM137:
+    model: LEAP-1B28B2C 2019
+    engine: LEAP-1B 2019
+  01P20CM140:
+    model: LEAP-1B28 2019
+    engine: LEAP-1B 2019
+
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    xlim: [0, 200]
+    ylim: [20, 45]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    xlim: [0, 200]
+    # ylim: [0, 7]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 200]
+    ylim: [0, 70]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 200]
+    ylim: [0, 30]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 200]
+    ylim: [0, 1]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 200]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 200]
+    ylim: [0, 1.5]
+    regression_polynomial_order: null

@@ -1,36 +1,25 @@
 identification:
-  PW1400G: PW14
+  CFM56-5C: CFM56-5C
 
-remove:
-  # PW1400G Block-C
-  - 01P22PW170  # PW1428GH-JM == PW1428G-JM, uid: 01P22PW172
-  - 01P22PW171  # PW1428GA-JM == PW1428G-JM, uid: 01P22PW172
-  - 01P22PW173  # PW1431GH-JM == PW1431G-JM, uid: 01P22PW175
-  - 01P22PW174  # PW1431GA-JM == PW1431G-JM, uid: 01P22PW175
-
-  # PW1400G Block-D
-  - 01P22PW176  # PW1428GH-JM == PW1428G-JM, uid: 01P22PW178
-  - 01P22PW177  # PW1428GA-JM == PW1428G-JM, uid: 01P22PW178
-  - 01P22PW179  # PW1431GH-JM == PW1431G-JM, uid: 01P22PW181
-  - 01P22PW180  # PW1431GA-JM == PW1431G-JM, uid: 01P22PW181
-
+remove: []
 
 update:
-  # PW1400G Block-C
-  01P22PW172:
-    model: PW1428G Block-C
-    engine: PW1400G Block-C
-  01P22PW175:
-    model: PW1431G Block-C
-    engine: PW1400G Block-C
+  # CFM56-5C SAC 
+  1CM010:
+    engine: CFM56-5C
+  1CM011:
+    engine: CFM56-5C
+  2CM015:
+    engine: CFM56-5C
+  
+  # CFM56-5C/P SAC, for improved performance
+  7CM045:
+    engine: CFM56-5C/P
+  7CM046:
+    engine: CFM56-5C/P
+  7CM047:
+    engine: CFM56-5C/P
 
-  # PW1400G Block-D
-  01P22PW178:
-    model: PW1428G Block-D
-    engine: PW1400G Block-D
-  01P22PW181:
-    model: PW1431G Block-D
-    engine: PW1400G Block-D
 
 
 validation:
@@ -39,15 +28,15 @@ validation:
     x_axis: rated_thrust
     y_axis: opr
     xlim: [0, 200]
-    ylim: [10, 40]
+    ylim: [20, 35]
     regression_polynomial_order: 1
     
   bpr:
     databank: certification
     x_axis: rated_thrust
     y_axis: bpr
-    # xlim: [0, 200]
-    # ylim: [0, 10]
+    xlim: [0, 200]
+    ylim: [0, 7]
     regression_polynomial_order: 2
     
   einox:
@@ -55,7 +44,7 @@ validation:
     x_axis: thrust
     y_axis: einox
     xlim: [0, 200]
-    ylim: [0, 30]
+    ylim: [0, 60]
     regression_polynomial_order: null
     
   eico:
@@ -63,7 +52,7 @@ validation:
     x_axis: thrust
     y_axis: eico
     xlim: [0, 200]
-    ylim: [0, 30]
+    ylim: [0, 50]
     regression_polynomial_order: null
     
   eihc:
@@ -71,7 +60,7 @@ validation:
     x_axis: thrust
     y_axis: eihc
     xlim: [0, 200]
-    ylim: [0, 2]
+    ylim: [0, 15]
     regression_polynomial_order: null
   
   smoke_number:

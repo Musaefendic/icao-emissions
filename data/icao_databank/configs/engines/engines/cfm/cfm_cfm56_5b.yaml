@@ -1,0 +1,146 @@
+identification:
+  CFM56-5B: CFM56-5B
+
+remove:
+  # CFM56-5B/3 Tech Insertion, data superseded by new uid, due to nvPM data
+  - 8CM052
+  - 8CM053
+  - 8CM054
+  - 8CM055
+  - 8CM056
+  - 8CM057
+  - 8CM058
+  - 8CM059
+  - 8CM060
+
+
+update:
+  # CFM56-5B SAC
+  2CM012:
+    engine: CFM56-5B
+  2CM013:
+    engine: CFM56-5B
+  2CM014:
+    engine: CFM56-5B
+  
+  # CFM56-5B DAC
+  2CM016:
+    engine: CFM56-5B/2
+  2CM017:
+    engine: CFM56-5B/2
+  2CM018:
+    engine: CFM56-5B/2
+  2CM019:
+    engine: CFM56-5B/2
+  
+  # CFM56-5B/P SAC, for improved performance -> GE Press : "The CFM56-5B/P provides an overall SFC (specific fuel consumption) improvement of 3 percent compared to base CFM56-5B levels."
+  3CM023:
+    engine: CFM56-5B/P
+  3CM024:
+    engine: CFM56-5B/P
+  3CM025:
+    engine: CFM56-5B/P
+  3CM026:
+    engine: CFM56-5B/P
+  3CM027:
+    engine: CFM56-5B/P
+  3CM028:
+    engine: CFM56-5B/P
+  6CM044:
+    engine: CFM56-5B/P
+  7CM048:
+    engine: CFM56-5B/P
+  7CM049:
+    engine: CFM56-5B/P
+  
+  # CFM56-5B/2P DAC-II, for improved performance + new DAC design (DAC-II)
+  3CM020:
+    engine: CFM56-5B/2P
+  4CM037:
+    engine: CFM56-5B/2P
+  4CM038:
+    engine: CFM56-5B/2P
+  3CM021:
+    engine: CFM56-5B/2P
+  3CM022:
+    engine: CFM56-5B/2P
+  7CM050:
+    engine: CFM56-5B/2P
+  
+  # CFM56-5B/3 Tech Insertion
+  01P08CM102:
+    engine: CFM56-5B/3
+  01P08CM103:
+    engine: CFM56-5B/3
+  01P08CM104:
+    engine: CFM56-5B/3
+  01P08CM105:
+    engine: CFM56-5B/3
+  01P08CM106:
+    engine: CFM56-5B/3
+  01P08CM107:
+    engine: CFM56-5B/3
+  01P08CM108:
+    engine: CFM56-5B/3
+  01P08CM109:
+    engine: CFM56-5B/3
+  01P08CM110:
+    engine: CFM56-5B/3
+  
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    xlim: [0, 200]
+    ylim: [20, 35]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    xlim: [0, 200]
+    ylim: [0, 7]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 200]
+    ylim: [0, 60]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 200]
+    ylim: [0, 50]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 200]
+    ylim: [0, 15]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 200]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 200]
+    ylim: [0, 1.5]
+    regression_polynomial_order: null

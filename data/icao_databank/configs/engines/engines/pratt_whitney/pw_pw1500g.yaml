@@ -1,36 +1,43 @@
 identification:
-  PW1400G: PW14
+  PW1500G: PW15
 
 remove:
-  # PW1400G Block-C
-  - 01P22PW170  # PW1428GH-JM == PW1428G-JM, uid: 01P22PW172
-  - 01P22PW171  # PW1428GA-JM == PW1428G-JM, uid: 01P22PW172
-  - 01P22PW173  # PW1431GH-JM == PW1431G-JM, uid: 01P22PW175
-  - 01P22PW174  # PW1431GA-JM == PW1431G-JM, uid: 01P22PW175
-
-  # PW1400G Block-D
-  - 01P22PW176  # PW1428GH-JM == PW1428G-JM, uid: 01P22PW178
-  - 01P22PW177  # PW1428GA-JM == PW1428G-JM, uid: 01P22PW178
-  - 01P22PW179  # PW1431GH-JM == PW1431G-JM, uid: 01P22PW181
-  - 01P22PW180  # PW1431GA-JM == PW1431G-JM, uid: 01P22PW181
-
+  # PW1500G Block-C
+  - 01P20PW185  # PW1521GA == PW1521G, uid: 01P20PW184
+  - 20PW129  # superseded by uid: 01P20PW182, due to nvPM data
+  - 20PW130  # superseded by uid: 01P20PW183, due to nvPM data
+  - 20PW131  # superseded by uid: 01P20PW184, due to nvPM data
+  - 20PW132  # superseded by uid: 01P20PW185, due to nvPM data
+  - 20PW133  # sueprseded by uid: 01P20PW186, due to nvPM data
 
 update:
-  # PW1400G Block-C
-  01P22PW172:
-    model: PW1428G Block-C
-    engine: PW1400G Block-C
-  01P22PW175:
-    model: PW1431G Block-C
-    engine: PW1400G Block-C
+  # PW1500G Block-A
+  16PW110:
+    model: PW1525G Block-A
+    engine: PW1500G Block-A
+  16PW111:
+    model: PW1524G Block-A
+    engine: PW1500G Block-A
+  16PW112:
+    model: PW1521G Block-A
+    engine: PW1500G Block-A
+  16PW113:
+    model: PW1519G Block-A
+    engine: PW1500G Block-A
 
-  # PW1400G Block-D
-  01P22PW178:
-    model: PW1428G Block-D
-    engine: PW1400G Block-D
-  01P22PW181:
-    model: PW1431G Block-D
-    engine: PW1400G Block-D
+  # PW1500G Block-C
+  01P20PW182:
+    model: PW1525G Block-C
+    engine: PW1500G Block-C
+  01P20PW183:
+    model: PW1524G Block-C
+    engine: PW1500G Block-C
+  01P20PW184:
+    model: PW1521G Block-C
+    engine: PW1500G Block-C
+  01P20PW186:
+    model: PW1519G Block-C
+    engine: PW1500G Block-C
 
 
 validation:

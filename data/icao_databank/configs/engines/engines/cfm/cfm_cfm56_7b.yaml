@@ -1,0 +1,150 @@
+identification: 
+  CFM56-7B: CFM56-7B
+
+remove:
+  # CFM56-7B Enhanced Engines (2012), the “E” Enhanced engines have a modified HPT and LPT.
+  - 11CM067  # CFM56-7B20E, superseded by 01P11CM111, due to nvPM data
+  - 11CM068  # CFM56-7B22E, superseded by 01P11CM112, due to nvPM data
+  - 11CM069  # CFM56-7B22E/B1, superseded by 01P11CM113, due to nvPM data
+  - 11CM070  # CFM56-7B24E, superseded by 01P11CM114, due to nvPM data
+  - 11CM071  # CFM56-7B24E/B1, superseded by 01P11CM115, due to nvPM data
+  - 11CM072  # CFM56-7B26E, superseded by 01P11CM116, due to nvPM data
+  - 11CM073  # CFM56-7B26E/B1, superseded by 01P11CM117, due to nvPM data
+  - 11CM074  # CFM56-7B26E/B2, superseded by 01P11CM118, due to nvPM data
+  - 11CM076  # CFM56-7B26E/B2F, superseded by 01P11CM120, due to nvPM data
+  - 11CM075  # CFM56-7B26E/F, superseded by 01P11CM119, due to nvPM data
+  - 11CM080  # CFM56-7B27AE, superseded by 01P11CM124, due to nvPM data
+  - 11CM077  # CFM56-7B27E, superseded by 01P11CM121, due to nvPM data
+  - 11CM078  # CFM56-7B27E/B1, superseded by 01P11CM122, due to nvPM data
+  - 11CM082  # CFM56-7B27E/B1F, superseded by 01P11CM126 due to nvPM data
+  - 11CM079  # CFM56-7B27E/B3, superseded by 01P11CM123 due to nvPM data
+  - 11CM081  # CFM56-7B27E/F, superseded by 01P11CM125, due to nvPM data
+  - 01P11CM113  # CFM56-7B22E/B1, identical to CFM56-7B22E, uid: 01P11CM112
+  - 01P11CM115  # CFM56-7B24E/B1, identical to CFM56-7B24E, uid: 01P11CM114
+  - 01P11CM117  # CFM56-7B26E/B1, identical to CFM56-7B26E, uid: 01P11CM116
+  - 01P11CM118  # CFM56-7B26E/B2, identical to CFM56-7B26E, uid: 01P11CM116
+  - 01P11CM119  # CFM56-7B26E/F, identical to CFM56-7B26E, uid: 01P11CM116
+  - 01P11CM120  # CFM56-7B26E/B2F, identical to CFM56-7B26E, uid: 01P11CM116
+  - 01P11CM122  # CFM56-7B27E/B1, identical to CFM56-7B27E, uid: 01P11CM121
+  - 01P11CM123  # CFM56-7B27E/B3, identical to CFM56-7B27E, uid: 01P11CM121
+  - 01P11CM124  # CFM56-7B27AE, identical to CFM56-7B27E, uid: 01P11CM121
+  - 01P11CM125  # CFM56-7B27E/F, identical to CFM56-7B27E, uid: 01P11CM121
+  - 01P11CM126  # CFM56-7B27E/B1F, identical to CFM56-7B27E, uid: 01P11CM121
+
+
+update:
+  # CFM56-7B SAC (1995), for Single Annular Combustor
+  3CM029:
+    engine: CFM56-7B SAC
+  3CM030:
+    engine: CFM56-7B SAC
+  3CM031:
+    engine: CFM56-7B SAC
+  3CM032:
+    engine: CFM56-7B SAC
+  3CM033:
+    engine: CFM56-7B SAC
+  3CM034:
+    engine: CFM56-7B SAC
+  8CM051:
+    engine: CFM56-7B SAC
+
+  # CFM56-7B DAC (1999), for Dual Annular Combustor
+  4CM039:
+    engine: CFM56-7B DAC
+  4CM040:
+    engine: CFM56-7B DAC
+  4CM041:
+    engine: CFM56-7B DAC
+  4CM042:
+    engine: CFM56-7B DAC
+  4CM043:
+    engine: CFM56-7B DAC
+
+  # CFM56-7B Tech Insertion (2007), they have a modified HPC, a modified Single Annular Combustor, and a modified HPT.
+  8CM061:
+    engine: CFM56-7B Tech Insertion
+  8CM062:
+    engine: CFM56-7B Tech Insertion
+  8CM063:
+    engine: CFM56-7B Tech Insertion
+  8CM064:
+    engine: CFM56-7B Tech Insertion
+  8CM065:
+    engine: CFM56-7B Tech Insertion
+  8CM066:
+    engine: CFM56-7B Tech Insertion
+
+  # CFM56-7B Enhanced Engines (2012), the “E” Enhanced engines have a modified HPT and LPT.
+  01P11CM111:
+    engine: CFM56-7B Enhanced
+  01P11CM112:
+    engine: CFM56-7B Enhanced
+  01P11CM114:
+    engine: CFM56-7B Enhanced
+  01P11CM116:
+    engine: CFM56-7B Enhanced
+  01P11CM121:
+    engine: CFM56-7B Enhanced
+
+  # CFM56-7B Research Measurement -> 1/Research data as part of world's first nvPM certification-like test & 2/Drift of pollutant emissions on an aged engine
+  01P22FC001:
+    engine: CFM56-7B Enhanced - Research Measurement
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    xlim: [0, 200]
+    ylim: [20, 35]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    xlim: [0, 200]
+    ylim: [0, 7]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 200]
+    ylim: [0, 35]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 200]
+    ylim: [0, 60]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 200]
+    ylim: [0, 10]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 200]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 200]
+    ylim: [0, 1.5]
+    regression_polynomial_order: null
