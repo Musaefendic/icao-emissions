@@ -1,0 +1,227 @@
+identification:
+  TRENT 1000: TRENT 1000
+
+remove:
+  # Rolls-Royce TRENT 1000
+  - 19RR085 # RR TRENT 1000-AE3, identical to 01P19RR106, due to nvPM information
+  - 19RR086 # RR TRENT 1000-CE3, identical to 01P19RR107, due to nvPM information
+  - 19RR087 # RR TRENT 1000-D3, identical to 01P19RR108, due to nvPM information
+  - 19RR088 # RR TRENT 1000-G3, identical to 01P19RR109, due to nvPM information
+  - 19RR089 # RR TRENT 1000-H3, identical to 01P19RR110, due to nvPM information
+  - 19RR090 # RR TRENT 1000-J3, identical to 01P19RR111, due to nvPM information
+  - 19RR091 # RR TRENT 1000-K3, identical to 01P19RR112, due to nvPM information
+  - 19RR092 # RR TRENT 1000-L3, identical to 01P19RR113, due to nvPM information
+  - 19RR093 # RR TRENT 1000-M3, identical to 01P19RR114, due to nvPM information
+  - 19RR094 # RR TRENT 1000-N3, identical to 01P19RR115, due to nvPM information
+  - 19RR095 # RR TRENT 1000-P3, identical to 01P19RR116, due to nvPM information
+  - 19RR096 # RR TRENT 1000-Q3, identical to 01P19RR117, due to nvPM information
+  - 19RR097 # RR TRENT 1000-R3, identical to 01P19RR117, due to nvPM information
+
+update:
+  # Rolls-Royce TRENT 1000 Pack-B 2012
+  11RR049:
+    model: TRENT 1000-A Pack-B 2012
+    engine: TRENT 1000 Pack-B 2012
+  11RR050:
+    model: TRENT 1000-C Pack-B 2012
+    engine: TRENT 1000 Pack-B 2012
+  11RR051:
+    model: TRENT 1000-D Pack-B 2012
+    engine: TRENT 1000 Pack-B 2012
+  11RR052:
+    model: TRENT 1000-E Pack-B 2012
+    engine: TRENT 1000 Pack-B 2012
+  11RR053:
+    model: TRENT 1000-G Pack-B 2012
+    engine: TRENT 1000 Pack-B 2012
+  11RR054:
+    model: TRENT 1000-H Pack-B 2012
+    engine: TRENT 1000 Pack-B 2012
+
+  # Rolls-Royce TRENT 1000 Pack-B 2013
+  12RR055:
+    model: TRENT 1000-A Pack-B 2013
+    engine: TRENT 1000 Pack-B 2013
+  12RR056:
+    model: TRENT 1000-C Pack-B 2013
+    engine: TRENT 1000 Pack-B 2013
+  12RR057:
+    model: TRENT 1000-D Pack-B 2013
+    engine: TRENT 1000 Pack-B 2013
+  12RR058:
+    model: TRENT 1000-E Pack-B 2013
+    engine: TRENT 1000 Pack-B 2013
+  12RR059:
+    model: TRENT 1000-G Pack-B 2013
+    engine: TRENT 1000 Pack-B 2013
+  12RR060:
+    model: TRENT 1000-H Pack-B 2013
+    engine: TRENT 1000 Pack-B 2013
+
+  # Rolls-Royce TRENT 1000 Pack-C1 2013
+  12RR061:
+    model: TRENT 1000-A2 Pack-C1 2013
+    engine: TRENT 1000 Pack-C1 2013
+  12RR062:
+    model: TRENT 1000-C2 Pack-C1 2013
+    engine: TRENT 1000 Pack-C1 2013
+  12RR063:
+    model: TRENT 1000-D2 Pack-C1 2013
+    engine: TRENT 1000 Pack-C1 2013
+  12RR064:
+    model: TRENT 1000-E2 Pack-C1 2013
+    engine: TRENT 1000 Pack-C1 2013
+  12RR065:
+    model: TRENT 1000-G2 Pack-C1 2013
+    engine: TRENT 1000 Pack-C1 2013
+  12RR066:
+    model: TRENT 1000-H2 Pack-C1 2013
+    engine: TRENT 1000 Pack-C1 2013
+  12RR067:
+    model: TRENT 1000-J2 Pack-C1 2013
+    engine: TRENT 1000 Pack-C1 2013
+  12RR068:
+    model: TRENT 1000-K2 Pack-C1 2013
+    engine: TRENT 1000 Pack-C1 2013
+  12RR069:
+    model: TRENT 1000-L2 Pack-C1 2013
+    engine: TRENT 1000 Pack-C1 2013
+
+  # Rolls-Royce TRENT 1000 TEN 2018
+  01P19RR106:
+    model: TRENT 1000-AE3 TEN 2018
+    engine: TRENT 1000 TEN 2018
+  01P19RR107:
+    model: TRENT 1000-CE3 TEN 2018
+    engine: TRENT 1000 TEN 2018
+  01P19RR108:
+    model: TRENT 1000-D3 TEN 2018
+    engine: TRENT 1000 TEN 2018
+  01P19RR109:
+    model: TRENT 1000-G3 TEN 2018
+    engine: TRENT 1000 TEN 2018
+  01P19RR110:
+    model: TRENT 1000-H3 TEN 2018
+    engine: TRENT 1000 TEN 2018
+  01P19RR111:
+    model: TRENT 1000-J3 TEN 2018
+    engine: TRENT 1000 TEN 2018
+  01P19RR112:
+    model: TRENT 1000-K3 TEN 2018
+    engine: TRENT 1000 TEN 2018
+  01P19RR113:
+    model: TRENT 1000-L3 TEN 2018
+    engine: TRENT 1000 TEN 2018
+  01P19RR114:
+    model: TRENT 1000-M3 TEN 2018
+    engine: TRENT 1000 TEN 2018
+  01P19RR115:
+    model: TRENT 1000-N3 TEN 2018
+    engine: TRENT 1000 TEN 2018
+  01P19RR116:
+    model: TRENT 1000-P3 TEN 2018
+    engine: TRENT 1000 TEN 2018
+  01P19RR117:
+    model: TRENT 1000-Q3 TEN 2018
+    engine: TRENT 1000 TEN 2018
+  01P19RR118:
+    model: TRENT 1000-R3 TEN 2018
+    engine: TRENT 1000 TEN 2018
+
+  # Rolls-Royce TRENT 1000 TEN 2021
+  02P23RR126:
+    model: TRENT 1000-AE3 TEN 2021
+    engine: TRENT 1000 TEN 2021
+  02P23RR127:
+    model: TRENT 1000-CE3 TEN 2021
+    engine: TRENT 1000 TEN 2021
+  02P23RR128:
+    model: TRENT 1000-D3 TEN 2021
+    engine: TRENT 1000 TEN 2021
+  02P23RR129:
+    model: TRENT 1000-G3 TEN 2021
+    engine: TRENT 1000 TEN 2021
+  02P23RR130: 
+    model: TRENT 1000-H3 TEN 2021
+    engine: TRENT 1000 TEN 2021
+  02P23RR131:
+    model: TRENT 1000-J3 TEN 2021
+    engine: TRENT 1000 TEN 2021
+  02P23RR132: 
+    model: TRENT 1000-K3 TEN 2021
+    engine: TRENT 1000 TEN 2021
+  02P23RR133:
+    model: TRENT 1000-L3 TEN 2021
+    engine: TRENT 1000 TEN 2021
+  02P23RR134:
+    model: TRENT 1000-M3 TEN 2021
+    engine: TRENT 1000 TEN 2021
+  02P23RR135:
+    model: TRENT 1000-N3 TEN 2021
+    engine: TRENT 1000 TEN 2021
+  02P23RR136:
+    model: TRENT 1000-P3 TEN 2021
+    engine: TRENT 1000 TEN 2021
+  02P23RR137:
+    model: TRENT 1000-Q3 TEN 2021
+    engine: TRENT 1000 TEN 2021
+  02P23RR138:
+    model: TRENT 1000-R3 TEN 2021
+    engine: TRENT 1000 TEN 2021
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    xlim: [0, 400]
+    ylim: [20, 60]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    # xlim: [0, 400]
+    # ylim: [6, 12]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 400]
+    ylim: [0, 70]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 400]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 400]
+    ylim: [0, 1]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 400]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 400]
+    ylim: [0, 4.0]
+    regression_polynomial_order: null

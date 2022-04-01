@@ -7,142 +7,114 @@ uid,gsdb,manufacturer,engine,model,combustor,engine_type,thrust,einox,eico,eihc,
 1AS002,1,Allied Signal,,TFE731-3,,TF,14.025,16.02,1.62,0.072,,0.186
 1AS002,1,Allied Signal,,TFE731-3,,TF,4.95,6.92,15.56,1.41,,0.072
 1AS002,1,Allied Signal,,TFE731-3,,TF,1.155,3.72,47.7,9.04,,0.026
-4AL003,4,Rolls-Royce Corporation,,AE3007A,,MTF,33.73,20.54,0.75,0.25,1.0,0.377
-4AL003,4,Rolls-Royce Corporation,,AE3007A,,MTF,28.670499999999997,17.47,0.92,0.29,0.0,0.315
-4AL003,4,Rolls-Royce Corporation,,AE3007A,,MTF,10.118999999999998,7.79,3.28,0.64,0.0,0.117
-4AL003,4,Rolls-Royce Corporation,,AE3007A,,MTF,2.3611,3.83,17.35,2.51,0.0,0.049
-6AL004,6,Rolls-Royce Corporation,,AE3007C1,,MTF,31.5,17.9,0.87,0.24,1.0,0.322
-6AL004,6,Rolls-Royce Corporation,,AE3007C1,,MTF,26.775,15.35,1.07,0.28,0.0,0.269
-6AL004,6,Rolls-Royce Corporation,,AE3007C1,,MTF,9.45,7.05,3.96,0.66,0.0,0.099
-6AL004,6,Rolls-Royce Corporation,,AE3007C1,,MTF,2.205,3.37,26.04,4.84,0.0,0.042
-6AL005,6,Rolls-Royce Corporation,,AE3007A1,Type 1,MTF,34.91,19.66,0.77,0.221,1.0,0.3826
-6AL005,6,Rolls-Royce Corporation,,AE3007A1,Type 1,MTF,29.673499999999997,16.63,0.96,0.257,0.01,0.318
-6AL005,6,Rolls-Royce Corporation,,AE3007A1,Type 1,MTF,10.472999999999999,7.1,3.91,0.655,0.01,0.113
-6AL005,6,Rolls-Royce Corporation,,AE3007A1,Type 1,MTF,2.4437,3.47,23.73,3.818,0.01,0.0461
-6AL006,6,Rolls-Royce Corporation,,AE3007A1,Type 2,MTF,34.91,22.41,0.12,0.0,0.01,0.3826
-6AL006,6,Rolls-Royce Corporation,,AE3007A1,Type 2,MTF,29.673499999999997,19.58,0.01,0.0,0.01,0.318
-6AL006,6,Rolls-Royce Corporation,,AE3007A1,Type 2,MTF,10.472999999999999,7.2,1.36,0.18,0.01,0.113
-6AL006,6,Rolls-Royce Corporation,,AE3007A1,Type 2,MTF,2.4437,3.19,32.59,5.04,0.01,0.0461
-4AL002,4,Rolls-Royce Corporation,,AE3007A1 series,,MTF,33.73,19.78,0.79,0.26,1.0,0.38
-4AL002,4,Rolls-Royce Corporation,,AE3007A1 series,,MTF,28.670499999999997,16.84,0.97,0.3,0.0,0.319
-4AL002,4,Rolls-Royce Corporation,,AE3007A1 series,,MTF,10.118999999999998,7.22,3.8,0.72,0.0,0.117
-4AL002,4,Rolls-Royce Corporation,,AE3007A1 series,,MTF,2.3611,3.52,22.43,3.1,0.0,0.05
-6AL007,6,Rolls-Royce Corporation,,AE3007A1,Type 3 (reduced emissions),MTF,34.91,16.17,0.75,0.03,0.01,0.3826
-6AL007,6,Rolls-Royce Corporation,,AE3007A1,Type 3 (reduced emissions),MTF,29.673499999999997,14.07,0.56,0.03,0.01,0.318
-6AL007,6,Rolls-Royce Corporation,,AE3007A1,Type 3 (reduced emissions),MTF,10.472999999999999,7.13,6.72,0.03,0.01,0.113
-6AL007,6,Rolls-Royce Corporation,,AE3007A1,Type 3 (reduced emissions),MTF,2.4437,4.17,39.91,3.85,0.01,0.0461
-6AL008,6,Rolls-Royce Corporation,,AE3007A1/1,Type 1,MTF,34.74,19.57,0.77,0.222,1.0,0.3805
-6AL008,6,Rolls-Royce Corporation,,AE3007A1/1,Type 1,MTF,29.529,16.55,0.97,0.258,0.01,0.3163
-6AL008,6,Rolls-Royce Corporation,,AE3007A1/1,Type 1,MTF,10.422,7.07,3.93,0.658,0.01,0.1125
-6AL008,6,Rolls-Royce Corporation,,AE3007A1/1,Type 1,MTF,2.4318000000000004,3.46,23.95,3.92,0.01,0.0459
-6AL009,6,Rolls-Royce Corporation,,AE3007A1/1,Type 2,MTF,34.74,22.31,0.0,0.0,0.01,0.3805
-6AL009,6,Rolls-Royce Corporation,,AE3007A1/1,Type 2,MTF,29.529,19.49,0.0,0.0,0.01,0.3163
-6AL009,6,Rolls-Royce Corporation,,AE3007A1/1,Type 2,MTF,10.422,7.16,1.4,0.18,0.01,0.1125
-6AL009,6,Rolls-Royce Corporation,,AE3007A1/1,Type 2,MTF,2.4318000000000004,3.19,32.84,5.1,0.01,0.0459
-6AL010,6,Rolls-Royce Corporation,,AE3007A1/1,Type 3 (reduced emissions),MTF,34.74,16.1,0.74,0.03,0.01,0.3805
-6AL010,6,Rolls-Royce Corporation,,AE3007A1/1,Type 3 (reduced emissions),MTF,29.529,14.01,0.55,0.03,0.01,0.3163
-6AL010,6,Rolls-Royce Corporation,,AE3007A1/1,Type 3 (reduced emissions),MTF,10.422,7.12,6.8,0.03,0.01,0.1125
-6AL010,6,Rolls-Royce Corporation,,AE3007A1/1,Type 3 (reduced emissions),MTF,2.4318000000000004,4.17,40.07,3.88,0.01,0.0459
-6AL011,6,Rolls-Royce Corporation,,AE3007A1/3,Type 1,MTF,33.05,18.55,0.83,0.233,1.0,0.3589
-6AL011,6,Rolls-Royce Corporation,,AE3007A1/3,Type 1,MTF,28.092499999999998,15.81,1.03,0.269,0.01,0.2999
-6AL011,6,Rolls-Royce Corporation,,AE3007A1/3,Type 1,MTF,9.915,6.83,4.21,0.689,0.01,0.1077
-6AL011,6,Rolls-Royce Corporation,,AE3007A1/3,Type 1,MTF,2.3135,3.39,25.58,4.64,0.01,0.0449
-6AL012,6,Rolls-Royce Corporation,,AE3007A1/3,Type 2,MTF,33.05,21.26,0.0,0.0,0.01,0.3589
-6AL012,6,Rolls-Royce Corporation,,AE3007A1/3,Type 2,MTF,28.092499999999998,18.62,0.0,0.0,0.01,0.2999
-6AL012,6,Rolls-Royce Corporation,,AE3007A1/3,Type 2,MTF,9.915,6.84,1.83,0.21,0.01,0.1077
-6AL012,6,Rolls-Royce Corporation,,AE3007A1/3,Type 2,MTF,2.3135,3.29,32.4,5.23,0.01,0.0449
-6AL013,6,Rolls-Royce Corporation,,AE3007A1/3,Type 3 (reduced emissions),MTF,33.05,15.42,0.5,0.03,0.01,0.3589
-6AL013,6,Rolls-Royce Corporation,,AE3007A1/3,Type 3 (reduced emissions),MTF,28.092499999999998,13.49,0.5,0.03,0.01,0.2999
-6AL013,6,Rolls-Royce Corporation,,AE3007A1/3,Type 3 (reduced emissions),MTF,9.915,6.93,7.62,0.03,0.01,0.1077
-6AL013,6,Rolls-Royce Corporation,,AE3007A1/3,Type 3 (reduced emissions),MTF,2.3135,4.27,38.47,3.81,0.01,0.0449
-6AL014,6,Rolls-Royce Corporation,,AE3007A1P,Type 1,MTF,34.74,19.57,0.77,0.222,1.0,0.3806
-6AL014,6,Rolls-Royce Corporation,,AE3007A1P,Type 1,MTF,29.529,16.56,0.97,0.258,0.01,0.3163
-6AL014,6,Rolls-Royce Corporation,,AE3007A1P,Type 1,MTF,10.422,7.07,3.93,0.658,0.01,0.1126
-6AL014,6,Rolls-Royce Corporation,,AE3007A1P,Type 1,MTF,2.4318000000000004,3.47,23.8,3.85,0.01,0.046
-6AL015,6,Rolls-Royce Corporation,,AE3007A1P,Type 2,MTF,34.74,22.02,0.0,0.0,0.01,0.3806
-6AL015,6,Rolls-Royce Corporation,,AE3007A1P,Type 2,MTF,29.529,19.16,0.0,0.0,0.01,0.3163
-6AL015,6,Rolls-Royce Corporation,,AE3007A1P,Type 2,MTF,10.422,6.89,1.51,0.19,0.01,0.1126
-6AL015,6,Rolls-Royce Corporation,,AE3007A1P,Type 2,MTF,2.4318000000000004,3.19,32.68,5.06,0.01,0.046
-6AL016,6,Rolls-Royce Corporation,,AE3007A1P,Type 3 (reduced emissions),MTF,34.74,16.1,0.74,0.03,0.01,0.3806
-6AL016,6,Rolls-Royce Corporation,,AE3007A1P,Type 3 (reduced emissions),MTF,29.529,14.01,0.55,0.03,0.01,0.3163
-6AL016,6,Rolls-Royce Corporation,,AE3007A1P,Type 3 (reduced emissions),MTF,10.422,7.12,6.79,0.03,0.01,0.1126
-6AL016,6,Rolls-Royce Corporation,,AE3007A1P,Type 3 (reduced emissions),MTF,2.4318000000000004,4.17,39.97,3.86,0.01,0.046
-10AL026,10,Rolls-Royce Corporation,,AE3007A2,Type 3 (reduced emissions),MTF,42.23,18.61,0.71,0.0,0.01,0.466
-10AL026,10,Rolls-Royce Corporation,,AE3007A2,Type 3 (reduced emissions),MTF,35.8955,15.99,0.74,0.0,0.01,0.388
-10AL026,10,Rolls-Royce Corporation,,AE3007A2,Type 3 (reduced emissions),MTF,12.668999999999999,7.9,4.08,0.0,0.01,0.138
-10AL026,10,Rolls-Royce Corporation,,AE3007A2,Type 3 (reduced emissions),MTF,2.9561,4.39,34.17,1.71,0.01,0.055
-6AL017,6,Rolls-Royce Corporation,,AE3007A3,Type 1,MTF,33.0,18.52,0.83,0.233,1.0,0.3583
-6AL017,6,Rolls-Royce Corporation,,AE3007A3,Type 1,MTF,28.05,15.79,1.03,0.27,0.01,0.2995
-6AL017,6,Rolls-Royce Corporation,,AE3007A3,Type 1,MTF,9.9,6.83,4.22,0.69,0.01,0.1076
-6AL017,6,Rolls-Royce Corporation,,AE3007A3,Type 1,MTF,2.31,3.38,25.73,4.705,0.01,0.0448
-6AL018,6,Rolls-Royce Corporation,,AE3007A3,Type 2,MTF,33.0,20.93,0.0,0.0,0.01,0.3583
-6AL018,6,Rolls-Royce Corporation,,AE3007A3,Type 2,MTF,28.05,18.27,0.0,0.0,0.01,0.2995
-6AL018,6,Rolls-Royce Corporation,,AE3007A3,Type 2,MTF,9.9,6.56,2.0,0.23,0.01,0.1076
-6AL018,6,Rolls-Royce Corporation,,AE3007A3,Type 2,MTF,2.31,3.18,34.86,5.65,0.01,0.0448
-6AL019,6,Rolls-Royce Corporation,,AE3007A3,Type 3 (reduced emissions),MTF,33.0,15.4,0.5,0.03,0.01,0.3583
-6AL019,6,Rolls-Royce Corporation,,AE3007A3,Type 3 (reduced emissions),MTF,28.05,13.48,0.5,0.03,0.01,0.2995
-6AL019,6,Rolls-Royce Corporation,,AE3007A3,Type 3 (reduced emissions),MTF,9.9,6.93,7.65,0.03,0.01,0.1076
-6AL019,6,Rolls-Royce Corporation,,AE3007A3,Type 3 (reduced emissions),MTF,2.31,4.12,41.29,4.1,0.01,0.0448
-3AL001,3,Rolls-Royce Corporation,,AE3007C,,MTF,28.6,16.92,0.97,0.29,1.0,0.28
-3AL001,3,Rolls-Royce Corporation,,AE3007C,,MTF,24.310000000000002,14.56,1.19,0.33,0.0,0.234
-3AL001,3,Rolls-Royce Corporation,,AE3007C,,MTF,8.58,6.63,4.5,0.83,0.0,0.091
-3AL001,3,Rolls-Royce Corporation,,AE3007C,,MTF,2.0020000000000002,3.24,29.88,5.84,0.0,0.039
-6AL020,6,Rolls-Royce Corporation,,AE3007A1E,Type 3,MTF,37.16,17.17,0.77,0.03,0.01,0.4122
-6AL020,6,Rolls-Royce Corporation,,AE3007A1E,Type 3,MTF,31.585999999999995,14.91,0.64,0.03,0.01,0.3425
-6AL020,6,Rolls-Royce Corporation,,AE3007A1E,Type 3,MTF,11.147999999999998,7.42,5.63,0.03,0.01,0.12
-6AL020,6,Rolls-Royce Corporation,,AE3007A1E,Type 3,MTF,2.6012,4.26,37.97,3.52,0.01,0.0475
-6AL021,6,Rolls-Royce Corporation,,AE3007C,Type 1,MTF,29.62,16.88,0.94,0.254,1.0,0.301
-6AL021,6,Rolls-Royce Corporation,,AE3007C,Type 1,MTF,25.177,14.57,1.16,0.291,0.01,0.2527
-6AL021,6,Rolls-Royce Corporation,,AE3007C,Type 1,MTF,8.886,6.78,4.28,0.696,0.01,0.0943
-6AL021,6,Rolls-Royce Corporation,,AE3007C,Type 1,MTF,2.0734000000000004,3.36,26.32,4.953,0.01,0.0377
-8AL025,8,Rolls-Royce Corporation,,AE3007C,Type 1,MTF,29.62,16.88,0.94,0.254,1.0,0.301
-8AL025,8,Rolls-Royce Corporation,,AE3007C,Type 1,MTF,25.177,14.57,1.16,0.291,0.01,0.2527
-8AL025,8,Rolls-Royce Corporation,,AE3007C,Type 1,MTF,8.886,6.78,4.28,0.696,0.01,0.0943
-8AL025,8,Rolls-Royce Corporation,,AE3007C,Type 1,MTF,2.0734000000000004,3.36,26.32,4.953,0.01,0.0377
-6AL022,6,Rolls-Royce Corporation,,AE3007C,Type 2,MTF,29.62,19.36,0.0,0.0,0.01,0.301
-6AL022,6,Rolls-Royce Corporation,,AE3007C,Type 2,MTF,25.177,17.01,0.0,0.01,0.01,0.2527
-6AL022,6,Rolls-Royce Corporation,,AE3007C,Type 2,MTF,8.886,6.62,2.02,0.23,0.01,0.0943
-6AL022,6,Rolls-Royce Corporation,,AE3007C,Type 2,MTF,2.0734000000000004,3.2,35.07,5.75,0.01,0.0377
-6AL023,6,Rolls-Royce Corporation,,AE3007C1,Type 1,MTF,31.46,17.9,0.87,0.24,1.0,0.3222
-6AL023,6,Rolls-Royce Corporation,,AE3007C1,Type 1,MTF,26.741,15.35,1.07,0.277,0.01,0.2689
-6AL023,6,Rolls-Royce Corporation,,AE3007C1,Type 1,MTF,9.438,7.05,3.96,0.661,0.01,0.0991
-6AL023,6,Rolls-Royce Corporation,,AE3007C1,Type 1,MTF,2.2022000000000004,3.37,26.04,4.837,0.01,0.0418
-6AL024,6,Rolls-Royce Corporation,,AE3007C1,Type 2,MTF,31.46,20.2,0.0,0.0,0.01,0.3222
-6AL024,6,Rolls-Royce Corporation,,AE3007C1,Type 2,MTF,26.741,17.6,0.0,0.01,0.01,0.2689
-6AL024,6,Rolls-Royce Corporation,,AE3007C1,Type 2,MTF,9.438,6.71,1.62,0.21,0.01,0.0991
-6AL024,6,Rolls-Royce Corporation,,AE3007C1,Type 2,MTF,2.2022000000000004,3.14,36.04,5.88,0.01,0.0418
-13AL027,13,Rolls-Royce Corporation,,AE3007C2,Type 2,MTF,32.73,21.25,0.0,0.0,0.01,0.3263
-13AL027,13,Rolls-Royce Corporation,,AE3007C2,Type 2,MTF,27.820499999999996,18.11,0.0,0.01,0.01,0.2714
-13AL027,13,Rolls-Royce Corporation,,AE3007C2,Type 2,MTF,9.818999999999999,6.56,1.97,0.22,0.01,0.0985
-13AL027,13,Rolls-Royce Corporation,,AE3007C2,Type 2,MTF,2.2911,3.14,23.09,2.57,0.01,0.0472
-01P06AL028,6,Rolls-Royce Corporation,,AE3007A1,Type 3 (reduced emissions),MTF,34.91,16.17,0.75,0.03,0.01,0.3826
-01P06AL028,6,Rolls-Royce Corporation,,AE3007A1,Type 3 (reduced emissions),MTF,29.673499999999997,14.07,0.56,0.03,0.01,0.318
-01P06AL028,6,Rolls-Royce Corporation,,AE3007A1,Type 3 (reduced emissions),MTF,10.472999999999999,7.13,6.72,0.03,0.01,0.113
-01P06AL028,6,Rolls-Royce Corporation,,AE3007A1,Type 3 (reduced emissions),MTF,2.4437,4.17,39.91,3.85,0.01,0.0461
-01P06AL029,6,Rolls-Royce Corporation,,AE3007A1/1,Type 3 (reduced emissions),MTF,34.74,16.1,0.74,0.03,0.01,0.3805
-01P06AL029,6,Rolls-Royce Corporation,,AE3007A1/1,Type 3 (reduced emissions),MTF,29.529,14.01,0.55,0.03,0.01,0.3163
-01P06AL029,6,Rolls-Royce Corporation,,AE3007A1/1,Type 3 (reduced emissions),MTF,10.422,7.12,6.8,0.03,0.01,0.1125
-01P06AL029,6,Rolls-Royce Corporation,,AE3007A1/1,Type 3 (reduced emissions),MTF,2.4318000000000004,4.17,40.07,3.88,0.01,0.0459
-01P06AL030,6,Rolls-Royce Corporation,,AE3007A1/3,Type 3 (reduced emissions),MTF,33.05,15.42,0.5,0.03,0.01,0.3589
-01P06AL030,6,Rolls-Royce Corporation,,AE3007A1/3,Type 3 (reduced emissions),MTF,28.092499999999998,13.49,0.5,0.03,0.01,0.2999
-01P06AL030,6,Rolls-Royce Corporation,,AE3007A1/3,Type 3 (reduced emissions),MTF,9.915,6.93,7.62,0.03,0.01,0.1077
-01P06AL030,6,Rolls-Royce Corporation,,AE3007A1/3,Type 3 (reduced emissions),MTF,2.3135,4.27,38.47,3.81,0.01,0.0449
-01P06AL031,6,Rolls-Royce Corporation,,AE3007A1P,Type 3 (reduced emissions),MTF,34.74,16.1,0.74,0.03,0.01,0.3806
-01P06AL031,6,Rolls-Royce Corporation,,AE3007A1P,Type 3 (reduced emissions),MTF,29.529,14.01,0.55,0.03,0.01,0.3163
-01P06AL031,6,Rolls-Royce Corporation,,AE3007A1P,Type 3 (reduced emissions),MTF,10.422,7.12,6.79,0.03,0.01,0.1126
-01P06AL031,6,Rolls-Royce Corporation,,AE3007A1P,Type 3 (reduced emissions),MTF,2.4318000000000004,4.17,39.97,3.86,0.01,0.046
-01P06AL032,6,Rolls-Royce Corporation,,AE3007A1E,Type 3 (reduced emissions),MTF,37.16,17.17,0.77,0.03,0.01,0.4122
-01P06AL032,6,Rolls-Royce Corporation,,AE3007A1E,Type 3 (reduced emissions),MTF,31.585999999999995,14.91,0.64,0.03,0.01,0.3425
-01P06AL032,6,Rolls-Royce Corporation,,AE3007A1E,Type 3 (reduced emissions),MTF,11.147999999999998,7.42,5.63,0.03,0.01,0.12
-01P06AL032,6,Rolls-Royce Corporation,,AE3007A1E,Type 3 (reduced emissions),MTF,2.6012,4.26,37.97,3.52,0.01,0.0475
-01P10AL033,10,Rolls-Royce Corporation,,AE3007A2,Type 3 (reduced emissions),MTF,42.23,18.61,0.71,0.0,0.01,0.466
-01P10AL033,10,Rolls-Royce Corporation,,AE3007A2,Type 3 (reduced emissions),MTF,35.8955,15.99,0.74,0.0,0.01,0.388
-01P10AL033,10,Rolls-Royce Corporation,,AE3007A2,Type 3 (reduced emissions),MTF,12.668999999999999,7.9,4.08,0.0,0.01,0.138
-01P10AL033,10,Rolls-Royce Corporation,,AE3007A2,Type 3 (reduced emissions),MTF,2.9561,4.39,34.17,1.71,0.01,0.055
-01P06AL034,6,Rolls-Royce Corporation,,AE3007A3,Type 3 (reduced emissions),MTF,33.0,15.4,0.5,0.03,0.01,0.3583
-01P06AL034,6,Rolls-Royce Corporation,,AE3007A3,Type 3 (reduced emissions),MTF,28.05,13.48,0.5,0.03,0.01,0.2995
-01P06AL034,6,Rolls-Royce Corporation,,AE3007A3,Type 3 (reduced emissions),MTF,9.9,6.93,7.65,0.03,0.01,0.1076
-01P06AL034,6,Rolls-Royce Corporation,,AE3007A3,Type 3 (reduced emissions),MTF,2.31,4.12,41.29,4.1,0.01,0.0448
+4AL003,4,Rolls-Royce Corporation,AE3007 Type-1,AE3007A,,MTF,33.73,20.54,0.75,0.25,1.0,0.377
+4AL003,4,Rolls-Royce Corporation,AE3007 Type-1,AE3007A,,MTF,28.670499999999997,17.47,0.92,0.29,0.0,0.315
+4AL003,4,Rolls-Royce Corporation,AE3007 Type-1,AE3007A,,MTF,10.118999999999998,7.79,3.28,0.64,0.0,0.117
+4AL003,4,Rolls-Royce Corporation,AE3007 Type-1,AE3007A,,MTF,2.3611,3.83,17.35,2.51,0.0,0.049
+6AL004,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007C1,,MTF,31.5,17.9,0.87,0.24,1.0,0.322
+6AL004,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007C1,,MTF,26.775,15.35,1.07,0.28,0.0,0.269
+6AL004,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007C1,,MTF,9.45,7.05,3.96,0.66,0.0,0.099
+6AL004,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007C1,,MTF,2.205,3.37,26.04,4.84,0.0,0.042
+6AL005,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1,Type 1,MTF,34.91,19.66,0.77,0.221,1.0,0.3826
+6AL005,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1,Type 1,MTF,29.673499999999997,16.63,0.96,0.257,0.01,0.318
+6AL005,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1,Type 1,MTF,10.472999999999999,7.1,3.91,0.655,0.01,0.113
+6AL005,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1,Type 1,MTF,2.4437,3.47,23.73,3.818,0.01,0.0461
+6AL006,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1,Type 2,MTF,34.91,22.41,0.12,0.0,0.01,0.3826
+6AL006,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1,Type 2,MTF,29.673499999999997,19.58,0.01,0.0,0.01,0.318
+6AL006,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1,Type 2,MTF,10.472999999999999,7.2,1.36,0.18,0.01,0.113
+6AL006,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1,Type 2,MTF,2.4437,3.19,32.59,5.04,0.01,0.0461
+4AL002,4,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1 series,,MTF,33.73,19.78,0.79,0.26,1.0,0.38
+4AL002,4,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1 series,,MTF,28.670499999999997,16.84,0.97,0.3,0.0,0.319
+4AL002,4,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1 series,,MTF,10.118999999999998,7.22,3.8,0.72,0.0,0.117
+4AL002,4,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1 series,,MTF,2.3611,3.52,22.43,3.1,0.0,0.05
+6AL008,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1/1,Type 1,MTF,34.74,19.57,0.77,0.222,1.0,0.3805
+6AL008,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1/1,Type 1,MTF,29.529,16.55,0.97,0.258,0.01,0.3163
+6AL008,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1/1,Type 1,MTF,10.422,7.07,3.93,0.658,0.01,0.1125
+6AL008,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1/1,Type 1,MTF,2.4318000000000004,3.46,23.95,3.92,0.01,0.0459
+6AL009,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1/1,Type 2,MTF,34.74,22.31,0.0,0.0,0.01,0.3805
+6AL009,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1/1,Type 2,MTF,29.529,19.49,0.0,0.0,0.01,0.3163
+6AL009,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1/1,Type 2,MTF,10.422,7.16,1.4,0.18,0.01,0.1125
+6AL009,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1/1,Type 2,MTF,2.4318000000000004,3.19,32.84,5.1,0.01,0.0459
+6AL011,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1/3,Type 1,MTF,33.05,18.55,0.83,0.233,1.0,0.3589
+6AL011,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1/3,Type 1,MTF,28.092499999999998,15.81,1.03,0.269,0.01,0.2999
+6AL011,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1/3,Type 1,MTF,9.915,6.83,4.21,0.689,0.01,0.1077
+6AL011,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1/3,Type 1,MTF,2.3135,3.39,25.58,4.64,0.01,0.0449
+6AL012,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1/3,Type 2,MTF,33.05,21.26,0.0,0.0,0.01,0.3589
+6AL012,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1/3,Type 2,MTF,28.092499999999998,18.62,0.0,0.0,0.01,0.2999
+6AL012,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1/3,Type 2,MTF,9.915,6.84,1.83,0.21,0.01,0.1077
+6AL012,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1/3,Type 2,MTF,2.3135,3.29,32.4,5.23,0.01,0.0449
+6AL014,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1P,Type 1,MTF,34.74,19.57,0.77,0.222,1.0,0.3806
+6AL014,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1P,Type 1,MTF,29.529,16.56,0.97,0.258,0.01,0.3163
+6AL014,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1P,Type 1,MTF,10.422,7.07,3.93,0.658,0.01,0.1126
+6AL014,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A1P,Type 1,MTF,2.4318000000000004,3.47,23.8,3.85,0.01,0.046
+6AL015,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1P,Type 2,MTF,34.74,22.02,0.0,0.0,0.01,0.3806
+6AL015,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1P,Type 2,MTF,29.529,19.16,0.0,0.0,0.01,0.3163
+6AL015,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1P,Type 2,MTF,10.422,6.89,1.51,0.19,0.01,0.1126
+6AL015,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A1P,Type 2,MTF,2.4318000000000004,3.19,32.68,5.06,0.01,0.046
+6AL017,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A3,Type 1,MTF,33.0,18.52,0.83,0.233,1.0,0.3583
+6AL017,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A3,Type 1,MTF,28.05,15.79,1.03,0.27,0.01,0.2995
+6AL017,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A3,Type 1,MTF,9.9,6.83,4.22,0.69,0.01,0.1076
+6AL017,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007A3,Type 1,MTF,2.31,3.38,25.73,4.705,0.01,0.0448
+6AL018,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A3,Type 2,MTF,33.0,20.93,0.0,0.0,0.01,0.3583
+6AL018,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A3,Type 2,MTF,28.05,18.27,0.0,0.0,0.01,0.2995
+6AL018,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A3,Type 2,MTF,9.9,6.56,2.0,0.23,0.01,0.1076
+6AL018,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007A3,Type 2,MTF,2.31,3.18,34.86,5.65,0.01,0.0448
+3AL001,3,Rolls-Royce Corporation,AE3007 Type-1,AE3007C,,MTF,28.6,16.92,0.97,0.29,1.0,0.28
+3AL001,3,Rolls-Royce Corporation,AE3007 Type-1,AE3007C,,MTF,24.310000000000002,14.56,1.19,0.33,0.0,0.234
+3AL001,3,Rolls-Royce Corporation,AE3007 Type-1,AE3007C,,MTF,8.58,6.63,4.5,0.83,0.0,0.091
+3AL001,3,Rolls-Royce Corporation,AE3007 Type-1,AE3007C,,MTF,2.0020000000000002,3.24,29.88,5.84,0.0,0.039
+6AL021,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007C,Type 1,MTF,29.62,16.88,0.94,0.254,1.0,0.301
+6AL021,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007C,Type 1,MTF,25.177,14.57,1.16,0.291,0.01,0.2527
+6AL021,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007C,Type 1,MTF,8.886,6.78,4.28,0.696,0.01,0.0943
+6AL021,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007C,Type 1,MTF,2.0734000000000004,3.36,26.32,4.953,0.01,0.0377
+8AL025,8,Rolls-Royce Corporation,AE3007 Type-1,AE3007C,Type 1,MTF,29.62,16.88,0.94,0.254,1.0,0.301
+8AL025,8,Rolls-Royce Corporation,AE3007 Type-1,AE3007C,Type 1,MTF,25.177,14.57,1.16,0.291,0.01,0.2527
+8AL025,8,Rolls-Royce Corporation,AE3007 Type-1,AE3007C,Type 1,MTF,8.886,6.78,4.28,0.696,0.01,0.0943
+8AL025,8,Rolls-Royce Corporation,AE3007 Type-1,AE3007C,Type 1,MTF,2.0734000000000004,3.36,26.32,4.953,0.01,0.0377
+6AL022,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007C,Type 2,MTF,29.62,19.36,0.0,0.0,0.01,0.301
+6AL022,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007C,Type 2,MTF,25.177,17.01,0.0,0.01,0.01,0.2527
+6AL022,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007C,Type 2,MTF,8.886,6.62,2.02,0.23,0.01,0.0943
+6AL022,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007C,Type 2,MTF,2.0734000000000004,3.2,35.07,5.75,0.01,0.0377
+6AL023,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007C1,Type 1,MTF,31.46,17.9,0.87,0.24,1.0,0.3222
+6AL023,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007C1,Type 1,MTF,26.741,15.35,1.07,0.277,0.01,0.2689
+6AL023,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007C1,Type 1,MTF,9.438,7.05,3.96,0.661,0.01,0.0991
+6AL023,6,Rolls-Royce Corporation,AE3007 Type-1,AE3007C1,Type 1,MTF,2.2022000000000004,3.37,26.04,4.837,0.01,0.0418
+6AL024,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007C1,Type 2,MTF,31.46,20.2,0.0,0.0,0.01,0.3222
+6AL024,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007C1,Type 2,MTF,26.741,17.6,0.0,0.01,0.01,0.2689
+6AL024,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007C1,Type 2,MTF,9.438,6.71,1.62,0.21,0.01,0.0991
+6AL024,6,Rolls-Royce Corporation,AE3007 Type-2,AE3007C1,Type 2,MTF,2.2022000000000004,3.14,36.04,5.88,0.01,0.0418
+13AL027,13,Rolls-Royce Corporation,AE3007 Type-2,AE3007C2,Type 2,MTF,32.73,21.25,0.0,0.0,0.01,0.3263
+13AL027,13,Rolls-Royce Corporation,AE3007 Type-2,AE3007C2,Type 2,MTF,27.820499999999996,18.11,0.0,0.01,0.01,0.2714
+13AL027,13,Rolls-Royce Corporation,AE3007 Type-2,AE3007C2,Type 2,MTF,9.818999999999999,6.56,1.97,0.22,0.01,0.0985
+13AL027,13,Rolls-Royce Corporation,AE3007 Type-2,AE3007C2,Type 2,MTF,2.2911,3.14,23.09,2.57,0.01,0.0472
+01P06AL028,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1,Type 3 (reduced emissions),MTF,34.91,16.17,0.75,0.03,0.01,0.3826
+01P06AL028,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1,Type 3 (reduced emissions),MTF,29.673499999999997,14.07,0.56,0.03,0.01,0.318
+01P06AL028,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1,Type 3 (reduced emissions),MTF,10.472999999999999,7.13,6.72,0.03,0.01,0.113
+01P06AL028,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1,Type 3 (reduced emissions),MTF,2.4437,4.17,39.91,3.85,0.01,0.0461
+01P06AL029,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1/1,Type 3 (reduced emissions),MTF,34.74,16.1,0.74,0.03,0.01,0.3805
+01P06AL029,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1/1,Type 3 (reduced emissions),MTF,29.529,14.01,0.55,0.03,0.01,0.3163
+01P06AL029,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1/1,Type 3 (reduced emissions),MTF,10.422,7.12,6.8,0.03,0.01,0.1125
+01P06AL029,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1/1,Type 3 (reduced emissions),MTF,2.4318000000000004,4.17,40.07,3.88,0.01,0.0459
+01P06AL030,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1/3,Type 3 (reduced emissions),MTF,33.05,15.42,0.5,0.03,0.01,0.3589
+01P06AL030,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1/3,Type 3 (reduced emissions),MTF,28.092499999999998,13.49,0.5,0.03,0.01,0.2999
+01P06AL030,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1/3,Type 3 (reduced emissions),MTF,9.915,6.93,7.62,0.03,0.01,0.1077
+01P06AL030,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1/3,Type 3 (reduced emissions),MTF,2.3135,4.27,38.47,3.81,0.01,0.0449
+01P06AL031,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1P,Type 3 (reduced emissions),MTF,34.74,16.1,0.74,0.03,0.01,0.3806
+01P06AL031,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1P,Type 3 (reduced emissions),MTF,29.529,14.01,0.55,0.03,0.01,0.3163
+01P06AL031,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1P,Type 3 (reduced emissions),MTF,10.422,7.12,6.79,0.03,0.01,0.1126
+01P06AL031,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1P,Type 3 (reduced emissions),MTF,2.4318000000000004,4.17,39.97,3.86,0.01,0.046
+01P06AL032,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1E,Type 3 (reduced emissions),MTF,37.16,17.17,0.77,0.03,0.01,0.4122
+01P06AL032,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1E,Type 3 (reduced emissions),MTF,31.585999999999995,14.91,0.64,0.03,0.01,0.3425
+01P06AL032,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1E,Type 3 (reduced emissions),MTF,11.147999999999998,7.42,5.63,0.03,0.01,0.12
+01P06AL032,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A1E,Type 3 (reduced emissions),MTF,2.6012,4.26,37.97,3.52,0.01,0.0475
+01P10AL033,10,Rolls-Royce Corporation,AE3007 Type-3,AE3007A2,Type 3 (reduced emissions),MTF,42.23,18.61,0.71,0.0,0.01,0.466
+01P10AL033,10,Rolls-Royce Corporation,AE3007 Type-3,AE3007A2,Type 3 (reduced emissions),MTF,35.8955,15.99,0.74,0.0,0.01,0.388
+01P10AL033,10,Rolls-Royce Corporation,AE3007 Type-3,AE3007A2,Type 3 (reduced emissions),MTF,12.668999999999999,7.9,4.08,0.0,0.01,0.138
+01P10AL033,10,Rolls-Royce Corporation,AE3007 Type-3,AE3007A2,Type 3 (reduced emissions),MTF,2.9561,4.39,34.17,1.71,0.01,0.055
+01P06AL034,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A3,Type 3 (reduced emissions),MTF,33.0,15.4,0.5,0.03,0.01,0.3583
+01P06AL034,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A3,Type 3 (reduced emissions),MTF,28.05,13.48,0.5,0.03,0.01,0.2995
+01P06AL034,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A3,Type 3 (reduced emissions),MTF,9.9,6.93,7.65,0.03,0.01,0.1076
+01P06AL034,6,Rolls-Royce Corporation,AE3007 Type-3,AE3007A3,Type 3 (reduced emissions),MTF,2.31,4.12,41.29,4.1,0.01,0.0448
 1AA001,1,Aviadvigatel,,D-30 (Il series),,MTF,66.64,19.1,2.7,0.12,33.0,1.15
 1AA001,1,Aviadvigatel,,D-30 (Il series),,MTF,56.644,16.3,3.2,0.14,35.0,0.975
 1AA001,1,Aviadvigatel,,D-30 (Il series),,MTF,19.992,7.0,14.5,1.5,27.0,0.35
@@ -2219,382 +2191,302 @@ uid,gsdb,manufacturer,engine,model,combustor,engine_type,thrust,einox,eico,eihc,
 1RR021,1,Rolls-Royce plc,,TAY Mk650-15,,MTF,57.12,16.47,2.01,0.41,16.0,0.715
 1RR021,1,Rolls-Royce plc,,TAY Mk650-15,,MTF,20.16,4.55,6.54,0.88,2.2,0.254
 1RR021,1,Rolls-Royce plc,,TAY Mk650-15,,MTF,4.704000000000001,1.7,33.77,3.29,0.3,0.119
-8RR044,8,Rolls-Royce plc,,Trent 553-61,Phase5 Tiled,TF,251.9,40.55,0.18,0.02,4.29,2.11
-8RR044,8,Rolls-Royce plc,,Trent 553-61,Phase5 Tiled,TF,214.115,30.98,0.44,0.01,4.15,1.73
-8RR044,8,Rolls-Royce plc,,Trent 553-61,Phase5 Tiled,TF,75.57,11.37,0.66,0.04,1.95,0.6
-8RR044,8,Rolls-Royce plc,,Trent 553-61,Phase5 Tiled,TF,17.633000000000003,5.96,10.5,0.14,0.91,0.23
-6RR041,6,Rolls-Royce plc,,Trent 556-61,Phase5 Tiled,TF,261.5,44.91,0.02,0.0,2.24,2.24
-6RR041,6,Rolls-Royce plc,,Trent 556-61,Phase5 Tiled,TF,222.275,32.76,0.25,0.0,2.09,1.83
-6RR041,6,Rolls-Royce plc,,Trent 556-61,Phase5 Tiled,TF,78.45,11.78,0.46,0.0,1.02,0.62
-6RR041,6,Rolls-Royce plc,,Trent 556-61,Phase5 Tiled,TF,18.305000000000003,6.19,10.3,0.1,0.76,0.23
-8RR045,8,Rolls-Royce plc,,Trent 556-61,Phase5 Tiled,TF,263.9,44.77,0.17,0.02,4.34,2.24
-8RR045,8,Rolls-Royce plc,,Trent 556-61,Phase5 Tiled,TF,224.31499999999997,33.25,0.38,0.01,4.17,1.83
-8RR045,8,Rolls-Royce plc,,Trent 556-61,Phase5 Tiled,TF,79.16999999999999,11.68,0.54,0.04,2.05,0.62
-8RR045,8,Rolls-Royce plc,,Trent 556-61,Phase5 Tiled,TF,18.473,6.09,9.96,0.13,0.93,0.23
-2RR022,2,Rolls-Royce plc,,Trent 768,,MTF,298.7,39.11,0.18,0.25,,2.94
-2RR022,2,Rolls-Royce plc,,Trent 768,,MTF,253.89499999999998,30.01,0.13,0.38,,2.42
-2RR022,2,Rolls-Royce plc,,Trent 768,,MTF,89.61,10.34,0.86,0.84,,0.8
-2RR022,2,Rolls-Royce plc,,Trent 768,,MTF,20.909000000000002,5.6,10.52,1.08,,0.26
-3RR029,3,Rolls-Royce plc,,Trent 768,Improved traverse,MTF,300.3,31.25,0.18,0.0,1.9,2.97
-3RR029,3,Rolls-Royce plc,,Trent 768,Improved traverse,MTF,255.255,24.66,0.15,0.01,2.0,2.43
-3RR029,3,Rolls-Royce plc,,Trent 768,Improved traverse,MTF,90.09,10.01,1.02,0.01,0.7,0.81
-3RR029,3,Rolls-Royce plc,,Trent 768,Improved traverse,MTF,21.021000000000004,4.52,20.22,1.89,0.2,0.27
-2RR023,2,Rolls-Royce plc,,Trent 772,,MTF,315.9,43.6,0.18,0.33,,3.15
-2RR023,2,Rolls-Royce plc,,Trent 772,,MTF,268.515,32.66,0.15,0.35,,2.58
-2RR023,2,Rolls-Royce plc,,Trent 772,,MTF,94.77,10.68,0.78,0.81,,0.84
-2RR023,2,Rolls-Royce plc,,Trent 772,,MTF,22.113,5.74,9.36,0.97,,0.27
-3RR030,3,Rolls-Royce plc,,Trent 772,Improved traverse,MTF,316.3,34.38,0.2,0.0,1.9,3.2
-3RR030,3,Rolls-Royce plc,,Trent 772,Improved traverse,MTF,268.855,26.44,0.16,0.0,2.0,2.58
-3RR030,3,Rolls-Royce plc,,Trent 772,Improved traverse,MTF,94.89,10.3,0.89,0.01,0.7,0.85
-3RR030,3,Rolls-Royce plc,,Trent 772,Improved traverse,MTF,22.141000000000002,4.71,17.94,1.46,0.2,0.28
-14RR070,14,Rolls-Royce plc,,Trent 768,Phase5,MTF,304.2,32.01,0.35,0.0,1.5,2.907
-14RR070,14,Rolls-Royce plc,,Trent 768,Phase5,MTF,258.57,24.9,0.49,0.01,1.8,2.375
-14RR070,14,Rolls-Royce plc,,Trent 768,Phase5,MTF,91.25999999999999,10.12,1.71,0.04,0.5,0.781
-14RR070,14,Rolls-Royce plc,,Trent 768,Phase5,MTF,21.294,4.46,26.94,3.19,0.2,0.259
-14RR071,14,Rolls-Royce plc,,Trent 772,Phase5,MTF,320.3,35.56,0.21,0.01,1.4,3.139
-14RR071,14,Rolls-Royce plc,,Trent 772,Phase5,MTF,272.255,26.82,0.49,0.01,1.8,2.53
-14RR071,14,Rolls-Royce plc,,Trent 772,Phase5,MTF,96.09,10.42,1.56,0.04,0.6,0.821
-14RR071,14,Rolls-Royce plc,,Trent 772,Phase5,MTF,22.421000000000003,4.66,23.97,2.46,0.2,0.27
-01P14RR101,14,Rolls-Royce plc,,Trent 768,Phase5,MTF,304.2,32.01,0.35,0.0,1.5,2.907
-01P14RR101,14,Rolls-Royce plc,,Trent 768,Phase5,MTF,258.57,24.9,0.49,0.01,1.8,2.375
-01P14RR101,14,Rolls-Royce plc,,Trent 768,Phase5,MTF,91.25999999999999,10.12,1.71,0.04,0.5,0.781
-01P14RR101,14,Rolls-Royce plc,,Trent 768,Phase5,MTF,21.294,4.46,26.94,3.19,0.2,0.259
-01P14RR102,14,Rolls-Royce plc,,Trent 772,Phase5,MTF,320.3,35.56,0.21,0.01,1.4,3.139
-01P14RR102,14,Rolls-Royce plc,,Trent 772,Phase5,MTF,272.255,26.82,0.49,0.01,1.8,2.53
-01P14RR102,14,Rolls-Royce plc,,Trent 772,Phase5,MTF,96.09,10.42,1.56,0.04,0.6,0.821
-01P14RR102,14,Rolls-Royce plc,,Trent 772,Phase5,MTF,22.421000000000003,4.66,23.97,2.46,0.2,0.27
-2RR024,2,Rolls-Royce plc,,Trent 875,,TF,351.85,33.32,0.19,0.0,4.86,3.1
-2RR024,2,Rolls-Royce plc,,Trent 875,,TF,299.0725,26.55,0.16,0.0,5.26,2.57
-2RR024,2,Rolls-Royce plc,,Trent 875,,TF,105.555,10.43,0.86,0.0,2.2,0.88
-2RR024,2,Rolls-Royce plc,,Trent 875,,TF,24.629500000000004,4.64,19.66,1.78,0.5,0.28
-2RR025,2,Rolls-Royce plc,,Trent 877,,TF,361.64,34.76,0.2,0.0,4.13,3.21
-2RR025,2,Rolls-Royce plc,,Trent 877,,TF,307.394,27.59,0.16,0.0,5.27,2.66
-2RR025,2,Rolls-Royce plc,,Trent 877,,TF,108.49199999999999,10.59,0.8,0.0,2.27,0.9
-2RR025,2,Rolls-Royce plc,,Trent 877,,TF,25.3148,4.75,18.42,1.55,0.5,0.28
-2RR026,2,Rolls-Royce plc,,Trent 884,,TF,390.1,40.05,0.24,0.0,4.37,3.56
-2RR026,2,Rolls-Royce plc,,Trent 884,,TF,331.58500000000004,30.63,0.18,0.0,5.1,2.89
-2RR026,2,Rolls-Royce plc,,Trent 884,,TF,117.03,11.07,0.65,0.0,2.53,0.97
-2RR026,2,Rolls-Royce plc,,Trent 884,,TF,27.307000000000006,5.04,15.19,1.0,0.5,0.31
-2RR027,2,Rolls-Royce plc,,Trent 892,,TF,411.48,45.7,0.28,0.01,4.0,3.91
-2RR027,2,Rolls-Royce plc,,Trent 892,,TF,349.758,33.3,0.2,0.0,4.9,3.1
-2RR027,2,Rolls-Royce plc,,Trent 892,,TF,123.444,11.58,0.57,0.0,2.76,1.0
-2RR027,2,Rolls-Royce plc,,Trent 892,,TF,28.803600000000003,5.33,13.07,0.7,0.53,0.3
-5RR040,5,Rolls-Royce plc,,Trent 895,,TF,413.05,47.79,0.27,0.02,4.0,4.03
-5RR040,5,Rolls-Royce plc,,Trent 895,,TF,351.0925,34.29,0.19,0.0,4.9,3.19
-5RR040,5,Rolls-Royce plc,,Trent 895,,TF,123.91499999999999,11.39,0.54,0.0,2.6,1.05
-5RR040,5,Rolls-Royce plc,,Trent 895,,TF,28.913500000000003,5.11,14.71,0.89,0.5,0.33
-8RR046,8,Rolls-Royce plc,,Trent 970-84,Phase5 Tiled,TF,334.7,37.2,0.4,0.0,4.1,2.6
-8RR046,8,Rolls-Royce plc,,Trent 970-84,Phase5 Tiled,TF,284.495,29.1,0.2,0.0,4.7,2.2
-8RR046,8,Rolls-Royce plc,,Trent 970-84,Phase5 Tiled,TF,100.41,11.4,1.4,0.0,2.6,0.7
-8RR046,8,Rolls-Royce plc,,Trent 970-84,Phase5 Tiled,TF,23.429000000000002,5.1,15.1,0.2,0.7,0.3
-9RR047,9,Rolls-Royce plc,,Trent 972-84,Phase5 Tiled,TF,345.9,38.8,0.4,0.0,4.1,2.69
-9RR047,9,Rolls-Royce plc,,Trent 972-84,Phase5 Tiled,TF,294.015,29.6,0.3,0.0,4.8,2.23
-9RR047,9,Rolls-Royce plc,,Trent 972-84,Phase5 Tiled,TF,103.77,11.8,1.4,0.0,2.6,0.75
-9RR047,9,Rolls-Royce plc,,Trent 972-84,Phase5 Tiled,TF,24.213,5.0,15.94,0.24,0.8,0.27
-18RR081,18,Rolls-Royce plc,,Trent 970-84,Phase5 Tiled,TF,338.7,38.29,0.32,0.02,6.1,2.605
-18RR081,18,Rolls-Royce plc,,Trent 970-84,Phase5 Tiled,TF,287.895,29.42,0.31,0.12,6.4,2.157
-18RR081,18,Rolls-Royce plc,,Trent 970-84,Phase5 Tiled,TF,101.61,12.09,1.16,0.08,3.0,0.72
-18RR081,18,Rolls-Royce plc,,Trent 970-84,Phase5 Tiled,TF,23.709000000000003,5.44,13.38,0.04,0.6,0.255
-18RR082,18,Rolls-Royce plc,,Trent 970B-84,Phase5 Tiled,TF,352.9,41.34,0.33,0.0,6.1,2.738
-18RR082,18,Rolls-Royce plc,,Trent 970B-84,Phase5 Tiled,TF,299.965,31.3,0.31,0.09,6.3,2.262
-18RR082,18,Rolls-Royce plc,,Trent 970B-84,Phase5 Tiled,TF,105.86999999999999,12.37,1.05,0.07,3.3,0.749
-18RR082,18,Rolls-Royce plc,,Trent 970B-84,Phase5 Tiled,TF,24.703,5.57,12.65,0.04,0.6,0.261
-18RR083,18,Rolls-Royce plc,,Trent 972-84,Phase5 Tiled,TF,345.9,39.78,0.32,0.01,6.1,2.672
-18RR083,18,Rolls-Royce plc,,Trent 972-84,Phase5 Tiled,TF,294.015,30.36,0.31,0.11,6.4,2.21
-18RR083,18,Rolls-Royce plc,,Trent 972-84,Phase5 Tiled,TF,103.77,12.23,1.1,0.07,3.2,0.735
-18RR083,18,Rolls-Royce plc,,Trent 972-84,Phase5 Tiled,TF,24.213,5.51,13.0,0.04,0.6,0.258
-18RR084,18,Rolls-Royce plc,,Trent 972E-84,Phase5 Tiled,TF,345.9,39.78,0.32,0.01,6.1,2.672
-18RR084,18,Rolls-Royce plc,,Trent 972E-84,Phase5 Tiled,TF,294.015,30.36,0.31,0.11,6.4,2.21
-18RR084,18,Rolls-Royce plc,,Trent 972E-84,Phase5 Tiled,TF,103.77,12.23,1.1,0.07,3.2,0.735
-18RR084,18,Rolls-Royce plc,,Trent 972E-84,Phase5 Tiled,TF,24.213,5.51,13.0,0.04,0.6,0.258
-01P18RR103,18,Rolls-Royce plc,,Trent 970-84,Phase5 Tiled,TF,338.7,38.29,0.32,0.02,6.1,2.605
-01P18RR103,18,Rolls-Royce plc,,Trent 970-84,Phase5 Tiled,TF,287.895,29.42,0.31,0.12,6.4,2.157
-01P18RR103,18,Rolls-Royce plc,,Trent 970-84,Phase5 Tiled,TF,101.61,12.09,1.16,0.08,3.0,0.72
-01P18RR103,18,Rolls-Royce plc,,Trent 970-84,Phase5 Tiled,TF,23.709000000000003,5.44,13.38,0.04,0.6,0.255
-01P18RR104,18,Rolls-Royce plc,,Trent 972-84,Phase5 Tiled,TF,345.9,39.78,0.32,0.01,6.1,2.672
-01P18RR104,18,Rolls-Royce plc,,Trent 972-84,Phase5 Tiled,TF,294.015,30.36,0.31,0.11,6.4,2.21
-01P18RR104,18,Rolls-Royce plc,,Trent 972-84,Phase5 Tiled,TF,103.77,12.23,1.1,0.07,3.2,0.735
-01P18RR104,18,Rolls-Royce plc,,Trent 972-84,Phase5 Tiled,TF,24.213,5.51,13.0,0.04,0.6,0.258
-01P18RR105,18,Rolls-Royce plc,,Trent 972E-84,Phase5 Tiled,TF,345.9,39.78,0.32,0.01,6.1,2.672
-01P18RR105,18,Rolls-Royce plc,,Trent 972E-84,Phase5 Tiled,TF,294.015,30.36,0.31,0.11,6.4,2.21
-01P18RR105,18,Rolls-Royce plc,,Trent 972E-84,Phase5 Tiled,TF,103.77,12.23,1.1,0.07,3.2,0.735
-01P18RR105,18,Rolls-Royce plc,,Trent 972E-84,Phase5 Tiled,TF,24.213,5.51,13.0,0.04,0.6,0.258
-11RR049,11,Rolls-Royce plc,,Trent 1000-A,Phase5 Tiled,TF,310.8,46.67,0.53,0.0,3.3,2.282
-11RR049,11,Rolls-Royce plc,,Trent 1000-A,Phase5 Tiled,TF,264.18,35.87,0.45,0.0,4.1,1.877
-11RR049,11,Rolls-Royce plc,,Trent 1000-A,Phase5 Tiled,TF,93.24,13.29,0.77,0.0,2.9,0.625
-11RR049,11,Rolls-Royce plc,,Trent 1000-A,Phase5 Tiled,TF,21.756000000000004,5.4,8.73,0.06,0.6,0.237
-11RR050,11,Rolls-Royce plc,,Trent 1000-C,Phase5 Tiled,TF,334.7,53.54,0.51,0.0,3.0,2.508
-11RR050,11,Rolls-Royce plc,,Trent 1000-C,Phase5 Tiled,TF,284.495,40.33,0.48,0.0,3.8,2.048
-11RR050,11,Rolls-Royce plc,,Trent 1000-C,Phase5 Tiled,TF,100.41,13.86,0.68,0.0,3.1,0.668
-11RR050,11,Rolls-Royce plc,,Trent 1000-C,Phase5 Tiled,TF,23.429000000000002,5.66,7.66,0.04,0.6,0.246
-11RR051,11,Rolls-Royce plc,,Trent 1000-D,Phase5 Tiled,TF,334.7,53.54,0.51,0.0,3.0,2.508
-11RR051,11,Rolls-Royce plc,,Trent 1000-D,Phase5 Tiled,TF,284.495,40.33,0.48,0.0,3.8,2.048
-11RR051,11,Rolls-Royce plc,,Trent 1000-D,Phase5 Tiled,TF,100.41,13.86,0.68,0.0,3.1,0.668
-11RR051,11,Rolls-Royce plc,,Trent 1000-D,Phase5 Tiled,TF,23.429000000000002,5.66,7.66,0.04,0.6,0.246
-11RR052,11,Rolls-Royce plc,,Trent 1000-E,Phase5 Tiled,TF,279.8,39.17,0.47,0.0,3.8,2.007
-11RR052,11,Rolls-Royce plc,,Trent 1000-E,Phase5 Tiled,TF,237.83,30.55,0.43,0.0,4.5,1.659
-11RR052,11,Rolls-Royce plc,,Trent 1000-E,Phase5 Tiled,TF,83.94,12.54,0.92,0.0,2.5,0.57
-11RR052,11,Rolls-Royce plc,,Trent 1000-E,Phase5 Tiled,TF,19.586000000000002,5.06,10.63,0.09,0.6,0.222
-11RR053,11,Rolls-Royce plc,,Trent 1000-G,Phase5 Tiled,TF,323.7,50.27,0.53,0.0,3.1,2.403
-11RR053,11,Rolls-Royce plc,,Trent 1000-G,Phase5 Tiled,TF,275.145,38.18,0.47,0.0,3.9,1.968
-11RR053,11,Rolls-Royce plc,,Trent 1000-G,Phase5 Tiled,TF,97.11,13.6,0.72,0.0,3.0,0.649
-11RR053,11,Rolls-Royce plc,,Trent 1000-G,Phase5 Tiled,TF,22.659000000000002,5.54,8.14,0.05,0.6,0.242
-11RR054,11,Rolls-Royce plc,,Trent 1000-H,Phase5 Tiled,TF,286.7,40.89,0.49,0.0,3.7,2.07
-11RR054,11,Rolls-Royce plc,,Trent 1000-H,Phase5 Tiled,TF,243.695,31.75,0.43,0.0,4.4,1.71
-11RR054,11,Rolls-Royce plc,,Trent 1000-H,Phase5 Tiled,TF,86.00999999999999,12.72,0.88,0.0,2.6,0.583
-11RR054,11,Rolls-Royce plc,,Trent 1000-H,Phase5 Tiled,TF,20.069000000000003,5.14,10.11,0.08,0.6,0.226
-12RR069,12,Rolls-Royce plc,,Trent 1000-L2,Phase5 Tiled,TF,334.7,52.65,0.5,0.0,3.3,2.503
-12RR069,12,Rolls-Royce plc,,Trent 1000-L2,Phase5 Tiled,TF,284.495,39.86,0.48,0.0,3.8,2.053
-12RR069,12,Rolls-Royce plc,,Trent 1000-L2,Phase5 Tiled,TF,100.41,13.67,0.67,0.0,3.9,0.666
-12RR069,12,Rolls-Royce plc,,Trent 1000-L2,Phase5 Tiled,TF,23.429000000000002,5.74,7.37,0.03,0.5,0.247
-12RR068,12,Rolls-Royce plc,,Trent 1000-K2,Phase5 Tiled,TF,350.9,58.04,0.43,0.0,3.9,2.663
-12RR068,12,Rolls-Royce plc,,Trent 1000-K2,Phase5 Tiled,TF,298.265,43.07,0.49,0.0,3.6,2.173
-12RR068,12,Rolls-Royce plc,,Trent 1000-K2,Phase5 Tiled,TF,105.27,14.06,0.62,0.0,4.1,0.696
-12RR068,12,Rolls-Royce plc,,Trent 1000-K2,Phase5 Tiled,TF,24.563000000000002,5.91,6.8,0.02,0.5,0.254
-12RR067,12,Rolls-Royce plc,,Trent 1000-J2,Phase5 Tiled,TF,350.9,58.04,0.43,0.0,3.9,2.663
-12RR067,12,Rolls-Royce plc,,Trent 1000-J2,Phase5 Tiled,TF,298.265,43.07,0.49,0.0,3.6,2.173
-12RR067,12,Rolls-Royce plc,,Trent 1000-J2,Phase5 Tiled,TF,105.27,14.06,0.62,0.0,4.1,0.696
-12RR067,12,Rolls-Royce plc,,Trent 1000-J2,Phase5 Tiled,TF,24.563000000000002,5.91,6.8,0.02,0.5,0.254
-12RR066,12,Rolls-Royce plc,,Trent 1000-H2,Phase5 Tiled,TF,287.1,40.46,0.48,0.0,3.8,2.075
-12RR066,12,Rolls-Royce plc,,Trent 1000-H2,Phase5 Tiled,TF,244.03500000000003,31.49,0.43,0.0,4.8,1.715
-12RR066,12,Rolls-Royce plc,,Trent 1000-H2,Phase5 Tiled,TF,86.13000000000001,12.56,0.89,0.0,3.3,0.582
-12RR066,12,Rolls-Royce plc,,Trent 1000-H2,Phase5 Tiled,TF,20.097000000000005,5.21,9.82,0.07,0.5,0.233
-12RR065,12,Rolls-Royce plc,,Trent 1000-G2,Phase5 Tiled,TF,323.7,49.57,0.51,0.0,3.3,2.402
-12RR065,12,Rolls-Royce plc,,Trent 1000-G2,Phase5 Tiled,TF,275.145,37.8,0.46,0.0,4.0,1.973
-12RR065,12,Rolls-Royce plc,,Trent 1000-G2,Phase5 Tiled,TF,97.11,13.41,0.72,0.0,3.8,0.647
-12RR065,12,Rolls-Royce plc,,Trent 1000-G2,Phase5 Tiled,TF,22.659000000000002,5.62,7.81,0.04,0.5,0.243
-12RR064,12,Rolls-Royce plc,,Trent 1000-E2,Phase5 Tiled,TF,268.0,36.25,0.46,0.0,4.1,1.912
-12RR064,12,Rolls-Royce plc,,Trent 1000-E2,Phase5 Tiled,TF,227.79999999999998,28.52,0.42,0.0,5.2,1.582
-12RR064,12,Rolls-Royce plc,,Trent 1000-E2,Phase5 Tiled,TF,80.39999999999999,12.12,1.01,0.0,3.1,0.549
-12RR064,12,Rolls-Royce plc,,Trent 1000-E2,Phase5 Tiled,TF,18.76,4.98,11.35,0.1,0.6,0.223
-12RR063,12,Rolls-Royce plc,,Trent 1000-D2,Phase5 Tiled,TF,334.7,52.65,0.5,0.0,3.3,2.503
-12RR063,12,Rolls-Royce plc,,Trent 1000-D2,Phase5 Tiled,TF,284.495,39.86,0.48,0.0,3.8,2.053
-12RR063,12,Rolls-Royce plc,,Trent 1000-D2,Phase5 Tiled,TF,100.41,13.67,0.67,0.0,3.9,0.666
-12RR063,12,Rolls-Royce plc,,Trent 1000-D2,Phase5 Tiled,TF,23.429000000000002,5.74,7.37,0.03,0.5,0.247
-12RR062,12,Rolls-Royce plc,,Trent 1000-C2,Phase5 Tiled,TF,334.7,52.65,0.5,0.0,3.3,2.503
-12RR062,12,Rolls-Royce plc,,Trent 1000-C2,Phase5 Tiled,TF,284.495,39.86,0.48,0.0,3.8,2.053
-12RR062,12,Rolls-Royce plc,,Trent 1000-C2,Phase5 Tiled,TF,100.41,13.67,0.67,0.0,3.9,0.666
-12RR062,12,Rolls-Royce plc,,Trent 1000-C2,Phase5 Tiled,TF,23.429000000000002,5.74,7.37,0.03,0.5,0.247
-12RR061,12,Rolls-Royce plc,,Trent 1000-A2,Phase5 Tiled,TF,310.9,46.11,0.51,0.0,3.5,2.284
-12RR061,12,Rolls-Royce plc,,Trent 1000-A2,Phase5 Tiled,TF,264.265,35.48,0.45,0.0,4.2,1.882
-12RR061,12,Rolls-Royce plc,,Trent 1000-A2,Phase5 Tiled,TF,93.27,13.11,0.77,0.0,3.6,0.624
-12RR061,12,Rolls-Royce plc,,Trent 1000-A2,Phase5 Tiled,TF,21.763,5.48,8.4,0.04,0.5,0.245
-12RR060,12,Rolls-Royce plc,,Trent 1000-H,Phase5 Tiled,TF,287.1,40.54,0.49,0.0,3.8,2.07
-12RR060,12,Rolls-Royce plc,,Trent 1000-H,Phase5 Tiled,TF,244.03500000000003,31.54,0.43,0.0,4.8,1.71
-12RR060,12,Rolls-Royce plc,,Trent 1000-H,Phase5 Tiled,TF,86.13000000000001,12.62,0.87,0.0,3.3,0.583
-12RR060,12,Rolls-Royce plc,,Trent 1000-H,Phase5 Tiled,TF,20.097000000000005,5.21,9.8,0.07,0.5,0.226
-12RR059,12,Rolls-Royce plc,,Trent 1000-G,Phase5 Tiled,TF,323.7,50.15,0.52,0.0,3.4,2.403
-12RR059,12,Rolls-Royce plc,,Trent 1000-G,Phase5 Tiled,TF,275.145,37.84,0.47,0.0,4.0,1.968
-12RR059,12,Rolls-Royce plc,,Trent 1000-G,Phase5 Tiled,TF,97.11,13.5,0.69,0.0,3.8,0.649
-12RR059,12,Rolls-Royce plc,,Trent 1000-G,Phase5 Tiled,TF,22.659000000000002,5.6,7.88,0.04,0.5,0.242
-12RR058,12,Rolls-Royce plc,,Trent 1000-E,Phase5 Tiled,TF,268.0,36.29,0.46,0.0,4.2,1.907
-12RR058,12,Rolls-Royce plc,,Trent 1000-E,Phase5 Tiled,TF,227.79999999999998,28.62,0.42,0.0,5.2,1.579
-12RR058,12,Rolls-Royce plc,,Trent 1000-E,Phase5 Tiled,TF,80.39999999999999,12.16,0.99,0.0,3.1,0.549
-12RR058,12,Rolls-Royce plc,,Trent 1000-E,Phase5 Tiled,TF,18.76,5.0,11.2,0.1,0.6,0.217
-12RR057,12,Rolls-Royce plc,,Trent 1000-D,Phase5 Tiled,TF,334.7,53.53,0.5,0.0,3.3,2.508
-12RR057,12,Rolls-Royce plc,,Trent 1000-D,Phase5 Tiled,TF,284.495,39.98,0.48,0.0,3.8,2.048
-12RR057,12,Rolls-Royce plc,,Trent 1000-D,Phase5 Tiled,TF,100.41,13.77,0.65,0.0,3.9,0.668
-12RR057,12,Rolls-Royce plc,,Trent 1000-D,Phase5 Tiled,TF,23.429000000000002,5.72,7.41,0.03,0.5,0.247
-12RR056,12,Rolls-Royce plc,,Trent 1000-C,Phase5 Tiled,TF,334.7,53.53,0.5,0.0,3.3,2.508
-12RR056,12,Rolls-Royce plc,,Trent 1000-C,Phase5 Tiled,TF,284.495,39.98,0.48,0.0,3.8,2.048
-12RR056,12,Rolls-Royce plc,,Trent 1000-C,Phase5 Tiled,TF,100.41,13.77,0.65,0.0,3.9,0.668
-12RR056,12,Rolls-Royce plc,,Trent 1000-C,Phase5 Tiled,TF,23.429000000000002,5.72,7.41,0.03,0.5,0.247
-12RR055,12,Rolls-Royce plc,,Trent 1000-A,Phase5 Tiled,TF,310.9,46.42,0.51,0.0,3.5,2.282
-12RR055,12,Rolls-Royce plc,,Trent 1000-A,Phase5 Tiled,TF,264.265,35.57,0.46,0.0,4.2,1.877
-12RR055,12,Rolls-Royce plc,,Trent 1000-A,Phase5 Tiled,TF,93.27,13.2,0.75,0.0,3.6,0.625
-12RR055,12,Rolls-Royce plc,,Trent 1000-A,Phase5 Tiled,TF,21.763,5.47,8.45,0.05,0.5,0.237
-19RR085,19,Rolls-Royce plc,,Trent 1000-AE3,Phase5 Tiled,TF,310.9,46.1,0.43,0.0,9.8,2.279
-19RR085,19,Rolls-Royce plc,,Trent 1000-AE3,Phase5 Tiled,TF,264.265,35.9,0.44,0.0,13.0,1.874
-19RR085,19,Rolls-Royce plc,,Trent 1000-AE3,Phase5 Tiled,TF,93.27,13.5,0.76,0.0,7.8,0.623
-19RR085,19,Rolls-Royce plc,,Trent 1000-AE3,Phase5 Tiled,TF,21.763,5.9,6.93,0.0,2.0,0.239
-19RR086,19,Rolls-Royce plc,,Trent 1000-CE3,Phase5 Tiled,TF,334.7,52.07,0.41,0.0,8.4,2.497
-19RR086,19,Rolls-Royce plc,,Trent 1000-CE3,Phase5 Tiled,TF,284.495,40.11,0.45,0.0,11.6,2.046
-19RR086,19,Rolls-Royce plc,,Trent 1000-CE3,Phase5 Tiled,TF,100.41,14.08,0.65,0.0,8.6,0.667
-19RR086,19,Rolls-Royce plc,,Trent 1000-CE3,Phase5 Tiled,TF,23.429000000000002,6.16,6.23,0.0,1.9,0.249
-19RR087,19,Rolls-Royce plc,,Trent 1000-D3,Phase5 Tiled,TF,334.7,52.07,0.41,0.0,8.4,2.497
-19RR087,19,Rolls-Royce plc,,Trent 1000-D3,Phase5 Tiled,TF,284.495,40.11,0.45,0.0,11.6,2.046
-19RR087,19,Rolls-Royce plc,,Trent 1000-D3,Phase5 Tiled,TF,100.41,14.08,0.65,0.0,8.6,0.667
-19RR087,19,Rolls-Royce plc,,Trent 1000-D3,Phase5 Tiled,TF,23.429000000000002,6.16,6.23,0.0,1.9,0.249
-19RR088,19,Rolls-Royce plc,,Trent 1000-G3,Phase5 Tiled,TF,323.7,49.25,0.42,0.0,9.0,2.395
-19RR088,19,Rolls-Royce plc,,Trent 1000-G3,Phase5 Tiled,TF,275.145,38.14,0.45,0.0,12.3,1.966
-19RR088,19,Rolls-Royce plc,,Trent 1000-G3,Phase5 Tiled,TF,97.11,13.81,0.7,0.0,8.2,0.647
-19RR088,19,Rolls-Royce plc,,Trent 1000-G3,Phase5 Tiled,TF,22.659000000000002,6.04,6.54,0.0,1.9,0.245
-19RR089,19,Rolls-Royce plc,,Trent 1000-H3,Phase5 Tiled,TF,287.1,40.67,0.45,0.0,11.5,2.068
-19RR089,19,Rolls-Royce plc,,Trent 1000-H3,Phase5 Tiled,TF,244.03500000000003,32.04,0.43,0.0,14.1,1.706
-19RR089,19,Rolls-Royce plc,,Trent 1000-H3,Phase5 Tiled,TF,86.13000000000001,12.94,0.89,0.0,6.9,0.579
-19RR089,19,Rolls-Royce plc,,Trent 1000-H3,Phase5 Tiled,TF,20.097000000000005,5.64,7.78,0.0,2.1,0.229
-19RR090,19,Rolls-Royce plc,,Trent 1000-J3,Phase5 Tiled,TF,350.9,56.35,0.35,0.0,7.8,2.649
-19RR090,19,Rolls-Royce plc,,Trent 1000-J3,Phase5 Tiled,TF,298.265,43.21,0.44,0.0,10.7,2.168
-19RR090,19,Rolls-Royce plc,,Trent 1000-J3,Phase5 Tiled,TF,105.27,14.49,0.58,0.0,9.2,0.699
-19RR090,19,Rolls-Royce plc,,Trent 1000-J3,Phase5 Tiled,TF,24.563000000000002,6.34,5.8,0.0,1.8,0.256
-19RR091,19,Rolls-Royce plc,,Trent 1000-K3,Phase5 Tiled,TF,350.9,56.35,0.35,0.0,7.8,2.649
-19RR091,19,Rolls-Royce plc,,Trent 1000-K3,Phase5 Tiled,TF,298.265,43.21,0.44,0.0,10.7,2.168
-19RR091,19,Rolls-Royce plc,,Trent 1000-K3,Phase5 Tiled,TF,105.27,14.49,0.58,0.0,9.2,0.699
-19RR091,19,Rolls-Royce plc,,Trent 1000-K3,Phase5 Tiled,TF,24.563000000000002,6.34,5.8,0.0,1.8,0.256
-19RR092,19,Rolls-Royce plc,,Trent 1000-L3,Phase5 Tiled,TF,334.7,52.07,0.41,0.0,8.4,2.497
-19RR092,19,Rolls-Royce plc,,Trent 1000-L3,Phase5 Tiled,TF,284.495,40.11,0.45,0.0,11.6,2.046
-19RR092,19,Rolls-Royce plc,,Trent 1000-L3,Phase5 Tiled,TF,100.41,14.08,0.65,0.0,8.6,0.667
-19RR092,19,Rolls-Royce plc,,Trent 1000-L3,Phase5 Tiled,TF,23.429000000000002,6.16,6.23,0.0,1.9,0.249
-19RR093,19,Rolls-Royce plc,,Trent 1000-M3,Phase5 Tiled,TF,358.1,59.3,0.43,0.0,7.6,2.721
-19RR093,19,Rolls-Royce plc,,Trent 1000-M3,Phase5 Tiled,TF,304.385,44.55,0.44,0.0,10.2,2.222
-19RR093,19,Rolls-Royce plc,,Trent 1000-M3,Phase5 Tiled,TF,107.43,14.72,0.59,0.0,9.4,0.712
-19RR093,19,Rolls-Royce plc,,Trent 1000-M3,Phase5 Tiled,TF,25.067000000000004,6.61,6.13,0.0,1.8,0.26
-19RR094,19,Rolls-Royce plc,,Trent 1000-N3,Phase5 Tiled,TF,358.1,59.3,0.43,0.0,7.6,2.721
-19RR094,19,Rolls-Royce plc,,Trent 1000-N3,Phase5 Tiled,TF,304.385,44.55,0.44,0.0,10.2,2.222
-19RR094,19,Rolls-Royce plc,,Trent 1000-N3,Phase5 Tiled,TF,107.43,14.72,0.59,0.0,9.4,0.712
-19RR094,19,Rolls-Royce plc,,Trent 1000-N3,Phase5 Tiled,TF,25.067000000000004,6.61,6.13,0.0,1.8,0.26
-19RR095,19,Rolls-Royce plc,,Trent 1000-P3,Phase5 Tiled,TF,334.7,52.07,0.41,0.0,8.4,2.497
-19RR095,19,Rolls-Royce plc,,Trent 1000-P3,Phase5 Tiled,TF,284.495,40.11,0.45,0.0,11.6,2.046
-19RR095,19,Rolls-Royce plc,,Trent 1000-P3,Phase5 Tiled,TF,100.41,14.08,0.65,0.0,8.6,0.667
-19RR095,19,Rolls-Royce plc,,Trent 1000-P3,Phase5 Tiled,TF,23.429000000000002,6.16,6.23,0.0,1.9,0.249
-19RR096,19,Rolls-Royce plc,,Trent 1000-Q3,Phase5 Tiled,TF,350.9,56.35,0.35,0.0,7.8,2.649
-19RR096,19,Rolls-Royce plc,,Trent 1000-Q3,Phase5 Tiled,TF,298.265,43.21,0.44,0.0,10.7,2.168
-19RR096,19,Rolls-Royce plc,,Trent 1000-Q3,Phase5 Tiled,TF,105.27,14.49,0.58,0.0,9.2,0.699
-19RR096,19,Rolls-Royce plc,,Trent 1000-Q3,Phase5 Tiled,TF,24.563000000000002,6.34,5.8,0.0,1.8,0.256
-19RR097,19,Rolls-Royce plc,,Trent 1000-R3,Phase5 Tiled,TF,363.9,61.62,0.45,0.0,7.7,2.783
-19RR097,19,Rolls-Royce plc,,Trent 1000-R3,Phase5 Tiled,TF,309.315,45.76,0.43,0.0,9.9,2.266
-19RR097,19,Rolls-Royce plc,,Trent 1000-R3,Phase5 Tiled,TF,109.16999999999999,14.87,0.57,0.0,9.6,0.723
-19RR097,19,Rolls-Royce plc,,Trent 1000-R3,Phase5 Tiled,TF,25.473000000000003,6.67,5.99,0.0,1.8,0.262
-19RR098,19,Rolls-Royce plc,,Trent7000-72,Phase5 Tiled,TF,327.9,56.8,0.41,0.0,8.3,2.478
-19RR098,19,Rolls-Royce plc,,Trent7000-72,Phase5 Tiled,TF,278.715,42.04,0.45,0.0,11.6,2.029
-19RR098,19,Rolls-Royce plc,,Trent7000-72,Phase5 Tiled,TF,98.36999999999999,14.12,0.63,0.0,8.8,0.67
-19RR098,19,Rolls-Royce plc,,Trent7000-72,Phase5 Tiled,TF,22.953,6.1,6.45,0.0,1.9,0.241
-19RR099,19,Rolls-Royce plc,,Trent7000-72C,Phase5 Tiled,TF,327.9,56.8,0.41,0.0,8.3,2.478
-19RR099,19,Rolls-Royce plc,,Trent7000-72C,Phase5 Tiled,TF,278.715,42.04,0.45,0.0,11.6,2.029
-19RR099,19,Rolls-Royce plc,,Trent7000-72C,Phase5 Tiled,TF,98.36999999999999,14.12,0.63,0.0,8.8,0.67
-19RR099,19,Rolls-Royce plc,,Trent7000-72C,Phase5 Tiled,TF,22.953,6.1,6.45,0.0,1.9,0.241
-01P19RR106,19,Rolls-Royce plc,,Trent 1000-AE3,Phase5 Tiled,TF,310.9,46.1,0.43,0.0,9.8,2.279
-01P19RR106,19,Rolls-Royce plc,,Trent 1000-AE3,Phase5 Tiled,TF,264.265,35.9,0.44,0.0,13.0,1.874
-01P19RR106,19,Rolls-Royce plc,,Trent 1000-AE3,Phase5 Tiled,TF,93.27,13.5,0.76,0.0,7.8,0.623
-01P19RR106,19,Rolls-Royce plc,,Trent 1000-AE3,Phase5 Tiled,TF,21.763,5.9,6.93,0.0,2.0,0.239
-01P19RR107,19,Rolls-Royce plc,,Trent 1000-CE3,Phase5 Tiled,TF,334.7,52.07,0.41,0.0,8.4,2.497
-01P19RR107,19,Rolls-Royce plc,,Trent 1000-CE3,Phase5 Tiled,TF,284.495,40.11,0.45,0.0,11.6,2.046
-01P19RR107,19,Rolls-Royce plc,,Trent 1000-CE3,Phase5 Tiled,TF,100.41,14.08,0.65,0.0,8.6,0.667
-01P19RR107,19,Rolls-Royce plc,,Trent 1000-CE3,Phase5 Tiled,TF,23.429000000000002,6.16,6.23,0.0,1.9,0.249
-01P19RR108,19,Rolls-Royce plc,,Trent 1000-D3,Phase5 Tiled,TF,334.7,52.07,0.41,0.0,8.4,2.497
-01P19RR108,19,Rolls-Royce plc,,Trent 1000-D3,Phase5 Tiled,TF,284.495,40.11,0.45,0.0,11.6,2.046
-01P19RR108,19,Rolls-Royce plc,,Trent 1000-D3,Phase5 Tiled,TF,100.41,14.08,0.65,0.0,8.6,0.667
-01P19RR108,19,Rolls-Royce plc,,Trent 1000-D3,Phase5 Tiled,TF,23.429000000000002,6.16,6.23,0.0,1.9,0.249
-01P19RR109,19,Rolls-Royce plc,,Trent 1000-G3,Phase5 Tiled,TF,323.7,49.25,0.42,0.0,9.0,2.395
-01P19RR109,19,Rolls-Royce plc,,Trent 1000-G3,Phase5 Tiled,TF,275.145,38.14,0.45,0.0,12.3,1.966
-01P19RR109,19,Rolls-Royce plc,,Trent 1000-G3,Phase5 Tiled,TF,97.11,13.81,0.7,0.0,8.2,0.647
-01P19RR109,19,Rolls-Royce plc,,Trent 1000-G3,Phase5 Tiled,TF,22.659000000000002,6.04,6.54,0.0,1.9,0.245
-01P19RR110,19,Rolls-Royce plc,,Trent 1000-H3,Phase5 Tiled,TF,287.1,40.67,0.45,0.0,11.5,2.068
-01P19RR110,19,Rolls-Royce plc,,Trent 1000-H3,Phase5 Tiled,TF,244.03500000000003,32.04,0.43,0.0,14.1,1.706
-01P19RR110,19,Rolls-Royce plc,,Trent 1000-H3,Phase5 Tiled,TF,86.13000000000001,12.94,0.89,0.0,6.9,0.579
-01P19RR110,19,Rolls-Royce plc,,Trent 1000-H3,Phase5 Tiled,TF,20.097000000000005,5.64,7.78,0.0,2.1,0.229
-01P19RR111,19,Rolls-Royce plc,,Trent 1000-J3,Phase5 Tiled,TF,350.9,56.35,0.35,0.0,7.8,2.649
-01P19RR111,19,Rolls-Royce plc,,Trent 1000-J3,Phase5 Tiled,TF,298.265,43.21,0.44,0.0,10.7,2.168
-01P19RR111,19,Rolls-Royce plc,,Trent 1000-J3,Phase5 Tiled,TF,105.27,14.49,0.58,0.0,9.2,0.699
-01P19RR111,19,Rolls-Royce plc,,Trent 1000-J3,Phase5 Tiled,TF,24.563000000000002,6.34,5.8,0.0,1.8,0.256
-01P19RR112,19,Rolls-Royce plc,,Trent 1000-K3,Phase5 Tiled,TF,350.9,56.35,0.35,0.0,7.8,2.649
-01P19RR112,19,Rolls-Royce plc,,Trent 1000-K3,Phase5 Tiled,TF,298.265,43.21,0.44,0.0,10.7,2.168
-01P19RR112,19,Rolls-Royce plc,,Trent 1000-K3,Phase5 Tiled,TF,105.27,14.49,0.58,0.0,9.2,0.699
-01P19RR112,19,Rolls-Royce plc,,Trent 1000-K3,Phase5 Tiled,TF,24.563000000000002,6.34,5.8,0.0,1.8,0.256
-01P19RR113,19,Rolls-Royce plc,,Trent 1000-L3,Phase5 Tiled,TF,334.7,52.07,0.41,0.0,8.4,2.497
-01P19RR113,19,Rolls-Royce plc,,Trent 1000-L3,Phase5 Tiled,TF,284.495,40.11,0.45,0.0,11.6,2.046
-01P19RR113,19,Rolls-Royce plc,,Trent 1000-L3,Phase5 Tiled,TF,100.41,14.08,0.65,0.0,8.6,0.667
-01P19RR113,19,Rolls-Royce plc,,Trent 1000-L3,Phase5 Tiled,TF,23.429000000000002,6.16,6.23,0.0,1.9,0.249
-01P19RR114,19,Rolls-Royce plc,,Trent 1000-M3,Phase5 Tiled,TF,358.1,59.3,0.43,0.0,7.6,2.721
-01P19RR114,19,Rolls-Royce plc,,Trent 1000-M3,Phase5 Tiled,TF,304.385,44.55,0.44,0.0,10.2,2.222
-01P19RR114,19,Rolls-Royce plc,,Trent 1000-M3,Phase5 Tiled,TF,107.43,14.72,0.59,0.0,9.4,0.712
-01P19RR114,19,Rolls-Royce plc,,Trent 1000-M3,Phase5 Tiled,TF,25.067000000000004,6.61,6.13,0.0,1.8,0.26
-01P19RR115,19,Rolls-Royce plc,,Trent 1000-N3,Phase5 Tiled,TF,358.1,59.3,0.43,0.0,7.6,2.721
-01P19RR115,19,Rolls-Royce plc,,Trent 1000-N3,Phase5 Tiled,TF,304.385,44.55,0.44,0.0,10.2,2.222
-01P19RR115,19,Rolls-Royce plc,,Trent 1000-N3,Phase5 Tiled,TF,107.43,14.72,0.59,0.0,9.4,0.712
-01P19RR115,19,Rolls-Royce plc,,Trent 1000-N3,Phase5 Tiled,TF,25.067000000000004,6.61,6.13,0.0,1.8,0.26
-01P19RR116,19,Rolls-Royce plc,,Trent 1000-P3,Phase5 Tiled,TF,334.7,52.07,0.41,0.0,8.4,2.497
-01P19RR116,19,Rolls-Royce plc,,Trent 1000-P3,Phase5 Tiled,TF,284.495,40.11,0.45,0.0,11.6,2.046
-01P19RR116,19,Rolls-Royce plc,,Trent 1000-P3,Phase5 Tiled,TF,100.41,14.08,0.65,0.0,8.6,0.667
-01P19RR116,19,Rolls-Royce plc,,Trent 1000-P3,Phase5 Tiled,TF,23.429000000000002,6.16,6.23,0.0,1.9,0.249
-01P19RR117,19,Rolls-Royce plc,,Trent 1000-Q3,Phase5 Tiled,TF,350.9,56.35,0.35,0.0,7.8,2.649
-01P19RR117,19,Rolls-Royce plc,,Trent 1000-Q3,Phase5 Tiled,TF,298.265,43.21,0.44,0.0,10.7,2.168
-01P19RR117,19,Rolls-Royce plc,,Trent 1000-Q3,Phase5 Tiled,TF,105.27,14.49,0.58,0.0,9.2,0.699
-01P19RR117,19,Rolls-Royce plc,,Trent 1000-Q3,Phase5 Tiled,TF,24.563000000000002,6.34,5.8,0.0,1.8,0.256
-01P19RR118,19,Rolls-Royce plc,,Trent 1000-R3,Phase5 Tiled,TF,363.9,61.62,0.45,0.0,7.7,2.783
-01P19RR118,19,Rolls-Royce plc,,Trent 1000-R3,Phase5 Tiled,TF,309.315,45.76,0.43,0.0,9.9,2.266
-01P19RR118,19,Rolls-Royce plc,,Trent 1000-R3,Phase5 Tiled,TF,109.16999999999999,14.87,0.57,0.0,9.6,0.723
-01P19RR118,19,Rolls-Royce plc,,Trent 1000-R3,Phase5 Tiled,TF,25.473000000000003,6.67,5.99,0.0,1.8,0.262
-01P19RR119,19,Rolls-Royce plc,,Trent7000-72,Phase5 Tiled,TF,327.9,56.8,0.41,0.0,8.3,2.478
-01P19RR119,19,Rolls-Royce plc,,Trent7000-72,Phase5 Tiled,TF,278.715,42.04,0.45,0.0,11.6,2.029
-01P19RR119,19,Rolls-Royce plc,,Trent7000-72,Phase5 Tiled,TF,98.36999999999999,14.12,0.63,0.0,8.8,0.67
-01P19RR119,19,Rolls-Royce plc,,Trent7000-72,Phase5 Tiled,TF,22.953,6.1,6.45,0.0,1.9,0.241
-01P19RR120,19,Rolls-Royce plc,,Trent7000-72C,Phase5 Tiled,TF,327.9,56.8,0.41,0.0,8.3,2.478
-01P19RR120,19,Rolls-Royce plc,,Trent7000-72C,Phase5 Tiled,TF,278.715,42.04,0.45,0.0,11.6,2.029
-01P19RR120,19,Rolls-Royce plc,,Trent7000-72C,Phase5 Tiled,TF,98.36999999999999,14.12,0.63,0.0,8.8,0.67
-01P19RR120,19,Rolls-Royce plc,,Trent7000-72C,Phase5 Tiled,TF,22.953,6.1,6.45,0.0,1.9,0.241
-02P23RR126,23,Rolls-Royce plc,,Trent 1000-AE3,Phase5 Tiled,TF,310.86399447,48.254200921425166,0.4342115360001264,0.0,9.569253707743782,2.326860755793442
-02P23RR126,23,Rolls-Royce plc,,Trent 1000-AE3,Phase5 Tiled,TF,264.2343952995,36.91570289981175,0.40830249635505167,0.0,12.650646344421451,1.9080697430624856
-02P23RR126,23,Rolls-Royce plc,,Trent 1000-AE3,Phase5 Tiled,TF,93.259198341,13.655427117763287,0.7062594553052051,0.0,8.494147372361516,0.6425063251585069
-02P23RR126,23,Rolls-Royce plc,,Trent 1000-AE3,Phase5 Tiled,TF,21.760479612900003,5.529188126376023,7.401245627321215,0.0,2.0297898096663527,0.24369374136905658
-02P23RR127,23,Rolls-Royce plc,,Trent 1000-CE3,Phase5 Tiled,TF,334.679775058,55.28331841033043,0.42059005653277703,0.0,8.22157818237934,2.556194371364924
-02P23RR127,23,Rolls-Royce plc,,Trent 1000-CE3,Phase5 Tiled,TF,284.4778087993,41.46237857978179,0.42494007671319883,0.0,11.365021710945763,2.089633292005604
-02P23RR127,23,Rolls-Royce plc,,Trent 1000-CE3,Phase5 Tiled,TF,100.40393251740001,14.261161128375296,0.608564269031937,0.0,9.263087309743545,0.6873708508472183
-02P23RR127,23,Rolls-Royce plc,,Trent 1000-CE3,Phase5 Tiled,TF,23.427584254060005,5.791202014305627,6.512822406327008,0.0,1.9014738476822561,0.2556397230034171
-02P23RR128,23,Rolls-Royce plc,,Trent 1000-D3,Phase5 Tiled,TF,334.679775058,55.28331841033043,0.42059005653277703,0.0,8.22157818237934,2.556194371364924
-02P23RR128,23,Rolls-Royce plc,,Trent 1000-D3,Phase5 Tiled,TF,284.4778087993,41.46237857978179,0.42494007671319883,0.0,11.365021710945763,2.089633292005604
-02P23RR128,23,Rolls-Royce plc,,Trent 1000-D3,Phase5 Tiled,TF,100.40393251740001,14.261161128375296,0.608564269031937,0.0,9.263087309743545,0.6873708508472183
-02P23RR128,23,Rolls-Royce plc,,Trent 1000-D3,Phase5 Tiled,TF,23.427584254060005,5.791202014305627,6.512822406327008,0.0,1.9014738476822561,0.2556397230034171
-02P23RR129,23,Rolls-Royce plc,,Trent 1000-G3,Phase5 Tiled,TF,323.728252494,51.92658683309725,0.43261473178991516,0.0,8.785774974557675,2.449242492969246
-02P23RR129,23,Rolls-Royce plc,,Trent 1000-G3,Phase5 Tiled,TF,275.1690146199,39.30346006445727,0.4180353172770465,0.0,11.971517266863481,2.005474664086204
-02P23RR129,23,Rolls-Royce plc,,Trent 1000-G3,Phase5 Tiled,TF,97.1184757482,13.98195892457627,0.6511195738708666,0.0,8.913614835002287,0.6666313868981019
-02P23RR129,23,Rolls-Royce plc,,Trent 1000-G3,Phase5 Tiled,TF,22.660977674580003,5.670429894170682,6.897061912381287,0.0,1.9567003072302718,0.25017387885935466
-02P23RR130,23,Rolls-Royce plc,,Trent 1000-H3,Phase5 Tiled,TF,287.137178322,42.13756529401125,0.4269822202314355,0.0,11.142175890753506,2.1075239146431204
-02P23RR130,23,Rolls-Royce plc,,Trent 1000-H3,Phase5 Tiled,TF,244.0666015737,32.82603270911774,0.38495536989303214,0.0,13.777700566835847,1.7322996361143872
-02P23RR130,23,Rolls-Royce plc,,Trent 1000-H3,Phase5 Tiled,TF,86.1411534966,13.042217232243729,0.8261989320695267,0.0,7.690830926213594,0.598325974981604
-02P23RR130,23,Rolls-Royce plc,,Trent 1000-H3,Phase5 Tiled,TF,20.099602482540003,5.291525340983501,8.392809681882952,0.0,2.1653041429494304,0.23230971604826273
-02P23RR131,23,Rolls-Royce plc,,Trent 1000-J3,Phase5 Tiled,TF,350.902440692,60.67963514191126,0.37289541775891766,0.0,7.682235765538482,2.7209244307357343
-02P23RR131,23,Rolls-Royce plc,,Trent 1000-J3,Phase5 Tiled,TF,298.2670745882,44.91554168756377,0.43223655388332216,0.0,10.43880126141408,2.2168924571854807
-02P23RR131,23,Rolls-Royce plc,,Trent 1000-J3,Phase5 Tiled,TF,105.2707322076,14.682443510059553,0.5518552052943103,0.0,9.76999195073515,0.718595966010463
-02P23RR131,23,Rolls-Royce plc,,Trent 1000-J3,Phase5 Tiled,TF,24.563170848440006,5.9678564323562355,6.014260914110607,0.0,1.8311511494341375,0.2635915308395577
-02P23RR132,23,Rolls-Royce plc,,Trent 1000-K3,Phase5 Tiled,TF,350.902440692,60.67963514191126,0.37289541775891766,0.0,7.682235765538482,2.7209244307357343
-02P23RR132,23,Rolls-Royce plc,,Trent 1000-K3,Phase5 Tiled,TF,298.2670745882,44.91554168756377,0.43223655388332216,0.0,10.43880126141408,2.2168924571854807
-02P23RR132,23,Rolls-Royce plc,,Trent 1000-K3,Phase5 Tiled,TF,105.2707322076,14.682443510059553,0.5518552052943103,0.0,9.76999195073515,0.718595966010463
-02P23RR132,23,Rolls-Royce plc,,Trent 1000-K3,Phase5 Tiled,TF,24.563170848440006,5.9678564323562355,6.014260914110607,0.0,1.8311511494341375,0.2635915308395577
-02P23RR133,23,Rolls-Royce plc,,Trent 1000-L3,Phase5 Tiled,TF,334.679775058,55.28331841033043,0.42059005653277703,0.0,8.22157818237934,2.556194371364924
-02P23RR133,23,Rolls-Royce plc,,Trent 1000-L3,Phase5 Tiled,TF,284.4778087993,41.46237857978179,0.42494007671319883,0.0,11.365021710945763,2.089633292005604
-02P23RR133,23,Rolls-Royce plc,,Trent 1000-L3,Phase5 Tiled,TF,100.40393251740001,14.261161128375296,0.608564269031937,0.0,9.263087309743545,0.6873708508472183
-02P23RR133,23,Rolls-Royce plc,,Trent 1000-L3,Phase5 Tiled,TF,23.427584254060005,5.791202014305627,6.512822406327008,0.0,1.9014738476822561,0.2556397230034171
-02P23RR134,23,Rolls-Royce plc,,Trent 1000-M3,Phase5 Tiled,TF,358.055181668,64.41415318382809,0.43696992394340595,0.0,7.646836073389852,2.8016659610712953
-02P23RR134,23,Rolls-Royce plc,,Trent 1000-M3,Phase5 Tiled,TF,304.3469044178,46.585126545643796,0.4305304522149911,0.0,10.041457169805048,2.273884403318314
-02P23RR134,23,Rolls-Royce plc,,Trent 1000-M3,Phase5 Tiled,TF,107.4165545004,14.738599660943677,0.5439976878773802,0.0,9.987116646960606,0.7324042154283469
-02P23RR134,23,Rolls-Royce plc,,Trent 1000-M3,Phase5 Tiled,TF,25.063862716760003,6.17307685560736,6.075384291965636,0.0,1.8045440114002407,0.26704138820849327
-02P23RR135,23,Rolls-Royce plc,,Trent 1000-N3,Phase5 Tiled,TF,358.055181668,64.41415318382809,0.43696992394340595,0.0,7.646836073389852,2.8016659610712953
-02P23RR135,23,Rolls-Royce plc,,Trent 1000-N3,Phase5 Tiled,TF,304.3469044178,46.585126545643796,0.4305304522149911,0.0,10.041457169805048,2.273884403318314
-02P23RR135,23,Rolls-Royce plc,,Trent 1000-N3,Phase5 Tiled,TF,107.4165545004,14.738599660943677,0.5439976878773802,0.0,9.987116646960606,0.7324042154283469
-02P23RR135,23,Rolls-Royce plc,,Trent 1000-N3,Phase5 Tiled,TF,25.063862716760003,6.17307685560736,6.075384291965636,0.0,1.8045440114002407,0.26704138820849327
-02P23RR136,23,Rolls-Royce plc,,Trent 1000-P3,Phase5 Tiled,TF,334.679775058,55.28331841033043,0.42059005653277703,0.0,8.22157818237934,2.556194371364924
-02P23RR136,23,Rolls-Royce plc,,Trent 1000-P3,Phase5 Tiled,TF,284.4778087993,41.46237857978179,0.42494007671319883,0.0,11.365021710945763,2.089633292005604
-02P23RR136,23,Rolls-Royce plc,,Trent 1000-P3,Phase5 Tiled,TF,100.40393251740001,14.261161128375296,0.608564269031937,0.0,9.263087309743545,0.6873708508472183
-02P23RR136,23,Rolls-Royce plc,,Trent 1000-P3,Phase5 Tiled,TF,23.427584254060005,5.791202014305627,6.512822406327008,0.0,1.9014738476822561,0.2556397230034171
-02P23RR137,23,Rolls-Royce plc,,Trent 1000-Q3,Phase5 Tiled,TF,350.902440692,60.67963514191126,0.37289541775891766,0.0,7.682235765538482,2.7209244307357343
-02P23RR137,23,Rolls-Royce plc,,Trent 1000-Q3,Phase5 Tiled,TF,298.2670745882,44.91554168756377,0.43223655388332216,0.0,10.43880126141408,2.2168924571854807
-02P23RR137,23,Rolls-Royce plc,,Trent 1000-Q3,Phase5 Tiled,TF,105.2707322076,14.682443510059553,0.5518552052943103,0.0,9.76999195073515,0.718595966010463
-02P23RR137,23,Rolls-Royce plc,,Trent 1000-Q3,Phase5 Tiled,TF,24.563170848440006,5.9678564323562355,6.014260914110607,0.0,1.8311511494341375,0.2635915308395577
-02P23RR138,23,Rolls-Royce plc,,Trent 1000-R3,Phase5 Tiled,TF,363.873456044,67.28656442171815,0.43400525201778795,0.0,7.804810150216428,2.8719394800770104
-02P23RR138,23,Rolls-Royce plc,,Trent 1000-R3,Phase5 Tiled,TF,309.2924376374,47.892471407345504,0.43133960062900206,0.0,9.746522765978929,2.32192410817785
-02P23RR138,23,Rolls-Royce plc,,Trent 1000-R3,Phase5 Tiled,TF,109.1620368132,14.888231828808129,0.5250447413689429,0.0,10.154019607867363,0.743517342526233
-02P23RR138,23,Rolls-Royce plc,,Trent 1000-R3,Phase5 Tiled,TF,25.471141923080005,6.236423569968839,5.91506955137621,0.0,1.784182904112792,0.2698952694870322
-02P23RR139,23,Rolls-Royce plc,,Trent7000-68,Phase5 Tiled,TF,308.737744354,46.39968766439637,0.4254156791501584,0.0,10.12148023061228,2.28795574531031
-02P23RR139,23,Rolls-Royce plc,,Trent7000-68,Phase5 Tiled,TF,262.4270827009,35.77378813155657,0.3927513058562665,0.0,13.070531362981356,1.8757081052748297
-02P23RR139,23,Rolls-Royce plc,,Trent7000-68,Phase5 Tiled,TF,92.62132330619998,13.567934309967537,0.7346222233957276,0.0,8.167697617905812,0.6277764850262582
-02P23RR139,23,Rolls-Royce plc,,Trent7000-68,Phase5 Tiled,TF,21.61164210478,5.331946251883421,8.29430600796597,0.0,2.1773334402893547,0.24537637717096578
-02P23RR140,23,Rolls-Royce plc,,Trent7000-70,Phase5 Tiled,TF,317.772083236,48.872280862070774,0.4261024984818596,0.0,9.5174818871886,2.37296753505297
-02P23RR140,23,Rolls-Royce plc,,Trent7000-70,Phase5 Tiled,TF,270.1062707506,37.35212800171736,0.4002536913204241,0.0,12.624652090780122,1.9429433066719084
-02P23RR140,23,Rolls-Royce plc,,Trent7000-70,Phase5 Tiled,TF,95.33162497080001,13.806145088587858,0.6914940745410247,0.0,8.483994023517072,0.6446083870089812
-02P23RR140,23,Rolls-Royce plc,,Trent7000-70,Phase5 Tiled,TF,22.244045826520004,5.419286911216408,7.904710490002375,0.0,2.1220302304043597,0.24971651949963208
-02P23RR141,23,Rolls-Royce plc,,Trent7000-72,Phase5 Tiled,TF,327.918477618,52.73627594773288,0.42329287549682454,0.0,8.702375514523737,2.5020034851371373
-02P23RR141,23,Rolls-Royce plc,,Trent7000-72,Phase5 Tiled,TF,278.7307059753,39.72747991280758,0.4097758574510423,0.0,11.946274836040379,2.0395062923987215
-02P23RR141,23,Rolls-Royce plc,,Trent7000-72,Phase5 Tiled,TF,98.3755432854,14.177504381930062,0.630882902072282,0.0,8.960630057565544,0.6708047113610933
-02P23RR141,23,Rolls-Royce plc,,Trent7000-72,Phase5 Tiled,TF,22.954293433260002,5.608401582255159,7.156089977237805,0.0,2.010804088395465,0.2588732070317618
-02P23RR142,23,Rolls-Royce plc,,Trent7000-72C,Phase5 Tiled,TF,327.918477618,52.73627594773288,0.42329287549682454,0.0,8.702375514523737,2.5020034851371373
-02P23RR142,23,Rolls-Royce plc,,Trent7000-72C,Phase5 Tiled,TF,278.7307059753,39.72747991280758,0.4097758574510423,0.0,11.946274836040379,2.0395062923987215
-02P23RR142,23,Rolls-Royce plc,,Trent7000-72C,Phase5 Tiled,TF,98.3755432854,14.177504381930062,0.630882902072282,0.0,8.960630057565544,0.6708047113610933
-02P23RR142,23,Rolls-Royce plc,,Trent7000-72C,Phase5 Tiled,TF,22.954293433260002,5.608401582255159,7.156089977237805,0.0,2.010804088395465,0.2588732070317618
-02P23RR143,23,Rolls-Royce plc,,Trent7000-72D,Phase5 Tiled,TF,327.918477618,52.73627594773288,0.42329287549682454,0.0,8.702375514523737,2.5020034851371373
-02P23RR143,23,Rolls-Royce plc,,Trent7000-72D,Phase5 Tiled,TF,278.7307059753,39.72747991280758,0.4097758574510423,0.0,11.946274836040379,2.0395062923987215
-02P23RR143,23,Rolls-Royce plc,,Trent7000-72D,Phase5 Tiled,TF,98.3755432854,14.177504381930062,0.630882902072282,0.0,8.960630057565544,0.6708047113610933
-02P23RR143,23,Rolls-Royce plc,,Trent7000-72D,Phase5 Tiled,TF,22.954293433260002,5.608401582255159,7.156089977237805,0.0,2.010804088395465,0.2588732070317618
+8RR044,8,Rolls-Royce plc,TRENT 500,Trent 553-61,Phase5 Tiled,TF,251.9,40.55,0.18,0.02,4.29,2.11
+8RR044,8,Rolls-Royce plc,TRENT 500,Trent 553-61,Phase5 Tiled,TF,214.115,30.98,0.44,0.01,4.15,1.73
+8RR044,8,Rolls-Royce plc,TRENT 500,Trent 553-61,Phase5 Tiled,TF,75.57,11.37,0.66,0.04,1.95,0.6
+8RR044,8,Rolls-Royce plc,TRENT 500,Trent 553-61,Phase5 Tiled,TF,17.633000000000003,5.96,10.5,0.14,0.91,0.23
+6RR041,6,Rolls-Royce plc,TRENT 500,Trent 556-61,Phase5 Tiled,TF,261.5,44.91,0.02,0.0,2.24,2.24
+6RR041,6,Rolls-Royce plc,TRENT 500,Trent 556-61,Phase5 Tiled,TF,222.275,32.76,0.25,0.0,2.09,1.83
+6RR041,6,Rolls-Royce plc,TRENT 500,Trent 556-61,Phase5 Tiled,TF,78.45,11.78,0.46,0.0,1.02,0.62
+6RR041,6,Rolls-Royce plc,TRENT 500,Trent 556-61,Phase5 Tiled,TF,18.305000000000003,6.19,10.3,0.1,0.76,0.23
+8RR045,8,Rolls-Royce plc,TRENT 500,Trent 556-61,Phase5 Tiled,TF,263.9,44.77,0.17,0.02,4.34,2.24
+8RR045,8,Rolls-Royce plc,TRENT 500,Trent 556-61,Phase5 Tiled,TF,224.31499999999997,33.25,0.38,0.01,4.17,1.83
+8RR045,8,Rolls-Royce plc,TRENT 500,Trent 556-61,Phase5 Tiled,TF,79.16999999999999,11.68,0.54,0.04,2.05,0.62
+8RR045,8,Rolls-Royce plc,TRENT 500,Trent 556-61,Phase5 Tiled,TF,18.473,6.09,9.96,0.13,0.93,0.23
+2RR022,2,Rolls-Royce plc,TRENT 700 A,TRENT 768 A,,MTF,298.7,39.11,0.18,0.25,,2.94
+2RR022,2,Rolls-Royce plc,TRENT 700 A,TRENT 768 A,,MTF,253.89499999999998,30.01,0.13,0.38,,2.42
+2RR022,2,Rolls-Royce plc,TRENT 700 A,TRENT 768 A,,MTF,89.61,10.34,0.86,0.84,,0.8
+2RR022,2,Rolls-Royce plc,TRENT 700 A,TRENT 768 A,,MTF,20.909000000000002,5.6,10.52,1.08,,0.26
+3RR029,3,Rolls-Royce plc,TRENT 700 B,TRENT 768 B,Improved traverse,MTF,300.3,31.25,0.18,0.0,1.9,2.97
+3RR029,3,Rolls-Royce plc,TRENT 700 B,TRENT 768 B,Improved traverse,MTF,255.255,24.66,0.15,0.01,2.0,2.43
+3RR029,3,Rolls-Royce plc,TRENT 700 B,TRENT 768 B,Improved traverse,MTF,90.09,10.01,1.02,0.01,0.7,0.81
+3RR029,3,Rolls-Royce plc,TRENT 700 B,TRENT 768 B,Improved traverse,MTF,21.021000000000004,4.52,20.22,1.89,0.2,0.27
+2RR023,2,Rolls-Royce plc,TRENT 700 A,TRENT 772 A,,MTF,315.9,43.6,0.18,0.33,,3.15
+2RR023,2,Rolls-Royce plc,TRENT 700 A,TRENT 772 A,,MTF,268.515,32.66,0.15,0.35,,2.58
+2RR023,2,Rolls-Royce plc,TRENT 700 A,TRENT 772 A,,MTF,94.77,10.68,0.78,0.81,,0.84
+2RR023,2,Rolls-Royce plc,TRENT 700 A,TRENT 772 A,,MTF,22.113,5.74,9.36,0.97,,0.27
+3RR030,3,Rolls-Royce plc,TRENT 700 B,TRENT 772 B,Improved traverse,MTF,316.3,34.38,0.2,0.0,1.9,3.2
+3RR030,3,Rolls-Royce plc,TRENT 700 B,TRENT 772 B,Improved traverse,MTF,268.855,26.44,0.16,0.0,2.0,2.58
+3RR030,3,Rolls-Royce plc,TRENT 700 B,TRENT 772 B,Improved traverse,MTF,94.89,10.3,0.89,0.01,0.7,0.85
+3RR030,3,Rolls-Royce plc,TRENT 700 B,TRENT 772 B,Improved traverse,MTF,22.141000000000002,4.71,17.94,1.46,0.2,0.28
+01P14RR101,14,Rolls-Royce plc,TRENT 700 C,TRENT 768 C,Phase5,MTF,304.2,32.01,0.35,0.0,1.5,2.907
+01P14RR101,14,Rolls-Royce plc,TRENT 700 C,TRENT 768 C,Phase5,MTF,258.57,24.9,0.49,0.01,1.8,2.375
+01P14RR101,14,Rolls-Royce plc,TRENT 700 C,TRENT 768 C,Phase5,MTF,91.25999999999999,10.12,1.71,0.04,0.5,0.781
+01P14RR101,14,Rolls-Royce plc,TRENT 700 C,TRENT 768 C,Phase5,MTF,21.294,4.46,26.94,3.19,0.2,0.259
+01P14RR102,14,Rolls-Royce plc,TRENT 700 C,TRENT 772 C,Phase5,MTF,320.3,35.56,0.21,0.01,1.4,3.139
+01P14RR102,14,Rolls-Royce plc,TRENT 700 C,TRENT 772 C,Phase5,MTF,272.255,26.82,0.49,0.01,1.8,2.53
+01P14RR102,14,Rolls-Royce plc,TRENT 700 C,TRENT 772 C,Phase5,MTF,96.09,10.42,1.56,0.04,0.6,0.821
+01P14RR102,14,Rolls-Royce plc,TRENT 700 C,TRENT 772 C,Phase5,MTF,22.421000000000003,4.66,23.97,2.46,0.2,0.27
+2RR024,2,Rolls-Royce plc,TRENT 800,Trent 875,,TF,351.85,33.32,0.19,0.0,4.86,3.1
+2RR024,2,Rolls-Royce plc,TRENT 800,Trent 875,,TF,299.0725,26.55,0.16,0.0,5.26,2.57
+2RR024,2,Rolls-Royce plc,TRENT 800,Trent 875,,TF,105.555,10.43,0.86,0.0,2.2,0.88
+2RR024,2,Rolls-Royce plc,TRENT 800,Trent 875,,TF,24.629500000000004,4.64,19.66,1.78,0.5,0.28
+2RR025,2,Rolls-Royce plc,TRENT 800,Trent 877,,TF,361.64,34.76,0.2,0.0,4.13,3.21
+2RR025,2,Rolls-Royce plc,TRENT 800,Trent 877,,TF,307.394,27.59,0.16,0.0,5.27,2.66
+2RR025,2,Rolls-Royce plc,TRENT 800,Trent 877,,TF,108.49199999999999,10.59,0.8,0.0,2.27,0.9
+2RR025,2,Rolls-Royce plc,TRENT 800,Trent 877,,TF,25.3148,4.75,18.42,1.55,0.5,0.28
+2RR026,2,Rolls-Royce plc,TRENT 800,Trent 884,,TF,390.1,40.05,0.24,0.0,4.37,3.56
+2RR026,2,Rolls-Royce plc,TRENT 800,Trent 884,,TF,331.58500000000004,30.63,0.18,0.0,5.1,2.89
+2RR026,2,Rolls-Royce plc,TRENT 800,Trent 884,,TF,117.03,11.07,0.65,0.0,2.53,0.97
+2RR026,2,Rolls-Royce plc,TRENT 800,Trent 884,,TF,27.307000000000006,5.04,15.19,1.0,0.5,0.31
+2RR027,2,Rolls-Royce plc,TRENT 800,Trent 892,,TF,411.48,45.7,0.28,0.01,4.0,3.91
+2RR027,2,Rolls-Royce plc,TRENT 800,Trent 892,,TF,349.758,33.3,0.2,0.0,4.9,3.1
+2RR027,2,Rolls-Royce plc,TRENT 800,Trent 892,,TF,123.444,11.58,0.57,0.0,2.76,1.0
+2RR027,2,Rolls-Royce plc,TRENT 800,Trent 892,,TF,28.803600000000003,5.33,13.07,0.7,0.53,0.3
+5RR040,5,Rolls-Royce plc,TRENT 800,Trent 895,,TF,413.05,47.79,0.27,0.02,4.0,4.03
+5RR040,5,Rolls-Royce plc,TRENT 800,Trent 895,,TF,351.0925,34.29,0.19,0.0,4.9,3.19
+5RR040,5,Rolls-Royce plc,TRENT 800,Trent 895,,TF,123.91499999999999,11.39,0.54,0.0,2.6,1.05
+5RR040,5,Rolls-Royce plc,TRENT 800,Trent 895,,TF,28.913500000000003,5.11,14.71,0.89,0.5,0.33
+8RR046,8,Rolls-Royce plc,TRENT 900 2007,TRENT 970-84 2007,Phase5 Tiled,TF,334.7,37.2,0.4,0.0,4.1,2.6
+8RR046,8,Rolls-Royce plc,TRENT 900 2007,TRENT 970-84 2007,Phase5 Tiled,TF,284.495,29.1,0.2,0.0,4.7,2.2
+8RR046,8,Rolls-Royce plc,TRENT 900 2007,TRENT 970-84 2007,Phase5 Tiled,TF,100.41,11.4,1.4,0.0,2.6,0.7
+8RR046,8,Rolls-Royce plc,TRENT 900 2007,TRENT 970-84 2007,Phase5 Tiled,TF,23.429000000000002,5.1,15.1,0.2,0.7,0.3
+9RR047,9,Rolls-Royce plc,TRENT 900 2007,TRENT 972-84 2007,Phase5 Tiled,TF,345.9,38.8,0.4,0.0,4.1,2.69
+9RR047,9,Rolls-Royce plc,TRENT 900 2007,TRENT 972-84 2007,Phase5 Tiled,TF,294.015,29.6,0.3,0.0,4.8,2.23
+9RR047,9,Rolls-Royce plc,TRENT 900 2007,TRENT 972-84 2007,Phase5 Tiled,TF,103.77,11.8,1.4,0.0,2.6,0.75
+9RR047,9,Rolls-Royce plc,TRENT 900 2007,TRENT 972-84 2007,Phase5 Tiled,TF,24.213,5.0,15.94,0.24,0.8,0.27
+18RR082,18,Rolls-Royce plc,TRENT 900 2017,TRENT 970-84B 2017,Phase5 Tiled,TF,352.9,41.34,0.33,0.0,6.1,2.738
+18RR082,18,Rolls-Royce plc,TRENT 900 2017,TRENT 970-84B 2017,Phase5 Tiled,TF,299.965,31.3,0.31,0.09,6.3,2.262
+18RR082,18,Rolls-Royce plc,TRENT 900 2017,TRENT 970-84B 2017,Phase5 Tiled,TF,105.86999999999999,12.37,1.05,0.07,3.3,0.749
+18RR082,18,Rolls-Royce plc,TRENT 900 2017,TRENT 970-84B 2017,Phase5 Tiled,TF,24.703,5.57,12.65,0.04,0.6,0.261
+01P18RR103,18,Rolls-Royce plc,TRENT 900 2017,TRENT 970-84 2017,Phase5 Tiled,TF,338.7,38.29,0.32,0.02,6.1,2.605
+01P18RR103,18,Rolls-Royce plc,TRENT 900 2017,TRENT 970-84 2017,Phase5 Tiled,TF,287.895,29.42,0.31,0.12,6.4,2.157
+01P18RR103,18,Rolls-Royce plc,TRENT 900 2017,TRENT 970-84 2017,Phase5 Tiled,TF,101.61,12.09,1.16,0.08,3.0,0.72
+01P18RR103,18,Rolls-Royce plc,TRENT 900 2017,TRENT 970-84 2017,Phase5 Tiled,TF,23.709000000000003,5.44,13.38,0.04,0.6,0.255
+01P18RR104,18,Rolls-Royce plc,TRENT 900 2017,TRENT 972-84 2017,Phase5 Tiled,TF,345.9,39.78,0.32,0.01,6.1,2.672
+01P18RR104,18,Rolls-Royce plc,TRENT 900 2017,TRENT 972-84 2017,Phase5 Tiled,TF,294.015,30.36,0.31,0.11,6.4,2.21
+01P18RR104,18,Rolls-Royce plc,TRENT 900 2017,TRENT 972-84 2017,Phase5 Tiled,TF,103.77,12.23,1.1,0.07,3.2,0.735
+01P18RR104,18,Rolls-Royce plc,TRENT 900 2017,TRENT 972-84 2017,Phase5 Tiled,TF,24.213,5.51,13.0,0.04,0.6,0.258
+01P18RR105,18,Rolls-Royce plc,TRENT 900 2017,TRENT 972E-84 2017,Phase5 Tiled,TF,345.9,39.78,0.32,0.01,6.1,2.672
+01P18RR105,18,Rolls-Royce plc,TRENT 900 2017,TRENT 972E-84 2017,Phase5 Tiled,TF,294.015,30.36,0.31,0.11,6.4,2.21
+01P18RR105,18,Rolls-Royce plc,TRENT 900 2017,TRENT 972E-84 2017,Phase5 Tiled,TF,103.77,12.23,1.1,0.07,3.2,0.735
+01P18RR105,18,Rolls-Royce plc,TRENT 900 2017,TRENT 972E-84 2017,Phase5 Tiled,TF,24.213,5.51,13.0,0.04,0.6,0.258
+11RR049,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-A Pack-B 2012,Phase5 Tiled,TF,310.8,46.67,0.53,0.0,3.3,2.282
+11RR049,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-A Pack-B 2012,Phase5 Tiled,TF,264.18,35.87,0.45,0.0,4.1,1.877
+11RR049,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-A Pack-B 2012,Phase5 Tiled,TF,93.24,13.29,0.77,0.0,2.9,0.625
+11RR049,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-A Pack-B 2012,Phase5 Tiled,TF,21.756000000000004,5.4,8.73,0.06,0.6,0.237
+11RR050,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-C Pack-B 2012,Phase5 Tiled,TF,334.7,53.54,0.51,0.0,3.0,2.508
+11RR050,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-C Pack-B 2012,Phase5 Tiled,TF,284.495,40.33,0.48,0.0,3.8,2.048
+11RR050,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-C Pack-B 2012,Phase5 Tiled,TF,100.41,13.86,0.68,0.0,3.1,0.668
+11RR050,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-C Pack-B 2012,Phase5 Tiled,TF,23.429000000000002,5.66,7.66,0.04,0.6,0.246
+11RR051,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-D Pack-B 2012,Phase5 Tiled,TF,334.7,53.54,0.51,0.0,3.0,2.508
+11RR051,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-D Pack-B 2012,Phase5 Tiled,TF,284.495,40.33,0.48,0.0,3.8,2.048
+11RR051,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-D Pack-B 2012,Phase5 Tiled,TF,100.41,13.86,0.68,0.0,3.1,0.668
+11RR051,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-D Pack-B 2012,Phase5 Tiled,TF,23.429000000000002,5.66,7.66,0.04,0.6,0.246
+11RR052,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-E Pack-B 2012,Phase5 Tiled,TF,279.8,39.17,0.47,0.0,3.8,2.007
+11RR052,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-E Pack-B 2012,Phase5 Tiled,TF,237.83,30.55,0.43,0.0,4.5,1.659
+11RR052,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-E Pack-B 2012,Phase5 Tiled,TF,83.94,12.54,0.92,0.0,2.5,0.57
+11RR052,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-E Pack-B 2012,Phase5 Tiled,TF,19.586000000000002,5.06,10.63,0.09,0.6,0.222
+11RR053,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-G Pack-B 2012,Phase5 Tiled,TF,323.7,50.27,0.53,0.0,3.1,2.403
+11RR053,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-G Pack-B 2012,Phase5 Tiled,TF,275.145,38.18,0.47,0.0,3.9,1.968
+11RR053,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-G Pack-B 2012,Phase5 Tiled,TF,97.11,13.6,0.72,0.0,3.0,0.649
+11RR053,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-G Pack-B 2012,Phase5 Tiled,TF,22.659000000000002,5.54,8.14,0.05,0.6,0.242
+11RR054,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-H Pack-B 2012,Phase5 Tiled,TF,286.7,40.89,0.49,0.0,3.7,2.07
+11RR054,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-H Pack-B 2012,Phase5 Tiled,TF,243.695,31.75,0.43,0.0,4.4,1.71
+11RR054,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-H Pack-B 2012,Phase5 Tiled,TF,86.00999999999999,12.72,0.88,0.0,2.6,0.583
+11RR054,11,Rolls-Royce plc,TRENT 1000 Pack-B 2012,TRENT 1000-H Pack-B 2012,Phase5 Tiled,TF,20.069000000000003,5.14,10.11,0.08,0.6,0.226
+12RR069,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-L2 Pack-C1 2013,Phase5 Tiled,TF,334.7,52.65,0.5,0.0,3.3,2.503
+12RR069,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-L2 Pack-C1 2013,Phase5 Tiled,TF,284.495,39.86,0.48,0.0,3.8,2.053
+12RR069,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-L2 Pack-C1 2013,Phase5 Tiled,TF,100.41,13.67,0.67,0.0,3.9,0.666
+12RR069,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-L2 Pack-C1 2013,Phase5 Tiled,TF,23.429000000000002,5.74,7.37,0.03,0.5,0.247
+12RR068,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-K2 Pack-C1 2013,Phase5 Tiled,TF,350.9,58.04,0.43,0.0,3.9,2.663
+12RR068,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-K2 Pack-C1 2013,Phase5 Tiled,TF,298.265,43.07,0.49,0.0,3.6,2.173
+12RR068,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-K2 Pack-C1 2013,Phase5 Tiled,TF,105.27,14.06,0.62,0.0,4.1,0.696
+12RR068,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-K2 Pack-C1 2013,Phase5 Tiled,TF,24.563000000000002,5.91,6.8,0.02,0.5,0.254
+12RR067,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-J2 Pack-C1 2013,Phase5 Tiled,TF,350.9,58.04,0.43,0.0,3.9,2.663
+12RR067,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-J2 Pack-C1 2013,Phase5 Tiled,TF,298.265,43.07,0.49,0.0,3.6,2.173
+12RR067,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-J2 Pack-C1 2013,Phase5 Tiled,TF,105.27,14.06,0.62,0.0,4.1,0.696
+12RR067,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-J2 Pack-C1 2013,Phase5 Tiled,TF,24.563000000000002,5.91,6.8,0.02,0.5,0.254
+12RR066,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-H2 Pack-C1 2013,Phase5 Tiled,TF,287.1,40.46,0.48,0.0,3.8,2.075
+12RR066,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-H2 Pack-C1 2013,Phase5 Tiled,TF,244.03500000000003,31.49,0.43,0.0,4.8,1.715
+12RR066,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-H2 Pack-C1 2013,Phase5 Tiled,TF,86.13000000000001,12.56,0.89,0.0,3.3,0.582
+12RR066,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-H2 Pack-C1 2013,Phase5 Tiled,TF,20.097000000000005,5.21,9.82,0.07,0.5,0.233
+12RR065,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-G2 Pack-C1 2013,Phase5 Tiled,TF,323.7,49.57,0.51,0.0,3.3,2.402
+12RR065,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-G2 Pack-C1 2013,Phase5 Tiled,TF,275.145,37.8,0.46,0.0,4.0,1.973
+12RR065,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-G2 Pack-C1 2013,Phase5 Tiled,TF,97.11,13.41,0.72,0.0,3.8,0.647
+12RR065,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-G2 Pack-C1 2013,Phase5 Tiled,TF,22.659000000000002,5.62,7.81,0.04,0.5,0.243
+12RR064,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-E2 Pack-C1 2013,Phase5 Tiled,TF,268.0,36.25,0.46,0.0,4.1,1.912
+12RR064,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-E2 Pack-C1 2013,Phase5 Tiled,TF,227.79999999999998,28.52,0.42,0.0,5.2,1.582
+12RR064,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-E2 Pack-C1 2013,Phase5 Tiled,TF,80.39999999999999,12.12,1.01,0.0,3.1,0.549
+12RR064,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-E2 Pack-C1 2013,Phase5 Tiled,TF,18.76,4.98,11.35,0.1,0.6,0.223
+12RR063,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-D2 Pack-C1 2013,Phase5 Tiled,TF,334.7,52.65,0.5,0.0,3.3,2.503
+12RR063,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-D2 Pack-C1 2013,Phase5 Tiled,TF,284.495,39.86,0.48,0.0,3.8,2.053
+12RR063,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-D2 Pack-C1 2013,Phase5 Tiled,TF,100.41,13.67,0.67,0.0,3.9,0.666
+12RR063,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-D2 Pack-C1 2013,Phase5 Tiled,TF,23.429000000000002,5.74,7.37,0.03,0.5,0.247
+12RR062,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-C2 Pack-C1 2013,Phase5 Tiled,TF,334.7,52.65,0.5,0.0,3.3,2.503
+12RR062,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-C2 Pack-C1 2013,Phase5 Tiled,TF,284.495,39.86,0.48,0.0,3.8,2.053
+12RR062,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-C2 Pack-C1 2013,Phase5 Tiled,TF,100.41,13.67,0.67,0.0,3.9,0.666
+12RR062,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-C2 Pack-C1 2013,Phase5 Tiled,TF,23.429000000000002,5.74,7.37,0.03,0.5,0.247
+12RR061,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-A2 Pack-C1 2013,Phase5 Tiled,TF,310.9,46.11,0.51,0.0,3.5,2.284
+12RR061,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-A2 Pack-C1 2013,Phase5 Tiled,TF,264.265,35.48,0.45,0.0,4.2,1.882
+12RR061,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-A2 Pack-C1 2013,Phase5 Tiled,TF,93.27,13.11,0.77,0.0,3.6,0.624
+12RR061,12,Rolls-Royce plc,TRENT 1000 Pack-C1 2013,TRENT 1000-A2 Pack-C1 2013,Phase5 Tiled,TF,21.763,5.48,8.4,0.04,0.5,0.245
+12RR060,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-H Pack-B 2013,Phase5 Tiled,TF,287.1,40.54,0.49,0.0,3.8,2.07
+12RR060,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-H Pack-B 2013,Phase5 Tiled,TF,244.03500000000003,31.54,0.43,0.0,4.8,1.71
+12RR060,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-H Pack-B 2013,Phase5 Tiled,TF,86.13000000000001,12.62,0.87,0.0,3.3,0.583
+12RR060,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-H Pack-B 2013,Phase5 Tiled,TF,20.097000000000005,5.21,9.8,0.07,0.5,0.226
+12RR059,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-G Pack-B 2013,Phase5 Tiled,TF,323.7,50.15,0.52,0.0,3.4,2.403
+12RR059,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-G Pack-B 2013,Phase5 Tiled,TF,275.145,37.84,0.47,0.0,4.0,1.968
+12RR059,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-G Pack-B 2013,Phase5 Tiled,TF,97.11,13.5,0.69,0.0,3.8,0.649
+12RR059,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-G Pack-B 2013,Phase5 Tiled,TF,22.659000000000002,5.6,7.88,0.04,0.5,0.242
+12RR058,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-E Pack-B 2013,Phase5 Tiled,TF,268.0,36.29,0.46,0.0,4.2,1.907
+12RR058,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-E Pack-B 2013,Phase5 Tiled,TF,227.79999999999998,28.62,0.42,0.0,5.2,1.579
+12RR058,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-E Pack-B 2013,Phase5 Tiled,TF,80.39999999999999,12.16,0.99,0.0,3.1,0.549
+12RR058,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-E Pack-B 2013,Phase5 Tiled,TF,18.76,5.0,11.2,0.1,0.6,0.217
+12RR057,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-D Pack-B 2013,Phase5 Tiled,TF,334.7,53.53,0.5,0.0,3.3,2.508
+12RR057,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-D Pack-B 2013,Phase5 Tiled,TF,284.495,39.98,0.48,0.0,3.8,2.048
+12RR057,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-D Pack-B 2013,Phase5 Tiled,TF,100.41,13.77,0.65,0.0,3.9,0.668
+12RR057,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-D Pack-B 2013,Phase5 Tiled,TF,23.429000000000002,5.72,7.41,0.03,0.5,0.247
+12RR056,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-C Pack-B 2013,Phase5 Tiled,TF,334.7,53.53,0.5,0.0,3.3,2.508
+12RR056,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-C Pack-B 2013,Phase5 Tiled,TF,284.495,39.98,0.48,0.0,3.8,2.048
+12RR056,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-C Pack-B 2013,Phase5 Tiled,TF,100.41,13.77,0.65,0.0,3.9,0.668
+12RR056,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-C Pack-B 2013,Phase5 Tiled,TF,23.429000000000002,5.72,7.41,0.03,0.5,0.247
+12RR055,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-A Pack-B 2013,Phase5 Tiled,TF,310.9,46.42,0.51,0.0,3.5,2.282
+12RR055,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-A Pack-B 2013,Phase5 Tiled,TF,264.265,35.57,0.46,0.0,4.2,1.877
+12RR055,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-A Pack-B 2013,Phase5 Tiled,TF,93.27,13.2,0.75,0.0,3.6,0.625
+12RR055,12,Rolls-Royce plc,TRENT 1000 Pack-B 2013,TRENT 1000-A Pack-B 2013,Phase5 Tiled,TF,21.763,5.47,8.45,0.05,0.5,0.237
+01P19RR106,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-AE3 TEN 2018,Phase5 Tiled,TF,310.9,46.1,0.43,0.0,9.8,2.279
+01P19RR106,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-AE3 TEN 2018,Phase5 Tiled,TF,264.265,35.9,0.44,0.0,13.0,1.874
+01P19RR106,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-AE3 TEN 2018,Phase5 Tiled,TF,93.27,13.5,0.76,0.0,7.8,0.623
+01P19RR106,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-AE3 TEN 2018,Phase5 Tiled,TF,21.763,5.9,6.93,0.0,2.0,0.239
+01P19RR107,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-CE3 TEN 2018,Phase5 Tiled,TF,334.7,52.07,0.41,0.0,8.4,2.497
+01P19RR107,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-CE3 TEN 2018,Phase5 Tiled,TF,284.495,40.11,0.45,0.0,11.6,2.046
+01P19RR107,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-CE3 TEN 2018,Phase5 Tiled,TF,100.41,14.08,0.65,0.0,8.6,0.667
+01P19RR107,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-CE3 TEN 2018,Phase5 Tiled,TF,23.429000000000002,6.16,6.23,0.0,1.9,0.249
+01P19RR108,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-D3 TEN 2018,Phase5 Tiled,TF,334.7,52.07,0.41,0.0,8.4,2.497
+01P19RR108,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-D3 TEN 2018,Phase5 Tiled,TF,284.495,40.11,0.45,0.0,11.6,2.046
+01P19RR108,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-D3 TEN 2018,Phase5 Tiled,TF,100.41,14.08,0.65,0.0,8.6,0.667
+01P19RR108,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-D3 TEN 2018,Phase5 Tiled,TF,23.429000000000002,6.16,6.23,0.0,1.9,0.249
+01P19RR109,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-G3 TEN 2018,Phase5 Tiled,TF,323.7,49.25,0.42,0.0,9.0,2.395
+01P19RR109,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-G3 TEN 2018,Phase5 Tiled,TF,275.145,38.14,0.45,0.0,12.3,1.966
+01P19RR109,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-G3 TEN 2018,Phase5 Tiled,TF,97.11,13.81,0.7,0.0,8.2,0.647
+01P19RR109,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-G3 TEN 2018,Phase5 Tiled,TF,22.659000000000002,6.04,6.54,0.0,1.9,0.245
+01P19RR110,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-H3 TEN 2018,Phase5 Tiled,TF,287.1,40.67,0.45,0.0,11.5,2.068
+01P19RR110,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-H3 TEN 2018,Phase5 Tiled,TF,244.03500000000003,32.04,0.43,0.0,14.1,1.706
+01P19RR110,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-H3 TEN 2018,Phase5 Tiled,TF,86.13000000000001,12.94,0.89,0.0,6.9,0.579
+01P19RR110,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-H3 TEN 2018,Phase5 Tiled,TF,20.097000000000005,5.64,7.78,0.0,2.1,0.229
+01P19RR111,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-J3 TEN 2018,Phase5 Tiled,TF,350.9,56.35,0.35,0.0,7.8,2.649
+01P19RR111,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-J3 TEN 2018,Phase5 Tiled,TF,298.265,43.21,0.44,0.0,10.7,2.168
+01P19RR111,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-J3 TEN 2018,Phase5 Tiled,TF,105.27,14.49,0.58,0.0,9.2,0.699
+01P19RR111,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-J3 TEN 2018,Phase5 Tiled,TF,24.563000000000002,6.34,5.8,0.0,1.8,0.256
+01P19RR112,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-K3 TEN 2018,Phase5 Tiled,TF,350.9,56.35,0.35,0.0,7.8,2.649
+01P19RR112,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-K3 TEN 2018,Phase5 Tiled,TF,298.265,43.21,0.44,0.0,10.7,2.168
+01P19RR112,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-K3 TEN 2018,Phase5 Tiled,TF,105.27,14.49,0.58,0.0,9.2,0.699
+01P19RR112,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-K3 TEN 2018,Phase5 Tiled,TF,24.563000000000002,6.34,5.8,0.0,1.8,0.256
+01P19RR113,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-L3 TEN 2018,Phase5 Tiled,TF,334.7,52.07,0.41,0.0,8.4,2.497
+01P19RR113,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-L3 TEN 2018,Phase5 Tiled,TF,284.495,40.11,0.45,0.0,11.6,2.046
+01P19RR113,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-L3 TEN 2018,Phase5 Tiled,TF,100.41,14.08,0.65,0.0,8.6,0.667
+01P19RR113,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-L3 TEN 2018,Phase5 Tiled,TF,23.429000000000002,6.16,6.23,0.0,1.9,0.249
+01P19RR114,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-M3 TEN 2018,Phase5 Tiled,TF,358.1,59.3,0.43,0.0,7.6,2.721
+01P19RR114,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-M3 TEN 2018,Phase5 Tiled,TF,304.385,44.55,0.44,0.0,10.2,2.222
+01P19RR114,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-M3 TEN 2018,Phase5 Tiled,TF,107.43,14.72,0.59,0.0,9.4,0.712
+01P19RR114,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-M3 TEN 2018,Phase5 Tiled,TF,25.067000000000004,6.61,6.13,0.0,1.8,0.26
+01P19RR115,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-N3 TEN 2018,Phase5 Tiled,TF,358.1,59.3,0.43,0.0,7.6,2.721
+01P19RR115,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-N3 TEN 2018,Phase5 Tiled,TF,304.385,44.55,0.44,0.0,10.2,2.222
+01P19RR115,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-N3 TEN 2018,Phase5 Tiled,TF,107.43,14.72,0.59,0.0,9.4,0.712
+01P19RR115,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-N3 TEN 2018,Phase5 Tiled,TF,25.067000000000004,6.61,6.13,0.0,1.8,0.26
+01P19RR116,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-P3 TEN 2018,Phase5 Tiled,TF,334.7,52.07,0.41,0.0,8.4,2.497
+01P19RR116,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-P3 TEN 2018,Phase5 Tiled,TF,284.495,40.11,0.45,0.0,11.6,2.046
+01P19RR116,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-P3 TEN 2018,Phase5 Tiled,TF,100.41,14.08,0.65,0.0,8.6,0.667
+01P19RR116,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-P3 TEN 2018,Phase5 Tiled,TF,23.429000000000002,6.16,6.23,0.0,1.9,0.249
+01P19RR117,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-Q3 TEN 2018,Phase5 Tiled,TF,350.9,56.35,0.35,0.0,7.8,2.649
+01P19RR117,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-Q3 TEN 2018,Phase5 Tiled,TF,298.265,43.21,0.44,0.0,10.7,2.168
+01P19RR117,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-Q3 TEN 2018,Phase5 Tiled,TF,105.27,14.49,0.58,0.0,9.2,0.699
+01P19RR117,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-Q3 TEN 2018,Phase5 Tiled,TF,24.563000000000002,6.34,5.8,0.0,1.8,0.256
+01P19RR118,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-R3 TEN 2018,Phase5 Tiled,TF,363.9,61.62,0.45,0.0,7.7,2.783
+01P19RR118,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-R3 TEN 2018,Phase5 Tiled,TF,309.315,45.76,0.43,0.0,9.9,2.266
+01P19RR118,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-R3 TEN 2018,Phase5 Tiled,TF,109.16999999999999,14.87,0.57,0.0,9.6,0.723
+01P19RR118,19,Rolls-Royce plc,TRENT 1000 TEN 2018,TRENT 1000-R3 TEN 2018,Phase5 Tiled,TF,25.473000000000003,6.67,5.99,0.0,1.8,0.262
+01P19RR119,19,Rolls-Royce plc,TRENT 7000 2018,TRENT 7000-72 2018,Phase5 Tiled,TF,327.9,56.8,0.41,0.0,8.3,2.478
+01P19RR119,19,Rolls-Royce plc,TRENT 7000 2018,TRENT 7000-72 2018,Phase5 Tiled,TF,278.715,42.04,0.45,0.0,11.6,2.029
+01P19RR119,19,Rolls-Royce plc,TRENT 7000 2018,TRENT 7000-72 2018,Phase5 Tiled,TF,98.36999999999999,14.12,0.63,0.0,8.8,0.67
+01P19RR119,19,Rolls-Royce plc,TRENT 7000 2018,TRENT 7000-72 2018,Phase5 Tiled,TF,22.953,6.1,6.45,0.0,1.9,0.241
+01P19RR120,19,Rolls-Royce plc,TRENT 7000 2018,TRENT 7000-72C 2018,Phase5 Tiled,TF,327.9,56.8,0.41,0.0,8.3,2.478
+01P19RR120,19,Rolls-Royce plc,TRENT 7000 2018,TRENT 7000-72C 2018,Phase5 Tiled,TF,278.715,42.04,0.45,0.0,11.6,2.029
+01P19RR120,19,Rolls-Royce plc,TRENT 7000 2018,TRENT 7000-72C 2018,Phase5 Tiled,TF,98.36999999999999,14.12,0.63,0.0,8.8,0.67
+01P19RR120,19,Rolls-Royce plc,TRENT 7000 2018,TRENT 7000-72C 2018,Phase5 Tiled,TF,22.953,6.1,6.45,0.0,1.9,0.241
+02P23RR126,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-AE3 TEN 2021,Phase5 Tiled,TF,310.86399447,48.254200921425166,0.4342115360001264,0.0,9.569253707743782,2.326860755793442
+02P23RR126,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-AE3 TEN 2021,Phase5 Tiled,TF,264.2343952995,36.91570289981175,0.40830249635505167,0.0,12.650646344421451,1.9080697430624856
+02P23RR126,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-AE3 TEN 2021,Phase5 Tiled,TF,93.259198341,13.655427117763287,0.7062594553052051,0.0,8.494147372361516,0.6425063251585069
+02P23RR126,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-AE3 TEN 2021,Phase5 Tiled,TF,21.760479612900003,5.529188126376023,7.401245627321215,0.0,2.0297898096663527,0.24369374136905658
+02P23RR127,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-CE3 TEN 2021,Phase5 Tiled,TF,334.679775058,55.28331841033043,0.42059005653277703,0.0,8.22157818237934,2.556194371364924
+02P23RR127,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-CE3 TEN 2021,Phase5 Tiled,TF,284.4778087993,41.46237857978179,0.42494007671319883,0.0,11.365021710945763,2.089633292005604
+02P23RR127,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-CE3 TEN 2021,Phase5 Tiled,TF,100.40393251740001,14.261161128375296,0.608564269031937,0.0,9.263087309743545,0.6873708508472183
+02P23RR127,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-CE3 TEN 2021,Phase5 Tiled,TF,23.427584254060005,5.791202014305627,6.512822406327008,0.0,1.9014738476822561,0.2556397230034171
+02P23RR128,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-D3 TEN 2021,Phase5 Tiled,TF,334.679775058,55.28331841033043,0.42059005653277703,0.0,8.22157818237934,2.556194371364924
+02P23RR128,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-D3 TEN 2021,Phase5 Tiled,TF,284.4778087993,41.46237857978179,0.42494007671319883,0.0,11.365021710945763,2.089633292005604
+02P23RR128,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-D3 TEN 2021,Phase5 Tiled,TF,100.40393251740001,14.261161128375296,0.608564269031937,0.0,9.263087309743545,0.6873708508472183
+02P23RR128,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-D3 TEN 2021,Phase5 Tiled,TF,23.427584254060005,5.791202014305627,6.512822406327008,0.0,1.9014738476822561,0.2556397230034171
+02P23RR129,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-G3 TEN 2021,Phase5 Tiled,TF,323.728252494,51.92658683309725,0.43261473178991516,0.0,8.785774974557675,2.449242492969246
+02P23RR129,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-G3 TEN 2021,Phase5 Tiled,TF,275.1690146199,39.30346006445727,0.4180353172770465,0.0,11.971517266863481,2.005474664086204
+02P23RR129,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-G3 TEN 2021,Phase5 Tiled,TF,97.1184757482,13.98195892457627,0.6511195738708666,0.0,8.913614835002287,0.6666313868981019
+02P23RR129,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-G3 TEN 2021,Phase5 Tiled,TF,22.660977674580003,5.670429894170682,6.897061912381287,0.0,1.9567003072302718,0.25017387885935466
+02P23RR130,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-H3 TEN 2021,Phase5 Tiled,TF,287.137178322,42.13756529401125,0.4269822202314355,0.0,11.142175890753506,2.1075239146431204
+02P23RR130,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-H3 TEN 2021,Phase5 Tiled,TF,244.0666015737,32.82603270911774,0.38495536989303214,0.0,13.777700566835847,1.7322996361143872
+02P23RR130,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-H3 TEN 2021,Phase5 Tiled,TF,86.1411534966,13.042217232243729,0.8261989320695267,0.0,7.690830926213594,0.598325974981604
+02P23RR130,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-H3 TEN 2021,Phase5 Tiled,TF,20.099602482540003,5.291525340983501,8.392809681882952,0.0,2.1653041429494304,0.23230971604826273
+02P23RR131,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-J3 TEN 2021,Phase5 Tiled,TF,350.902440692,60.67963514191126,0.37289541775891766,0.0,7.682235765538482,2.7209244307357343
+02P23RR131,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-J3 TEN 2021,Phase5 Tiled,TF,298.2670745882,44.91554168756377,0.43223655388332216,0.0,10.43880126141408,2.2168924571854807
+02P23RR131,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-J3 TEN 2021,Phase5 Tiled,TF,105.2707322076,14.682443510059553,0.5518552052943103,0.0,9.76999195073515,0.718595966010463
+02P23RR131,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-J3 TEN 2021,Phase5 Tiled,TF,24.563170848440006,5.9678564323562355,6.014260914110607,0.0,1.8311511494341375,0.2635915308395577
+02P23RR132,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-K3 TEN 2021,Phase5 Tiled,TF,350.902440692,60.67963514191126,0.37289541775891766,0.0,7.682235765538482,2.7209244307357343
+02P23RR132,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-K3 TEN 2021,Phase5 Tiled,TF,298.2670745882,44.91554168756377,0.43223655388332216,0.0,10.43880126141408,2.2168924571854807
+02P23RR132,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-K3 TEN 2021,Phase5 Tiled,TF,105.2707322076,14.682443510059553,0.5518552052943103,0.0,9.76999195073515,0.718595966010463
+02P23RR132,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-K3 TEN 2021,Phase5 Tiled,TF,24.563170848440006,5.9678564323562355,6.014260914110607,0.0,1.8311511494341375,0.2635915308395577
+02P23RR133,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-L3 TEN 2021,Phase5 Tiled,TF,334.679775058,55.28331841033043,0.42059005653277703,0.0,8.22157818237934,2.556194371364924
+02P23RR133,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-L3 TEN 2021,Phase5 Tiled,TF,284.4778087993,41.46237857978179,0.42494007671319883,0.0,11.365021710945763,2.089633292005604
+02P23RR133,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-L3 TEN 2021,Phase5 Tiled,TF,100.40393251740001,14.261161128375296,0.608564269031937,0.0,9.263087309743545,0.6873708508472183
+02P23RR133,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-L3 TEN 2021,Phase5 Tiled,TF,23.427584254060005,5.791202014305627,6.512822406327008,0.0,1.9014738476822561,0.2556397230034171
+02P23RR134,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-M3 TEN 2021,Phase5 Tiled,TF,358.055181668,64.41415318382809,0.43696992394340595,0.0,7.646836073389852,2.8016659610712953
+02P23RR134,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-M3 TEN 2021,Phase5 Tiled,TF,304.3469044178,46.585126545643796,0.4305304522149911,0.0,10.041457169805048,2.273884403318314
+02P23RR134,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-M3 TEN 2021,Phase5 Tiled,TF,107.4165545004,14.738599660943677,0.5439976878773802,0.0,9.987116646960606,0.7324042154283469
+02P23RR134,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-M3 TEN 2021,Phase5 Tiled,TF,25.063862716760003,6.17307685560736,6.075384291965636,0.0,1.8045440114002407,0.26704138820849327
+02P23RR135,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-N3 TEN 2021,Phase5 Tiled,TF,358.055181668,64.41415318382809,0.43696992394340595,0.0,7.646836073389852,2.8016659610712953
+02P23RR135,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-N3 TEN 2021,Phase5 Tiled,TF,304.3469044178,46.585126545643796,0.4305304522149911,0.0,10.041457169805048,2.273884403318314
+02P23RR135,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-N3 TEN 2021,Phase5 Tiled,TF,107.4165545004,14.738599660943677,0.5439976878773802,0.0,9.987116646960606,0.7324042154283469
+02P23RR135,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-N3 TEN 2021,Phase5 Tiled,TF,25.063862716760003,6.17307685560736,6.075384291965636,0.0,1.8045440114002407,0.26704138820849327
+02P23RR136,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-P3 TEN 2021,Phase5 Tiled,TF,334.679775058,55.28331841033043,0.42059005653277703,0.0,8.22157818237934,2.556194371364924
+02P23RR136,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-P3 TEN 2021,Phase5 Tiled,TF,284.4778087993,41.46237857978179,0.42494007671319883,0.0,11.365021710945763,2.089633292005604
+02P23RR136,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-P3 TEN 2021,Phase5 Tiled,TF,100.40393251740001,14.261161128375296,0.608564269031937,0.0,9.263087309743545,0.6873708508472183
+02P23RR136,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-P3 TEN 2021,Phase5 Tiled,TF,23.427584254060005,5.791202014305627,6.512822406327008,0.0,1.9014738476822561,0.2556397230034171
+02P23RR137,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-Q3 TEN 2021,Phase5 Tiled,TF,350.902440692,60.67963514191126,0.37289541775891766,0.0,7.682235765538482,2.7209244307357343
+02P23RR137,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-Q3 TEN 2021,Phase5 Tiled,TF,298.2670745882,44.91554168756377,0.43223655388332216,0.0,10.43880126141408,2.2168924571854807
+02P23RR137,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-Q3 TEN 2021,Phase5 Tiled,TF,105.2707322076,14.682443510059553,0.5518552052943103,0.0,9.76999195073515,0.718595966010463
+02P23RR137,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-Q3 TEN 2021,Phase5 Tiled,TF,24.563170848440006,5.9678564323562355,6.014260914110607,0.0,1.8311511494341375,0.2635915308395577
+02P23RR138,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-R3 TEN 2021,Phase5 Tiled,TF,363.873456044,67.28656442171815,0.43400525201778795,0.0,7.804810150216428,2.8719394800770104
+02P23RR138,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-R3 TEN 2021,Phase5 Tiled,TF,309.2924376374,47.892471407345504,0.43133960062900206,0.0,9.746522765978929,2.32192410817785
+02P23RR138,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-R3 TEN 2021,Phase5 Tiled,TF,109.1620368132,14.888231828808129,0.5250447413689429,0.0,10.154019607867363,0.743517342526233
+02P23RR138,23,Rolls-Royce plc,TRENT 1000 TEN 2021,TRENT 1000-R3 TEN 2021,Phase5 Tiled,TF,25.471141923080005,6.236423569968839,5.91506955137621,0.0,1.784182904112792,0.2698952694870322
+02P23RR139,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-68 2021,Phase5 Tiled,TF,308.737744354,46.39968766439637,0.4254156791501584,0.0,10.12148023061228,2.28795574531031
+02P23RR139,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-68 2021,Phase5 Tiled,TF,262.4270827009,35.77378813155657,0.3927513058562665,0.0,13.070531362981356,1.8757081052748297
+02P23RR139,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-68 2021,Phase5 Tiled,TF,92.62132330619998,13.567934309967537,0.7346222233957276,0.0,8.167697617905812,0.6277764850262582
+02P23RR139,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-68 2021,Phase5 Tiled,TF,21.61164210478,5.331946251883421,8.29430600796597,0.0,2.1773334402893547,0.24537637717096578
+02P23RR140,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-70 2021,Phase5 Tiled,TF,317.772083236,48.872280862070774,0.4261024984818596,0.0,9.5174818871886,2.37296753505297
+02P23RR140,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-70 2021,Phase5 Tiled,TF,270.1062707506,37.35212800171736,0.4002536913204241,0.0,12.624652090780122,1.9429433066719084
+02P23RR140,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-70 2021,Phase5 Tiled,TF,95.33162497080001,13.806145088587858,0.6914940745410247,0.0,8.483994023517072,0.6446083870089812
+02P23RR140,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-70 2021,Phase5 Tiled,TF,22.244045826520004,5.419286911216408,7.904710490002375,0.0,2.1220302304043597,0.24971651949963208
+02P23RR141,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-72 2021,Phase5 Tiled,TF,327.918477618,52.73627594773288,0.42329287549682454,0.0,8.702375514523737,2.5020034851371373
+02P23RR141,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-72 2021,Phase5 Tiled,TF,278.7307059753,39.72747991280758,0.4097758574510423,0.0,11.946274836040379,2.0395062923987215
+02P23RR141,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-72 2021,Phase5 Tiled,TF,98.3755432854,14.177504381930062,0.630882902072282,0.0,8.960630057565544,0.6708047113610933
+02P23RR141,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-72 2021,Phase5 Tiled,TF,22.954293433260002,5.608401582255159,7.156089977237805,0.0,2.010804088395465,0.2588732070317618
+02P23RR142,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-72C 2021,Phase5 Tiled,TF,327.918477618,52.73627594773288,0.42329287549682454,0.0,8.702375514523737,2.5020034851371373
+02P23RR142,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-72C 2021,Phase5 Tiled,TF,278.7307059753,39.72747991280758,0.4097758574510423,0.0,11.946274836040379,2.0395062923987215
+02P23RR142,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-72C 2021,Phase5 Tiled,TF,98.3755432854,14.177504381930062,0.630882902072282,0.0,8.960630057565544,0.6708047113610933
+02P23RR142,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-72C 2021,Phase5 Tiled,TF,22.954293433260002,5.608401582255159,7.156089977237805,0.0,2.010804088395465,0.2588732070317618
+02P23RR143,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-72D 2021,Phase5 Tiled,TF,327.918477618,52.73627594773288,0.42329287549682454,0.0,8.702375514523737,2.5020034851371373
+02P23RR143,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-72D 2021,Phase5 Tiled,TF,278.7307059753,39.72747991280758,0.4097758574510423,0.0,11.946274836040379,2.0395062923987215
+02P23RR143,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-72D 2021,Phase5 Tiled,TF,98.3755432854,14.177504381930062,0.630882902072282,0.0,8.960630057565544,0.6708047113610933
+02P23RR143,23,Rolls-Royce plc,TRENT 7000 2021,TRENT 7000-72D 2021,Phase5 Tiled,TF,22.954293433260002,5.608401582255159,7.156089977237805,0.0,2.010804088395465,0.2588732070317618
 14RR072,14,Rolls-Royce plc,,Trent XWB-75,Phase5 Tiled,TF,334.0,36.59,0.37,0.0,6.2,2.411
 14RR072,14,Rolls-Royce plc,,Trent XWB-75,Phase5 Tiled,TF,283.9,28.5,0.45,0.0,7.5,1.98
 14RR072,14,Rolls-Royce plc,,Trent XWB-75,Phase5 Tiled,TF,100.2,10.51,1.54,0.0,5.6,0.715

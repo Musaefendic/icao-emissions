@@ -1,0 +1,89 @@
+identification:
+  TRENT 900: TRENT 900
+
+remove: 
+  - 18RR081  # superseded by uid: 01P18RR103
+  - 18RR083  # superseded by uid: 01P18RR104
+  - 18RR084  # superseded by uid: 01P18RR105
+
+update:
+  # Rolls-Royce TRENT 900 - 2007 & 2009
+  8RR046:
+    model: TRENT 970-84 2007
+    engine: TRENT 900 2007
+  9RR047:
+    model: TRENT 972-84 2007
+    engine: TRENT 900 2007  # icao_released in 2009, but 
+  
+  # Rolls-Royce TRENT 900 - 2017
+  01P18RR103:
+    model: TRENT 970-84 2017
+    engine: TRENT 900 2017
+  18RR082:
+    model: TRENT 970-84B 2017
+    engine: TRENT 900 2017
+  01P18RR104:
+    model: TRENT 972-84 2017
+    engine: TRENT 900 2017
+  01P18RR105:
+    model: TRENT 972E-84 2017
+    engine: TRENT 900 2017
+
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    xlim: [0, 400]
+    ylim: [20, 60]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    # xlim: [0, 400]
+    # ylim: [6, 12]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 400]
+    ylim: [0, 70]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 400]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 400]
+    ylim: [0, 1]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 400]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 400]
+    ylim: [0, 4.0]
+    regression_polynomial_order: null
