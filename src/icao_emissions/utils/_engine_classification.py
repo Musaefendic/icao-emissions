@@ -33,6 +33,7 @@ import numpy as np
 import pandas as pd
 import yaml
 from icao_emissions.databank import readers
+from icao_emissions.utils import resources
 from matplotlib import pyplot as plt
 
 PlotParameters = TypedDict(
@@ -149,7 +150,7 @@ def plot_figure(
     y_axis = plot_params["y_axis"]
     xlim = plot_params.get("xlim")
     ylim = plot_params.get("ylim")
-    polynomial_order = plot_params.get("polynomial_order")
+    regression_polynomial_order = plot_params.get("regression_polynomial_order")
 
     # create the figure
     _, axes = create_figure()
@@ -173,12 +174,12 @@ def plot_figure(
         axes[0].set_xlabel(x_axis)
         axes[0].set_ylabel(y_axis)
 
-        if polynomial_order:
+        if regression_polynomial_order:
             add_polynomial_regression(
                 axes[1],
                 data[x_axis],
                 data[y_axis],
-                polynomial_order,
+                regression_polynomial_order,
                 colors[index],
             )
             marker = "o"
@@ -195,7 +196,7 @@ def plot_figure(
             label=model_name,
         )
 
-        axes[1].legend()
+        axes[1].legend(fontsize=7)
 
         # add labels
         axes[1].set_xlabel(x_axis)
@@ -228,16 +229,17 @@ def main(
         )
 
     # show plots
-    plt.legend()
     plt.show()
 
 
 if __name__ == "__main__":
-    engine_name = "PW1200G"
+    engine_name = "LEAP-1B"
+
+    engines_config = resources.get_engines_config()
 
     # get parameters associated of the engine of interest
-    engine_identification = ENGINE_IDENTIFICATION[engine_name]
-    plot_parameters = PLOT_PARAMETERS[engine_name]
+    engine_identification = engines_config["identification"][engine_name]
+    plot_parameters = engines_config["validation"][engine_name]
 
     # evaluate classification based on plots
     main(engine_name, engine_identification, plot_parameters)

@@ -6,7 +6,12 @@ import yaml
 
 def main():
     # initialize
-    engines_config = {"remove": [], "update": {}}
+    engines_config = {
+        "identification": {},
+        "remove": [],
+        "update": {},
+        "validation": {},
+    }
 
     file_extension = "**/**/*.yaml"
 
@@ -19,9 +24,14 @@ def main():
         with open(filename) as infile:
             inputs = yaml.safe_load(infile)
 
+        engine_identification = inputs["identification"]
+        engine_name = list(engine_identification.keys())[0]
+
         # update engine_configs
+        engines_config["identification"].update(inputs["identification"])
         engines_config["remove"].extend(inputs["remove"])
         engines_config["update"].update(inputs["update"])
+        engines_config["validation"][engine_name] = inputs["validation"]
 
     # save
     save_filename = "engines.yaml"
