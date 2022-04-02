@@ -26,6 +26,8 @@ identification:
   GEnx-2B: GEnx-2B
   GP7200: GP72
   HTF7000: HTF7
+  JT15D: JT15D
+  JT3D: JT3D
   LEAP-1A: LEAP-1A
   LEAP-1B: LEAP-1B
   PEARL: PEARL
@@ -900,6 +902,26 @@ update:
     engine: V2500
   1IA005:
     engine: V2500
+  1PW001:
+    engine: JT3D-3
+  1PW002:
+    engine: JT3D-7
+    model: JT3D-7
+  1PW003:
+    engine: JT3D-7
+    model: JT3D-7
+  1PW035:
+    engine: JT15D-1
+    model: JT15D-1
+  1PW036:
+    engine: JT15D-4
+    model: JT15D-4
+  1PW037:
+    engine: JT15D-5
+    model: JT15D-5A
+  1PW038:
+    engine: JT15D-5
+    model: JT15D-5C
   1TL001:
     engine: ALF 502
   1TL002:
@@ -3098,6 +3120,156 @@ validation:
       ylim:
       - 0
       - 20
+  JT15D:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: bpr
+      ylim:
+      - 0
+      - 4
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: eico
+      ylim:
+      - 0
+      - 120
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: eihc
+      ylim:
+      - 0
+      - 150
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: einox
+      ylim:
+      - 0
+      - 20
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 0.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: opr
+      ylim:
+      - 0
+      - 15
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 25
+  JT3D:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: bpr
+      ylim:
+      - 0
+      - 4
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: eico
+      ylim:
+      - 0
+      - 150
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: eihc
+      ylim:
+      - 0
+      - 150
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: einox
+      ylim:
+      - 0
+      - 20
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 2.0
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: opr
+      ylim:
+      - 0
+      - 20
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      y_axis: smoke_number
   LEAP-1A:
     bpr:
       databank: certification
