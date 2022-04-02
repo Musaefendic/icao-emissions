@@ -1,0 +1,112 @@
+identification:
+  BR700: BR7
+
+remove :
+- 4BR009  # BR700-710A2-20 superseded by UID: 01P04BR013 (BR700-710A2-20), due to nvPM new measurements
+- 6BR010  # BR700-710C4-11 superseded by UID: 01P06BR014 (BR700-710C4-11), due to nvPM new measurements
+- 11BR011  # BR700-725A1-12 superseded by UID: 01P11BR016 (BR700-725A1-12), due to nvPM new measurements
+
+update:
+  # BR710
+  3BR001:
+    engine: BR710
+    model: BR710A1-10
+  4BR008:
+    engine: BR710
+    model: BR710A1-10  # Gulfstream V 
+  01P04BR013:
+    engine: BR710
+    model: BR710A2-20  # Canadair Global Express
+  01P06BR014:
+    engine: BR710
+    model: BR710C4-11  # Gulfstream G550
+
+  # BR715 - initial injector definition
+  4BR002:
+    engine: BR715
+    model: BR715A1-30
+  4BR003:
+    engine: BR715
+    model: BR715B1-30
+  4BR004:
+    engine: BR715
+    model: BR715C1-30
+
+  # BR715 - Improved fuel injector
+  4BR005:
+    engine: BR715 improved injector
+    model: BR715A1-30
+  4BR006:
+    engine: BR715 improved injector
+    model: BR715B1-30
+  4BR007:
+    engine: BR715 improved injector
+    model: BR715C1-30
+
+  # BR725
+  01P11BR016:
+    engine: BR725
+    model: BR725A1-12
+
+  # PEARL
+  01P20BR015:
+    engine: PEARL 15
+    model: BR710D5-21  # PEARL 15
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    xlim: [0, 150]
+    ylim: [0, 40]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    xlim: [0, 150]
+    # ylim: [6, 12]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 150]
+    # ylim: [0, 25]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 150]
+    ylim: [0, 60]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 150]
+    ylim: [0, 10]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 150]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 150]
+    ylim: [0, 1.5]
+    regression_polynomial_order: null

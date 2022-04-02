@@ -1,0 +1,117 @@
+identification:
+  V2500: V2500
+
+remove: 
+  # V2500 SelectOne Upgrade Package
+  - 10IA011
+  - 10IA012
+  - 10IA013
+  - 10IA014
+  - 10IA015
+  - 10IA016
+  - 10IA017
+  - 14IA018
+
+update:
+  # IAE V2500 initial engine definition
+  1IA001:
+    engine: V2500
+  1IA002:
+    engine: V2500
+  1IA003:
+    engine: V2500
+  1IA004:
+    engine: V2500
+  1IA005:
+    engine: V2500
+  3IA007:
+    engine: V2500
+  3IA008:
+    engine: V2500
+  8IA010:
+    engine: V2500
+  8IA009:
+    engine: V2500
+  
+  # V2500 SelectOne Upgrade Package
+  01P10IA019:
+    model: V2522-A5
+    engine: V2500 Upgrade Package
+  01P10IA020:
+    model: V2524-A5
+    engine: V2500 Upgrade Package
+  01P10IA021:
+    model: V2527-A5
+    engine: V2500 Upgrade Package
+  01P10IA022:
+    model: V2527-A5E
+    engine: V2500 Upgrade Package
+  01P10IA023:
+    model: V2527-A5M
+    engine: V2500 Upgrade Package
+  01P10IA024:
+    engine: V2530-A5
+    engine: V2500 Upgrade Package
+  01P10IA025:
+    model: V2533-A5
+    engine: V2500 Upgrade Package
+  01P14IA026:
+    engine: V2500 Upgrade Package
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    xlim: [0, 200]
+    ylim: [20, 35]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    xlim: [0, 200]
+    ylim: [0, 7]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 200]
+    ylim: [0, 60]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 200]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 200]
+    ylim: [0, 1]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 200]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 200]
+    ylim: [0, 1.5]
+    regression_polynomial_order: null

@@ -1,5 +1,7 @@
 identification:
   AE3007: AE3007
+  ALF502: ALF 502
+  BR700: BR7
   CF34-10E: CF34-10E
   CF34-3: CF34-3
   CF34-8: CF34-8
@@ -20,8 +22,10 @@ identification:
   GEnx-1B: GEnx-1B
   GEnx-2B: GEnx-2B
   GP7200: GP72
+  HTF7000: HTF7
   LEAP-1A: LEAP-1A
   LEAP-1B: LEAP-1B
+  PEARL: PEARL
   PW1100G: PW11
   PW1200G: PW12
   PW1400G: PW14
@@ -34,7 +38,25 @@ identification:
   TRENT 7000: TRENT 7000
   TRENT 800: TRENT 800
   TRENT 900: TRENT 900
+  V2500: V2500
 remove:
+- 8HN001
+- 11HN002
+- 11HN004
+- 11HN005
+- 14HN009
+- 14HN006
+- 14HN007
+- 14HN008
+- 18HN010
+- 10IA011
+- 10IA012
+- 10IA013
+- 10IA014
+- 10IA015
+- 10IA016
+- 10IA017
+- 14IA018
 - 6GE092
 - 8GE110
 - 8GE107
@@ -148,8 +170,12 @@ remove:
 - 6AL016
 - 10AL026
 - 6AL019
+- 20BR012
 - 14RR070
 - 14RR071
+- 4BR009
+- 6BR010
+- 11BR011
 - 20CM088
 - 20CM089
 - 20CM090
@@ -212,6 +238,9 @@ update:
     engine: CF6-80C2B LEC
   01P03GE187:
     engine: CF6-80C2B LEC
+  01P04BR013:
+    engine: BR710
+    model: BR710A2-20
   01P05GE189:
     engine: CF34-3B
     model: CF34-3B
@@ -227,6 +256,9 @@ update:
     engine: AE3007 Type-3
   01P06AL034:
     engine: AE3007 Type-3
+  01P06BR014:
+    engine: BR710
+    model: BR710C4-11
   01P08CM102:
     engine: CFM56-5B/3
   01P08CM103:
@@ -273,6 +305,29 @@ update:
     engine: CF34-10E Block-1
   01P10AL033:
     engine: AE3007 Type-3
+  01P10IA019:
+    engine: V2500 Upgrade Package
+    model: V2522-A5
+  01P10IA020:
+    engine: V2500 Upgrade Package
+    model: V2524-A5
+  01P10IA021:
+    engine: V2500 Upgrade Package
+    model: V2527-A5
+  01P10IA022:
+    engine: V2500 Upgrade Package
+    model: V2527-A5E
+  01P10IA023:
+    engine: V2500 Upgrade Package
+    model: V2527-A5M
+  01P10IA024:
+    engine: V2500 Upgrade Package
+  01P10IA025:
+    engine: V2500 Upgrade Package
+    model: V2533-A5
+  01P11BR016:
+    engine: BR725
+    model: BR725A1-12
   01P11CM111:
     engine: CFM56-7B Enhanced
   01P11CM112:
@@ -285,6 +340,23 @@ update:
     engine: CFM56-7B Enhanced
   01P11GE202:
     engine: CF34-10A
+  01P11HN012:
+    engine: HTF7000
+    model: HTF7250G
+  01P14HN011:
+    engine: HTF7000
+    model: HTF7350
+  01P14HN014:
+    engine: HTF7000
+    model: HTF7500E-A1
+  01P14HN015:
+    engine: HTF7000
+    model: HTF7500E-A2
+  01P14HN016:
+    engine: HTF7000
+    model: HTF7500E-A3
+  01P14IA026:
+    engine: V2500 Upgrade Package
   01P14RR101:
     engine: TRENT 700 C
     model: TRENT 768 C
@@ -315,6 +387,9 @@ update:
     engine: GEnx-1B PIP-2
   01P17GE215:
     engine: GEnx-2B PIP
+  01P18HN013:
+    engine: HTF7000
+    model: HTF7000L
   01P18PW148:
     engine: PW1100G Block-C
     model: PW1122G Block-C
@@ -399,6 +474,9 @@ update:
   01P19RR120:
     engine: TRENT 7000 2018
     model: TRENT 7000-72C 2018
+  01P20BR015:
+    engine: PEARL 15
+    model: BR710D5-21
   01P20CM127:
     engine: LEAP-1A 2019
     model: LEAP-1A24 2019
@@ -593,6 +671,9 @@ update:
     engine: CF34-10E Block-2 Alternate Injector
   11GE146:
     engine: CF34-10E Block-2 Alternate Injector
+  11HN003:
+    engine: HTF7000
+    model: HTF7000
   11RR049:
     engine: TRENT 1000 Pack-B 2012
     model: TRENT 1000-A Pack-B 2012
@@ -794,6 +875,22 @@ update:
     engine: CF6-80E
   1GE034:
     engine: CF34-3A
+  1IA001:
+    engine: V2500
+  1IA002:
+    engine: V2500
+  1IA003:
+    engine: V2500
+  1IA004:
+    engine: V2500
+  1IA005:
+    engine: V2500
+  1TL001:
+    engine: ALF 502
+  1TL002:
+    engine: ALF 502
+  1TL003:
+    engine: ALF 502
   21GE183:
     engine: GE90-110 2020
   21GE185:
@@ -870,6 +967,9 @@ update:
     engine: TRENT 800
   3AL001:
     engine: AE3007 Type-1
+  3BR001:
+    engine: BR710
+    model: BR710A1-10
   3CM020:
     engine: CFM56-5B/2P
   3CM021:
@@ -944,6 +1044,10 @@ update:
     engine: CF6-50 Low Emissions Nozzle
   3GE079:
     engine: CF6-50 Low Emissions Nozzle
+  3IA007:
+    engine: V2500
+  3IA008:
+    engine: V2500
   3RR029:
     engine: TRENT 700 B
     model: TRENT 768 B
@@ -954,6 +1058,27 @@ update:
     engine: AE3007 Type-1
   4AL003:
     engine: AE3007 Type-1
+  4BR002:
+    engine: BR715
+    model: BR715A1-30
+  4BR003:
+    engine: BR715
+    model: BR715B1-30
+  4BR004:
+    engine: BR715
+    model: BR715C1-30
+  4BR005:
+    engine: BR715 improved injector
+    model: BR715A1-30
+  4BR006:
+    engine: BR715 improved injector
+    model: BR715B1-30
+  4BR007:
+    engine: BR715 improved injector
+    model: BR715C1-30
+  4BR008:
+    engine: BR710
+    model: BR710A1-10
   4CM035:
     engine: CFM56-5A
   4CM036:
@@ -1072,6 +1197,10 @@ update:
     engine: CF34-10E Block-1
   8GE119:
     engine: CF34-10E Block-1
+  8IA009:
+    engine: V2500
+  8IA010:
+    engine: V2500
   8RR044:
     engine: TRENT 500
   8RR045:
@@ -1175,6 +1304,150 @@ validation:
       ylim:
       - 0
       - 5
+  ALF502:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      y_axis: bpr
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: eico
+      ylim:
+      - 0
+      - 50
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: eihc
+      ylim:
+      - 0
+      - 20
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: einox
+      ylim:
+      - 0
+      - 25
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.0
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: opr
+      ylim:
+      - 0
+      - 30
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  BR700:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: bpr
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: eico
+      ylim:
+      - 0
+      - 60
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: eihc
+      ylim:
+      - 0
+      - 10
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: einox
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: opr
+      ylim:
+      - 0
+      - 40
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
   CF34-10E:
     bpr:
       databank: certification
@@ -2519,6 +2792,78 @@ validation:
       ylim:
       - 0
       - 20
+  HTF7000:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      y_axis: bpr
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: eico
+      ylim:
+      - 0
+      - 50
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: eihc
+      ylim:
+      - 0
+      - 5
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: einox
+      ylim:
+      - 0
+      - 25
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.0
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: opr
+      ylim:
+      - 0
+      - 30
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
   LEAP-1A:
     bpr:
       databank: certification
@@ -2665,6 +3010,78 @@ validation:
       xlim:
       - 0
       - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  PEARL:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: bpr
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: eico
+      ylim:
+      - 0
+      - 60
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: eihc
+      ylim:
+      - 0
+      - 10
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: einox
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: opr
+      ylim:
+      - 0
+      - 40
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
       y_axis: smoke_number
       ylim:
       - 0
@@ -3523,6 +3940,84 @@ validation:
       xlim:
       - 0
       - 400
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  V2500:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: bpr
+      ylim:
+      - 0
+      - 7
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 20
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 1
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 60
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 20
+      - 35
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
       y_axis: smoke_number
       ylim:
       - 0
