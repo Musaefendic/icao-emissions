@@ -17,6 +17,9 @@ identification:
   CFM56-5B: CFM56-5B
   CFM56-5C: CFM56-5C
   CFM56-7B: CFM56-7B
+  D-30: D-30
+  D-30K: D-30K
+  D-36: D-36
   GE90: GE90 DAC
   GE90-110: GE90-110
   GEnx-1B: GEnx-1B
@@ -757,6 +760,9 @@ update:
     model: TRENT 1000-L2 Pack-C1 2013
   13AL027:
     engine: AE3007 Type-2
+  13ZM002:
+    engine: D-36
+    model: D-36 serie 4A
   15PW105:
     engine: PW1100G Block-A
     model: PW1127G Block-A
@@ -796,6 +802,15 @@ update:
   18RR082:
     engine: TRENT 900 2017
     model: TRENT 970-84B 2017
+  1AA001:
+    engine: D-30
+    model: D-30 (II series)
+  1AA002:
+    engine: D-30KP
+  1AA003:
+    engine: D-30KU
+  1AA004:
+    engine: D-30KU
   1CM001:
     engine: CFM56-2
   1CM002:
@@ -891,6 +906,9 @@ update:
     engine: ALF 502
   1TL003:
     engine: ALF 502
+  1ZM001:
+    engine: D-36
+    model: D-36 serie 1
   21GE183:
     engine: GE90-110 2020
   21GE185:
@@ -2492,6 +2510,222 @@ validation:
       ylim:
       - 0
       - 20
+  D-30:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: bpr
+      ylim:
+      - 0
+      - 6
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: eico
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: eihc
+      ylim:
+      - 0
+      - 60
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: einox
+      ylim:
+      - 0
+      - 30
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 2.0
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: opr
+      ylim:
+      - 0
+      - 25
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 50
+  D-30K:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: bpr
+      ylim:
+      - 0
+      - 6
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: eico
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: eihc
+      ylim:
+      - 0
+      - 60
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: einox
+      ylim:
+      - 0
+      - 30
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 2.0
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: opr
+      ylim:
+      - 0
+      - 25
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 150
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 50
+  D-36:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      y_axis: bpr
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: eico
+      ylim:
+      - 0
+      - 30
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: eihc
+      ylim:
+      - 0
+      - 10
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: einox
+      ylim:
+      - 0
+      - 40
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.0
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: opr
+      ylim:
+      - 0
+      - 30
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      y_axis: smoke_number
   GE90:
     bpr:
       databank: certification

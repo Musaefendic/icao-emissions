@@ -1,0 +1,69 @@
+identification:
+  D-30K: D-30K
+
+remove : []
+
+update:
+  1AA002:
+    engine: D-30KP
+  1AA003:
+    engine: D-30KU
+  1AA004:
+    engine: D-30KU
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    xlim: [0, 150]
+    ylim: [0, 25]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    xlim: [0, 150]
+    ylim: [0, 6]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 150]
+    ylim: [0, 30]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 150]
+    # ylim: [0, 100]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 150]
+    ylim: [0, 60]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 150]
+    ylim: [0, 50]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 150]
+    ylim: [0, 2.0]
+    regression_polynomial_order: null
