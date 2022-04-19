@@ -235,7 +235,7 @@ def main(
 
 
 if __name__ == "__main__":
-    engine_name = "JT9D"
+    engine_name = "LF507"
 
     engines_config = resources.get_engines_config()
 
