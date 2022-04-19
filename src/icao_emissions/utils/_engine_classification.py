@@ -235,7 +235,7 @@ def main(
 
 
 if __name__ == "__main__":
-    engine_name = "NK-8"
+    engine_name = "PW2000"
 
     engines_config = resources.get_engines_config()
 

@@ -1,0 +1,70 @@
+identification:
+  PW2000: PW20
+
+remove:
+  - 1PW039  # supseded by UID: 4PW072, Revision to add second engine test.
+  - 1PW040  # supseded by UID: 4PW073, Revision to add second engine test.
+
+update:
+  4PW072:
+    engine: PW2000
+  4PW073:
+    engine: PW2000
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    xlim: [0, 200]
+    ylim: [0, 35]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    xlim: [0, 200]
+    ylim: [0, 8]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 200]
+    ylim: [0, 40]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 200]
+    ylim: [0, 30]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 200]
+    ylim: [0, 5]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 200]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 200]
+    ylim: [0, 2.0]
+    regression_polynomial_order: null

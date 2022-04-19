@@ -36,11 +36,13 @@ identification:
   M45H: M45H
   NK-8: NK-8
   PEARL: PEARL
+  PS-90: PS-90
   PW1100G: PW11
   PW1200G: PW12
   PW1400G: PW14
   PW1500G: PW15
   PW1900G: PW19
+  PW2000: PW20
   Passport: Passport
   TRENT 1000: TRENT 1000
   TRENT 500: TRENT 500
@@ -141,6 +143,8 @@ remove:
 - 1PW031
 - 1PW020
 - 1PW021
+- 1PW039
+- 1PW040
 - 15PW104
 - 15PW107
 - 18PW117
@@ -769,6 +773,12 @@ update:
   12RR069:
     engine: TRENT 1000 Pack-C1 2013
     model: TRENT 1000-L2 Pack-C1 2013
+  13AA006:
+    engine: PS-90
+  13AA007:
+    engine: PS-90
+  13AA008:
+    engine: PS-90
   13AL027:
     engine: AE3007 Type-2
   13ZM002:
@@ -822,6 +832,8 @@ update:
     engine: D-30KU
   1AA004:
     engine: D-30KU
+  1AA005:
+    engine: PS-90
   1CM001:
     engine: CFM56-2
   1CM002:
@@ -1229,6 +1241,10 @@ update:
     engine: JT8D-200 E-Kit
   4PW071:
     engine: JT8D-200 E-Kit
+  4PW072:
+    engine: PW2000
+  4PW073:
+    engine: PW2000
   5GE083:
     engine: CF34-8C1
   5GE085:
@@ -3936,6 +3952,78 @@ validation:
       ylim:
       - 0
       - 20
+  PS-90:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      y_axis: bpr
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 30
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 10
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 50
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 3
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 0
+      - 40
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 30
   PW1100G:
     bpr:
       databank: certification
@@ -4297,6 +4385,84 @@ validation:
       ylim:
       - 10
       - 40
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  PW2000:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: bpr
+      ylim:
+      - 0
+      - 8
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eico
+      ylim:
+      - 0
+      - 30
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: eihc
+      ylim:
+      - 0
+      - 5
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: einox
+      ylim:
+      - 0
+      - 40
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 2.0
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 200
+      y_axis: opr
+      ylim:
+      - 0
+      - 35
     smoke_number:
       databank: emissions
       regression_polynomial_order: null
