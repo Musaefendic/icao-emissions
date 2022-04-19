@@ -44,6 +44,7 @@ identification:
   PW1900G: PW19
   PW2000: PW20
   PW300: PW30
+  PW800: PW8
   Passport: Passport
   TRENT 1000: TRENT 1000
   TRENT 500: TRENT 500
@@ -126,6 +127,8 @@ remove:
 - 3GE057
 - 1GE035
 - 5GE084
+- 16PW115
+- 16PW116
 - 1PW005
 - 01P20PW185
 - 20PW129
@@ -569,6 +572,10 @@ update:
     engine: GE90-110 2020
   01P22FC001:
     engine: CFM56-7B Enhanced - Research Measurement
+  01P22PW141:
+    engine: PW800 2020
+  01P22PW142:
+    engine: PW800 2020
   01P22PW158:
     engine: PW1100G Block-D
     model: PW1122G Block-D
@@ -846,6 +853,10 @@ update:
   18RR082:
     engine: TRENT 900 2017
     model: TRENT 970-84B 2017
+  19PW127:
+    engine: PW800 2016
+  19PW128:
+    engine: PW800 2016
   1AA001:
     engine: D-30
     model: D-30 (II series)
@@ -4583,6 +4594,84 @@ validation:
       ylim:
       - 0
       - 20
+  PW800:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: bpr
+      ylim:
+      - 0
+      - 8
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: eico
+      ylim:
+      - 0
+      - 25
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: eihc
+      ylim:
+      - 0
+      - 0.5
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: einox
+      ylim:
+      - 0
+      - 30
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.0
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: opr
+      ylim:
+      - 0
+      - 40
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 5
   Passport:
     bpr:
       databank: certification

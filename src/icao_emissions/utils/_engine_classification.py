@@ -235,7 +235,7 @@ def main(
 
 
 if __name__ == "__main__":
-    engine_name = "PW300"
+    engine_name = "PW800"
 
     engines_config = resources.get_engines_config()
 
