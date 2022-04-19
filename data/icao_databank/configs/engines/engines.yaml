@@ -33,6 +33,7 @@ identification:
   LEAP-1A: LEAP-1A
   LEAP-1B: LEAP-1B
   LF507: LF507
+  M45H: M45H
   PEARL: PEARL
   PW1100G: PW11
   PW1200G: PW12
@@ -986,6 +987,8 @@ update:
   1PW038:
     engine: JT15D-5
     model: JT15D-5C
+  1RR001:
+    engine: M45H
   1TL001:
     engine: ALF 502
   1TL002:
@@ -3736,6 +3739,84 @@ validation:
       ylim:
       - 0
       - 15
+  M45H:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: bpr
+      ylim:
+      - 0
+      - 6
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: eico
+      ylim:
+      - 0
+      - 80
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: eihc
+      ylim:
+      - 0
+      - 200
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: einox
+      ylim:
+      - 0
+      - 20
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.0
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: opr
+      ylim:
+      - 0
+      - 20
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 60
   PEARL:
     bpr:
       databank: certification
