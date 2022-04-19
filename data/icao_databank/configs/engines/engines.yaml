@@ -43,6 +43,7 @@ identification:
   PW1500G: PW15
   PW1900G: PW19
   PW2000: PW20
+  PW300: PW30
   Passport: Passport
   TRENT 1000: TRENT 1000
   TRENT 500: TRENT 500
@@ -163,6 +164,14 @@ remove:
 - 20PW137
 - 20PW138
 - 01P20PW190
+- 7PW079
+- 7PW080
+- 14PW103
+- 15PW109
+- 16PW114
+- 01P14PW147
+- 01P15PW144
+- 01P16PW143
 - 19RR085
 - 19RR086
 - 19RR087
@@ -277,6 +286,11 @@ update:
   01P06BR014:
     engine: BR710
     model: BR710C4-11
+  01P07PW145:
+    engine: PW300
+  01P07PW146:
+    engine: PW300
+    model: PW308C
   01P08CM102:
     engine: CFM56-5B/3
   01P08CM103:
@@ -657,6 +671,13 @@ update:
   02P23RR143:
     engine: TRENT 7000 2021
     model: TRENT 7000-72D 2021
+  03P14PW194:
+    engine: PW300
+    model: PW308C
+  03P15PW193:
+    engine: PW300
+  03P16PW192:
+    engine: PW300
   10GE129:
     engine: CF34-10E Block-2
   10GE130:
@@ -692,6 +713,8 @@ update:
   11HN003:
     engine: HTF7000
     model: HTF7000
+  11PW100:
+    engine: PW300
   11RR049:
     engine: TRENT 1000 Pack-B 2012
     model: TRENT 1000-A Pack-B 2012
@@ -1313,6 +1336,10 @@ update:
     engine: GE90-110 2005
   7GE099:
     engine: GE90-110 2005
+  7PW077:
+    engine: PW300
+  7PW078:
+    engine: PW300
   8AL025:
     engine: AE3007 Type-1
   8CM051:
@@ -1353,6 +1380,10 @@ update:
     engine: JT9D
   8PW088:
     engine: JT9D
+  8PW090:
+    engine: PW300
+  8PW091:
+    engine: PW300
   8RR044:
     engine: TRENT 500
   8RR045:
@@ -4470,6 +4501,84 @@ validation:
       xlim:
       - 0
       - 200
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
+  PW300:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: bpr
+      ylim:
+      - 0
+      - 6
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: eico
+      ylim:
+      - 0
+      - 50
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: eihc
+      ylim:
+      - 0
+      - 10
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: einox
+      ylim:
+      - 0
+      - 30
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 0.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 50
+      y_axis: opr
+      ylim:
+      - 0
+      - 25
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 50
       y_axis: smoke_number
       ylim:
       - 0

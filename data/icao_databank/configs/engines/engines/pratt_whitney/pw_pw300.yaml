@@ -1,0 +1,105 @@
+identification:
+  PW300: PW30
+
+remove:
+  - 7PW079  # Data superseded by UID: 01P07PW145, due to nvpm measurements
+  - 7PW080  # Data superseded by UID: 01P07PW146, due to nvpm measurements
+  - 14PW103  # Data superseded by UID: 01P14PW147, due to nvpm measurements
+  - 15PW109  # Data superseded by UID: 01P15PW144, due to nvpm measurements
+  - 16PW114  # Data superseded by UID: 01P16PW143, due to nvpm measurements
+  - 01P14PW147  # Data superseded by UID: 03P14PW194, due to nvpm measurements
+  - 01P15PW144  # Data superseded by UID: 03P15PW193, due to nvpm measurements
+  - 01P16PW143  # Data superseded by UID: 03P16PW192, due to nvpm measurements
+
+update:
+  # PW306
+  7PW077:
+    engine: PW300
+  7PW078:
+    engine: PW300
+  
+  # PW307A
+  8PW090:
+    engine: PW300
+  8PW091:
+    engine: PW300
+  11PW100:
+    engine: PW300
+  03P16PW192:
+    engine: PW300
+
+  # PW307D
+  03P15PW193:
+    engine: PW300
+  
+  # PW308A
+  01P07PW145:
+    engine: PW300
+  
+  # PW308C
+  01P07PW146:
+    engine: PW300
+    model: PW308C
+  03P14PW194:
+    engine: PW300
+    model: PW308C
+
+
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    xlim: [0, 50]
+    ylim: [0, 25]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    xlim: [0, 50]
+    ylim: [0, 6]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 50]
+    ylim: [0, 30]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 50]
+    ylim: [0, 50]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 50]
+    ylim: [0, 10]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 50]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 50]
+    ylim: [0, 0.5]
+    regression_polynomial_order: null
