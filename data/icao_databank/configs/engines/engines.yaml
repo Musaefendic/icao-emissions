@@ -34,6 +34,7 @@ identification:
   LEAP-1B: LEAP-1B
   LF507: LF507
   M45H: M45H
+  NK-8: NK-8
   PEARL: PEARL
   PW1100G: PW11
   PW1200G: PW12
@@ -910,6 +911,16 @@ update:
     engine: V2500
   1IA005:
     engine: V2500
+  1KK001:
+    engine: NK-8
+  1KK002:
+    eng3ne: NK-8
+  1KK003:
+    engine: NK-86
+  1KK004:
+    engine: NK-86
+  1KK005:
+    engine: NK-86
   1PW001:
     engine: JT3D-3
   1PW002:
@@ -3817,6 +3828,42 @@ validation:
       ylim:
       - 0
       - 60
+  NK-8:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      y_axis: bpr
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      y_axis: eico
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      y_axis: eihc
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      y_axis: einox
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      y_axis: fuel_flow
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      y_axis: opr
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      y_axis: smoke_number
   PEARL:
     bpr:
       databank: certification
