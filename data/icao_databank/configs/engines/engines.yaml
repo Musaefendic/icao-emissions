@@ -49,6 +49,7 @@ identification:
   RB211: RB211
   SPEY: SPEY
   SaM146: SaM146
+  TAY: TAY
   TRENT 1000: TRENT 1000
   TRENT 500: TRENT 500
   TRENT 700: 'TRENT 700 '
@@ -735,6 +736,8 @@ update:
     model: HTF7000
   11PW100:
     engine: PW300
+  11RR048:
+    engine: TAY 611-8 (2012)
   11RR049:
     engine: TRENT 1000 Pack-B 2012
     model: TRENT 1000-A Pack-B 2012
@@ -1085,6 +1088,15 @@ update:
     engine: SPEY MK555
   1RR018:
     engine: SPEY MK555 TRANSPLY IIF
+  1RR019:
+    engine: TAY 611-8 initial
+    model: TAY 611-8
+  1RR020:
+    engine: TAY 620-15
+    model: TAY 620-15
+  1RR021:
+    engine: TAY 620-15
+    model: TAY 620-15
   1TL001:
     engine: ALF 502
   1TL002:
@@ -1261,6 +1273,12 @@ update:
   3RR030:
     engine: TRENT 700 B
     model: TRENT 772 B
+  3RR031:
+    engine: TAY 650-15
+  3RR032:
+    engine: TAY 651-54 combustor Pedhead
+  3RR033:
+    engine: TAY 651-54 combustor Transply
   3RR034:
     engine: RB211 Combustor Phase 2
   4AL002:
@@ -1382,6 +1400,8 @@ update:
     engine: CF34-8C1
   6RR041:
     engine: TRENT 500
+  6RR042:
+    engine: TAY 611-8 new injector (2003)
   7CM045:
     engine: CFM56-5C/P
   7CM046:
@@ -5033,6 +5053,78 @@ validation:
       ylim:
       - 0
       - 20
+  TAY:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: bpr
+      ylim:
+      - 0
+      - 5
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: eico
+      ylim:
+      - 0
+      - 50
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      y_axis: eihc
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: einox
+      ylim:
+      - 0
+      - 30
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: opr
+      ylim:
+      - 0
+      - 25
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 30
   TRENT 1000:
     bpr:
       databank: certification
