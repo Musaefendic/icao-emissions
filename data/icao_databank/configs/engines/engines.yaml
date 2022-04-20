@@ -47,6 +47,7 @@ identification:
   PW800: PW8
   Passport: Passport
   RB211: RB211
+  SPEY: SPEY
   SaM146: SaM146
   TRENT 1000: TRENT 1000
   TRENT 500: TRENT 500
@@ -195,6 +196,7 @@ remove:
 - 1RR014
 - 19RR098
 - 19RR099
+- 1RR015
 - 18RR081
 - 18RR083
 - 18RR084
@@ -1079,6 +1081,10 @@ update:
     engine: RB211 Combustor Phase 2
   1RR012:
     engine: RB211 Combustor Phase 2
+  1RR017:
+    engine: SPEY MK555
+  1RR018:
+    engine: SPEY MK555 TRANSPLY IIF
   1TL001:
     engine: ALF 502
   1TL002:
@@ -1316,6 +1322,8 @@ update:
     engine: PW2000
   4PW073:
     engine: PW2000
+  4RR035:
+    engine: SPEY MK555 TRANSPLY IIF
   4RR036:
     engine: RB211 Combustor Phase 2
   4RR037:
@@ -1440,6 +1448,8 @@ update:
     engine: PW300
   8PW091:
     engine: PW300
+  8RR043:
+    engine: SPEY MK511
   8RR044:
     engine: TRENT 500
   8RR045:
@@ -4867,6 +4877,84 @@ validation:
       ylim:
       - 0
       - 30
+  SPEY:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: bpr
+      ylim:
+      - 0
+      - 4
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: eico
+      ylim:
+      - 0
+      - 120
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: eihc
+      ylim:
+      - 0
+      - 100
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: einox
+      ylim:
+      - 0
+      - 30
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 2.0
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: opr
+      ylim:
+      - 0
+      - 25
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 40
   SaM146:
     bpr:
       databank: certification
