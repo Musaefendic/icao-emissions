@@ -235,7 +235,7 @@ def main(
 
 
 if __name__ == "__main__":
-    engine_name = "TAY"
+    engine_name = "TFE731"
 
     engines_config = resources.get_engines_config()
 

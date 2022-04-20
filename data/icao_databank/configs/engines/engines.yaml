@@ -50,6 +50,7 @@ identification:
   SPEY: SPEY
   SaM146: SaM146
   TAY: TAY
+  TFE731: TFE731
   TRENT 1000: TRENT 1000
   TRENT 500: TRENT 500
   TRENT 700: 'TRENT 700 '
@@ -884,6 +885,10 @@ update:
     engine: D-30KU
   1AA005:
     engine: PS-90
+  1AS001:
+    engine: TFE731
+  1AS002:
+    engine: TFE731
   1CM001:
     engine: CFM56-2
   1CM002:
@@ -5125,6 +5130,78 @@ validation:
       ylim:
       - 0
       - 30
+  TFE731:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 30
+      y_axis: bpr
+      ylim:
+      - 0
+      - 4
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 30
+      y_axis: eico
+      ylim:
+      - 0
+      - 80
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      y_axis: eihc
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 30
+      y_axis: einox
+      ylim:
+      - 0
+      - 30
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 30
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 0.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 30
+      y_axis: opr
+      ylim:
+      - 0
+      - 20
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 30
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 40
   TRENT 1000:
     bpr:
       databank: certification
