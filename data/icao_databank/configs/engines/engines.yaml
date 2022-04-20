@@ -46,6 +46,7 @@ identification:
   PW300: PW30
   PW800: PW8
   Passport: Passport
+  RB211: RB211
   TRENT 1000: TRENT 1000
   TRENT 500: TRENT 500
   TRENT 700: 'TRENT 700 '
@@ -188,6 +189,9 @@ remove:
 - 19RR095
 - 19RR096
 - 19RR097
+- 1RR009
+- 1RR013
+- 1RR014
 - 19RR098
 - 19RR099
 - 18RR081
@@ -1046,6 +1050,28 @@ update:
     model: JT15D-5C
   1RR001:
     engine: M45H
+  1RR002:
+    engine: RB211 Combustor Phase 1
+  1RR003:
+    engine: RB211 Combustor Phase 1 - After shop visit
+  1RR004:
+    engine: RB211 Combustor Phase 1
+    model: RB211-524B
+  1RR005:
+    engine: RB211 Combustor Phase 2
+    model: RB211-524B series
+  1RR006:
+    engine: RB211 Combustor Phase 1
+  1RR007:
+    engine: RB211 Combustor Phase 1
+  1RR008:
+    engine: RB211 Combustor Phase 2
+  1RR010:
+    engine: RB211 Combustor Phase 2
+  1RR011:
+    engine: RB211 Combustor Phase 2
+  1RR012:
+    engine: RB211 Combustor Phase 2
   1TL001:
     engine: ALF 502
   1TL002:
@@ -1214,12 +1240,16 @@ update:
     engine: V2500
   3IA008:
     engine: V2500
+  3RR028:
+    engine: RB211 Combustor Phase 2
   3RR029:
     engine: TRENT 700 B
     model: TRENT 768 B
   3RR030:
     engine: TRENT 700 B
     model: TRENT 772 B
+  3RR034:
+    engine: RB211 Combustor Phase 2
   4AL002:
     engine: AE3007 Type-1
   4AL003:
@@ -1279,10 +1309,18 @@ update:
     engine: PW2000
   4PW073:
     engine: PW2000
+  4RR036:
+    engine: RB211 Combustor Phase 2
+  4RR037:
+    engine: RB211 Combustor Phase 2
   5GE083:
     engine: CF34-8C1
   5GE085:
     engine: CF6-80E
+  5RR038:
+    engine: RB211 Combustor Phase 5
+  5RR039:
+    engine: RB211 Combustor Phase 5
   5RR040:
     engine: TRENT 800
   6AL004:
@@ -4744,6 +4782,84 @@ validation:
       ylim:
       - 0
       - 20
+  RB211:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 300
+      y_axis: bpr
+      ylim:
+      - 0
+      - 8
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 300
+      y_axis: eico
+      ylim:
+      - 0
+      - 100
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 300
+      y_axis: eihc
+      ylim:
+      - 0
+      - 80
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 300
+      y_axis: einox
+      ylim:
+      - 0
+      - 70
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 300
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 3.0
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 300
+      y_axis: opr
+      ylim:
+      - 0
+      - 40
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 300
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 30
   TRENT 1000:
     bpr:
       databank: certification
