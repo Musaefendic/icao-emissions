@@ -235,7 +235,7 @@ def main(
 
 
 if __name__ == "__main__":
-    engine_name = "RB211"
+    engine_name = "SaM146"
 
     engines_config = resources.get_engines_config()
 

@@ -47,6 +47,7 @@ identification:
   PW800: PW8
   Passport: Passport
   RB211: RB211
+  SaM146: SaM146
   TRENT 1000: TRENT 1000
   TRENT 500: TRENT 500
   TRENT 700: 'TRENT 700 '
@@ -210,6 +211,8 @@ remove:
 - 4BR009
 - 6BR010
 - 11BR011
+- 11PJ001
+- 11PJ002
 - 20CM088
 - 20CM089
 - 20CM090
@@ -382,6 +385,10 @@ update:
   01P11HN012:
     engine: HTF7000
     model: HTF7250G
+  01P11PJ003:
+    engine: SaM146 1S17
+  01P11PJ004:
+    engine: SaM146 1S18
   01P14HN011:
     engine: HTF7000
     model: HTF7350
@@ -4860,6 +4867,84 @@ validation:
       ylim:
       - 0
       - 30
+  SaM146:
+    bpr:
+      databank: certification
+      regression_polynomial_order: 2
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: bpr
+      ylim:
+      - 0
+      - 8
+    eico:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: eico
+      ylim:
+      - 0
+      - 40
+    eihc:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: eihc
+      ylim:
+      - 0
+      - 5
+    einox:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: einox
+      ylim:
+      - 0
+      - 30
+    fuel_flow:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: fuel_flow
+      ylim:
+      - 0
+      - 1.5
+    opr:
+      databank: certification
+      regression_polynomial_order: 1
+      x_axis: rated_thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: opr
+      ylim:
+      - 0
+      - 30
+    smoke_number:
+      databank: emissions
+      regression_polynomial_order: null
+      x_axis: thrust
+      xlim:
+      - 0
+      - 100
+      y_axis: smoke_number
+      ylim:
+      - 0
+      - 20
   TRENT 1000:
     bpr:
       databank: certification

@@ -1,0 +1,74 @@
+identification:
+  SaM146: SaM146
+
+remove: 
+  - 11PJ001  # data identical to UID: 01P11PJ003
+  - 11PJ002  # data identical to UID: 01P11PJ004
+
+update:
+  # SaM146 1S17
+  01P11PJ003:
+    engine: SaM146 1S17
+    
+  # SaM146 1S18
+  01P11PJ004:
+    engine: SaM146 1S18
+
+
+
+validation:
+  opr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: opr
+    xlim: [0, 100]
+    ylim: [0, 30]
+    regression_polynomial_order: 1
+    
+  bpr:
+    databank: certification
+    x_axis: rated_thrust
+    y_axis: bpr
+    xlim: [0, 100]
+    ylim: [0, 8]
+    regression_polynomial_order: 2
+    
+  einox:
+    databank: emissions
+    x_axis: thrust
+    y_axis: einox
+    xlim: [0, 100]
+    ylim: [0, 30]
+    regression_polynomial_order: null
+    
+  eico:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eico
+    xlim: [0, 100]
+    ylim: [0, 40]
+    regression_polynomial_order: null
+    
+  eihc:
+    databank: emissions
+    x_axis: thrust
+    y_axis: eihc
+    xlim: [0, 100]
+    ylim: [0, 5]
+    regression_polynomial_order: null
+  
+  smoke_number:
+    databank: emissions
+    x_axis: thrust
+    y_axis: smoke_number
+    xlim: [0, 100]
+    ylim: [0, 20]
+    regression_polynomial_order: null
+
+  fuel_flow:
+    databank: emissions
+    x_axis: thrust
+    y_axis: fuel_flow
+    xlim: [0, 100]
+    ylim: [0, 1.5]
+    regression_polynomial_order: null
