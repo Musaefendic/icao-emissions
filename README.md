@@ -4,7 +4,7 @@
 ## Purpose
 This library is designed to facilitate interaction with the International Civil Aviation Organization (ICAO) emission databanks, which include noise and emissions data. This library provides users with the following features: 
 
-🗂 Access to icao databanks: noise and emissions<br>
+🗂 Access to icao emission databanks: gaseous and nvPM<br>
 🎛 Calculate the certification data (characteristic value, margin, ...)<br>
 📈 Visualization of databanks in relation to regulatory standards
 
@@ -88,7 +88,7 @@ pprint(certification, sort_dicts=False)
 ## Plot NOx Characteristic
 ```python
 from icao_emissions import databanks
-from icao_emissions.plot import Figure, PlotNoxCharacteristic
+from icao_emissions.plot import Characteristic
 
 
 # Load the gaseous certification databank
@@ -99,13 +99,34 @@ query = {'engine': ('LEAP-1A', 'PW1100G Block-D')}
 df = databanks.filter(df, query)
 
 # Plot
-plot = PlotNoxCharacteristic(df)
-
-figure = Figure()
-figure.add(plot)
+Characteristic(df).nox()
 ```
 
 ![Plot NOx Characteristic](assets/plot_nox_characteristic.png)
+
+## Plot emissions from databanks
+```python
+from icao_emissions import databanks
+from icao_emissions.plot import Figure
+
+
+# Load the gaseous certification databank
+df = databanks.load_gaseous_emissions()
+
+# Select some engines
+query = {'engine': ('TRENT 1000')}
+df = databanks.filter(df, query)
+
+# Plot
+figure = Figure()
+figure.add(
+    Scatter(df, 'thrust', 'smoke_number', color_by='engine')
+)
+
+figure.show()
+```
+
+![Plot NOx Characteristic](assets/RR_TRENT_1000_smoke_number.png)
 
 ## Source
 - https://www.easa.europa.eu/domains/environment/icao-aircraft-engine-emissions-databank
