@@ -125,7 +125,7 @@ figure.add(
 
 figure.show()
 ```
-<img src="assets/RR_TRENT_1000_smoke_number.png" height="400">
+<img src="assets/RR_TRENT_1000_smoke_number.png" height="600">
 
 ## Source
 - https://www.easa.europa.eu/domains/environment/icao-aircraft-engine-emissions-databank
