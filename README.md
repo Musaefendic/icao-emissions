@@ -125,8 +125,7 @@ figure.add(
 
 figure.show()
 ```
-
-![Plot NOx Characteristic](assets/RR_TRENT_1000_smoke_number.png)
+<img src="assets/RR_TRENT_1000_smoke_number.png" height="400">
 
 ## Source
 - https://www.easa.europa.eu/domains/environment/icao-aircraft-engine-emissions-databank
