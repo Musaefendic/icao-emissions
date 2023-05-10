@@ -120,7 +120,7 @@ df = databanks.filter(df, query)
 # Plot
 figure = Figure()
 figure.add(
-    Scatter(df, 'thrust', 'smoke_number', color_by='engine')
+    Scatter(df, 'thrust', 'smoke_number', color_by='model')
 )
 
 figure.show()
