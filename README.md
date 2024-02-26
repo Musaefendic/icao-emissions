@@ -76,14 +76,11 @@ This analysis can be extended to other engines, other pollutants, and different 
 ```python
 from aircraft_emissions import plot
 
-# Select engines available on the Airbus A320
+# Select engines available on the Airbus A320 NEO
 engines = ['LEAP-1A 2019', "PW1100G Block-D"]
 
 # Plot NOx certification values against standard limits
 plot.characteristic.nox(engines)
-
-# Plot nvPM Mass certification values against standard limits
-plot.characteristic.nvpm_mass(engines)
 ```
 
 ![Plot NOx Characteristic](assets/plot_nox_characteristic.png)
