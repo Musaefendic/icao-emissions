@@ -54,7 +54,7 @@ dataset = Dataset(
 )
 
 # Certificate
-certificate.emissions(dataset, StandardNoxCaep8)
+certificate.emission(dataset, StandardNoxCaep8)
 ```
 
 Which gives the following result:
@@ -63,7 +63,7 @@ Which gives the following result:
   'is_certified': True,
   'percent_of_limit': 64.7,
   'number_engines_tested': 1,
-  'characteristic': 31.3
+  'characteristic': 31.3,
   'limit': 48.4,
 }
 ```
