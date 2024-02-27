@@ -35,7 +35,7 @@ For access to the full library, including the source code, please contact the au
 
 # Certification
 
-The example provided below illustrates the certification of `NOx` emissions for the `PW1133G Block-D` engine, in accordance with the `CAEP/8` standard. It utilizes a specific `standard` along with a `Dataset` that includes pertinent data about the engine and the emissions recorded at the engine's exhaust.
+The example below demonstrates the certification of the `PW1133G Block-D` engine according to `CAEP/8 NOx` standard, based on exhaust emissions measurements.
 
 For guidance on certifying both `gaseous` and `nvPM` emissions for engines under the `CAEP/12` standard, please consult the documentation for comprehensive details.
 
