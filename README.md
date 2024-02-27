@@ -95,11 +95,12 @@ It can be observed that while the `Tech Insertion` definition has led to a reduc
 ```python
 from aircraft_emissions import plot
 
-# Select CFM56-7B engines: entry into service (SAC) vs Tech Insertion update
-engines = ["CFM56-7B SAC", "CFM56-7B Tech Insertion"]
-
 # Visualize the NOx - CO trade-off
-plot.gaseous_measures(x="thrust", y=['einox', 'eico'], engines)
+plot.gaseous_measures(
+    x="thrust",
+    y=['einox', 'eico'],
+    engines=["CFM56-7B SAC", "CFM56-7B Tech Insertion"]
+)
 ```
 
 ![Plot trade-offs](assets/trade_offs_cfm56_7b.PNG)
