@@ -20,7 +20,7 @@ The library covers:
 - Turbojet and turbofan engines with thrust greater than 26.7kN.
 - Standards up to `CAEP/12`, applicable to both existing and newly introduced engine types from 1<sup>st</sup> January 2023.
 - Pollutant emissions from engine exhaust, including gaseous pollutants (`NOx`, `CO`, `HC`, `Smoke-Number`) and non-volatile particulate matter (`mass`, `number`, and `concentration`).
-- Subsonic and supersonic cycles.
+- Subsonic and supersonic engines.
 
 <blockquote style="background-color: #ffffff; color: #333; border-left: 4px solid #ffa500; padding: 0.5em 10px; margin: 1em 0; box-shadow: 0 2px 15px rgba(0,0,0,0.1);">
   <strong>⚠️ Disclaimer</strong><br>
