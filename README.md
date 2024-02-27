@@ -18,7 +18,7 @@ The `aircraft_emissions` library gives access to ICAO's emission certification s
 
 The library covers:
 - Turbojet and turbofan engines with thrust greater than 26.7kN.
-- Standards up to and including `CAEP/12`, applicable to both existing and newly introduced engine types from 1<sup>st</sup> January 2023.
+- Standards up to `CAEP/12`, applicable to both existing and newly introduced engine types from 1<sup>st</sup> January 2023.
 - Pollutant emissions from engine exhaust, including gaseous pollutants (`NOx`, `CO`, `HC`, `Smoke-Number`) and non-volatile particulate matter (`mass`, `number`, and `concentration`).
 - Subsonic and supersonic cycles.
 
