@@ -1,4 +1,3 @@
-
 # Aircraft Emissions
 
 **Library version:** `0.1.0`
@@ -68,7 +67,7 @@ Which gives the following result:
 }
 ```
 
-# Market Data Analysis
+# Market data analysis
 Comparing multiple engines in terms of their environmental impact on air quality can be easily assessed. The following example compares the engines of the `Airbus A320 NEO` regarding `NOx` certification, illustrating their relative positioning to each other and their compliance with current standards.
 
 This analysis can be extended to other engines, other pollutants, and different graphical representations. For more details, please refer to the documentation.
